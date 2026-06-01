@@ -1,4 +1,6 @@
-﻿namespace Contract.DTO.Identity
+﻿using System;
+
+namespace Contract.DTO.Identity
 {
     public class SteamAuthDTO
     {

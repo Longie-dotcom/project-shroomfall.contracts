@@ -22,6 +22,11 @@ namespace Contract.DTO.Definition
 
     }
 
+    public class PortalDefinitionDTO : EntityDefinitionDTO
+    {
+        public CollisionDefinitionDTO Entrance { get; set; } = new CollisionDefinitionDTO();
+    }
+
     public class WorldObjectDefinitionDTO : EntityDefinitionDTO
     {
         public WorldObjectInteractionType InteractionType { get; set; }

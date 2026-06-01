@@ -51,6 +51,6 @@
         Shoe,
         Pant,
         Chest,
-        Head
+        Head,
     }
 }

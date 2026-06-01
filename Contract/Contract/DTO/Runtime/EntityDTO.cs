@@ -1,5 +1,6 @@
 ﻿using Contract.DTO.Common;
 using Contract.Enum.EntityDomain;
+using System.Collections.Generic;
 
 namespace Contract.DTO.Runtime
 {
@@ -30,8 +31,8 @@ namespace Contract.DTO.Runtime
         public CharacteristicRuntimeDTO Characteristic { get; set; } = new CharacteristicRuntimeDTO();
         public InventoryRuntimeDTO Inventory { get; set; } = new InventoryRuntimeDTO();
         public int Level { get; private set; }
-        public List<EffectRuntimeDTO> ActiveEffects { get; set; } = new();
-        public List<EquipmentRuntimeDTO> Equipment { get; set; } = new();
+        public List<EffectRuntimeDTO> ActiveEffects { get; set; } = new List<EffectRuntimeDTO>();
+        public List<EquipmentRuntimeDTO> Equipment { get; set; } = new List<EquipmentRuntimeDTO>();
     }
 
     public class PlayerRuntimeDTO : CreatureRuntimeDTO

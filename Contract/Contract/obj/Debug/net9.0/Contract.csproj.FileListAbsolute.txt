@@ -1,15 +1,3 @@
-C:\Users\ASROCK\Documents\GitHub\project-shroomfall.be-v1.0-asp\Shroomfall\Contract\Contract\obj\Debug\net9.0\Contract.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\ASROCK\Documents\GitHub\project-shroomfall.be-v1.0-asp\Shroomfall\Contract\Contract\obj\Debug\net9.0\Contract.AssemblyInfoInputs.cache
-C:\Users\ASROCK\Documents\GitHub\project-shroomfall.be-v1.0-asp\Shroomfall\Contract\Contract\obj\Debug\net9.0\Contract.AssemblyInfo.cs
-C:\Users\ASROCK\Documents\GitHub\project-shroomfall.be-v1.0-asp\Shroomfall\Contract\Contract\obj\Debug\net9.0\Contract.csproj.CoreCompileInputs.cache
-C:\Users\ASROCK\Documents\GitHub\project-shroomfall.be-v1.0-asp\Shroomfall\Contract\Contract\obj\Debug\net9.0\Contract.sourcelink.json
-C:\Users\ASROCK\Documents\GitHub\project-shroomfall.be-v1.0-asp\Shroomfall\Contract\Contract\bin\Debug\net9.0\Contract.deps.json
-C:\Users\ASROCK\Documents\GitHub\project-shroomfall.be-v1.0-asp\Shroomfall\Contract\Contract\bin\Debug\net9.0\Contract.dll
-C:\Users\ASROCK\Documents\GitHub\project-shroomfall.be-v1.0-asp\Shroomfall\Contract\Contract\bin\Debug\net9.0\Contract.pdb
-C:\Users\ASROCK\Documents\GitHub\project-shroomfall.be-v1.0-asp\Shroomfall\Contract\Contract\obj\Debug\net9.0\Contract.dll
-C:\Users\ASROCK\Documents\GitHub\project-shroomfall.be-v1.0-asp\Shroomfall\Contract\Contract\obj\Debug\net9.0\refint\Contract.dll
-C:\Users\ASROCK\Documents\GitHub\project-shroomfall.be-v1.0-asp\Shroomfall\Contract\Contract\obj\Debug\net9.0\Contract.pdb
-C:\Users\ASROCK\Documents\GitHub\project-shroomfall.be-v1.0-asp\Shroomfall\Contract\Contract\obj\Debug\net9.0\ref\Contract.dll
 C:\Users\ASROCK\Documents\GitHub\project-shroomfall.contracts\Contract\Contract\bin\Debug\net9.0\Contract.deps.json
 C:\Users\ASROCK\Documents\GitHub\project-shroomfall.contracts\Contract\Contract\bin\Debug\net9.0\Contract.dll
 C:\Users\ASROCK\Documents\GitHub\project-shroomfall.contracts\Contract\Contract\bin\Debug\net9.0\Contract.pdb
@@ -17,6 +5,7 @@ C:\Users\ASROCK\Documents\GitHub\project-shroomfall.contracts\Contract\Contract\
 C:\Users\ASROCK\Documents\GitHub\project-shroomfall.contracts\Contract\Contract\obj\Debug\net9.0\Contract.AssemblyInfoInputs.cache
 C:\Users\ASROCK\Documents\GitHub\project-shroomfall.contracts\Contract\Contract\obj\Debug\net9.0\Contract.AssemblyInfo.cs
 C:\Users\ASROCK\Documents\GitHub\project-shroomfall.contracts\Contract\Contract\obj\Debug\net9.0\Contract.csproj.CoreCompileInputs.cache
+C:\Users\ASROCK\Documents\GitHub\project-shroomfall.contracts\Contract\Contract\obj\Debug\net9.0\Contract.sourcelink.json
 C:\Users\ASROCK\Documents\GitHub\project-shroomfall.contracts\Contract\Contract\obj\Debug\net9.0\Contract.dll
 C:\Users\ASROCK\Documents\GitHub\project-shroomfall.contracts\Contract\Contract\obj\Debug\net9.0\refint\Contract.dll
 C:\Users\ASROCK\Documents\GitHub\project-shroomfall.contracts\Contract\Contract\obj\Debug\net9.0\Contract.pdb

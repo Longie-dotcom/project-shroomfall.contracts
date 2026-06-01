@@ -1,11 +1,12 @@
 ﻿using Contract.DTO.Runtime;
+using System.Collections.Generic;
 
 namespace Contract.DTO.Connection
 {
     public class ExistedSessionEntryDTO
     {
         public string PlayerInstanceID { get; set; } = string.Empty;
-        public PlayerAppearanceRuntimeDTO PlayerAppearance { get; set; } = new();
+        public PlayerAppearanceRuntimeDTO PlayerAppearance { get; set; } = new PlayerAppearanceRuntimeDTO();
     }
 
     public class RoomSnapshotDTO
@@ -15,7 +16,7 @@ namespace Contract.DTO.Connection
 
     public class ExistedSessionDTO
     {
-        public List<ExistedSessionEntryDTO> Sessions { get; set; } = new();
+        public List<ExistedSessionEntryDTO> Sessions { get; set; } = new List<ExistedSessionEntryDTO>();
     }
 
     public class SaveGameDTO

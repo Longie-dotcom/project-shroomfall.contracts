@@ -27,9 +27,14 @@ namespace Contract.DTO.Definition
         public int? Durability { get; set; }
         public bool Stackable { get; set; }
         public string? CharacteristicID { get; set; }
-        public string? ProjectileID { get; set; }
-        public string? AreaEffectID { get; set; }
-        public string? WorldObjectID { get; set; }
+    }
+
+    public class ItemConfigurationDefinitionDTO
+    {
+        public string ID { get; set; } = string.Empty;
+        public string ItemID { get; set; } = string.Empty;
+        public string EntityID { get; set; } = string.Empty;
+        public ItemConfigurationType Type { get; set; }
     }
 
     public class ItemEffectDefinitionDTO

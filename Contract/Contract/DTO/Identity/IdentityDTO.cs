@@ -1,4 +1,5 @@
 ﻿using Contract.Enum.IdentityDomain;
+using System;
 
 namespace Contract.DTO.Identity
 {

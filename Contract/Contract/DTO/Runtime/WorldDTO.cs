@@ -1,4 +1,6 @@
-﻿namespace Contract.DTO.Runtime
+﻿using System.Collections.Generic;
+
+namespace Contract.DTO.Runtime
 {
     public class RoomRuntimeDTO
     {

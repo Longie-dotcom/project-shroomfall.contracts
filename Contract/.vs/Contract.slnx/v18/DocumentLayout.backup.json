@@ -1,93 +1,117 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.be-v1.0-asp\\Shroomfall\\Contract\\",
+  "WorkspaceRootPath": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|c:\\users\\asrock\\documents\\github\\project-shroomfall.be-v1.0-asp\\shroomfall\\contract\\contract\\dto\\definition\\attributevaluedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|solutionrelative:contract\\dto\\definition\\attributevaluedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|c:\\users\\asrock\\documents\\github\\project-shroomfall.contracts\\contract\\contract\\contract.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|solutionrelative:contract\\contract.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|c:\\users\\asrock\\documents\\github\\project-shroomfall.be-v1.0-asp\\shroomfall\\contract\\contract\\enum\\attributedomain\\valuecategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|solutionrelative:contract\\enum\\attributedomain\\valuecategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|c:\\users\\asrock\\documents\\github\\project-shroomfall.contracts\\contract\\contract\\enum\\itemdomain\\itemcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|solutionrelative:contract\\enum\\itemdomain\\itemcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|c:\\users\\asrock\\documents\\github\\project-shroomfall.be-v1.0-asp\\shroomfall\\contract\\contract\\enum\\attributedomain\\domaintype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|solutionrelative:contract\\enum\\attributedomain\\domaintype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|c:\\users\\asrock\\documents\\github\\project-shroomfall.be-v1.0-asp\\shroomfall\\contract\\contract\\dto\\connection\\connectiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|solutionrelative:contract\\dto\\connection\\connectiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|c:\\users\\asrock\\documents\\github\\project-shroomfall.be-v1.0-asp\\shroomfall\\contract\\contract\\dto\\connection\\commanddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|solutionrelative:contract\\dto\\connection\\commanddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|c:\\users\\asrock\\documents\\github\\project-shroomfall.be-v1.0-asp\\shroomfall\\contract\\contract\\dto\\common\\vector2dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|solutionrelative:contract\\dto\\common\\vector2dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|c:\\users\\asrock\\documents\\github\\project-shroomfall.be-v1.0-asp\\shroomfall\\contract\\contract\\dto\\common\\hsvdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|solutionrelative:contract\\dto\\common\\hsvdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|c:\\users\\asrock\\documents\\github\\project-shroomfall.be-v1.0-asp\\shroomfall\\contract\\contract\\dto\\definition\\worlddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|solutionrelative:contract\\dto\\definition\\worlddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|c:\\users\\asrock\\documents\\github\\project-shroomfall.be-v1.0-asp\\shroomfall\\contract\\contract\\dto\\design\\designdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|solutionrelative:contract\\dto\\design\\designdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|c:\\users\\asrock\\documents\\github\\project-shroomfall.be-v1.0-asp\\shroomfall\\contract\\contract\\dto\\game\\gamedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|solutionrelative:contract\\dto\\game\\gamedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|c:\\users\\asrock\\documents\\github\\project-shroomfall.be-v1.0-asp\\shroomfall\\contract\\contract\\dto\\identity\\identitydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|solutionrelative:contract\\dto\\identity\\identitydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|c:\\users\\asrock\\documents\\github\\project-shroomfall.be-v1.0-asp\\shroomfall\\contract\\contract\\dto\\runtime\\worlddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|c:\\users\\asrock\\documents\\github\\project-shroomfall.contracts\\contract\\contract\\dto\\runtime\\worlddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|solutionrelative:contract\\dto\\runtime\\worlddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|c:\\users\\asrock\\documents\\github\\project-shroomfall.be-v1.0-asp\\shroomfall\\contract\\contract\\enum\\attributedomain\\effecttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|c:\\users\\asrock\\documents\\github\\project-shroomfall.contracts\\contract\\contract\\dto\\runtime\\itemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|solutionrelative:contract\\dto\\runtime\\itemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|c:\\users\\asrock\\documents\\github\\project-shroomfall.contracts\\contract\\contract\\dto\\identity\\commanddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|solutionrelative:contract\\dto\\identity\\commanddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|c:\\users\\asrock\\documents\\github\\project-shroomfall.contracts\\contract\\contract\\dto\\connection\\connectiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|solutionrelative:contract\\dto\\connection\\connectiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|c:\\users\\asrock\\documents\\github\\project-shroomfall.contracts\\contract\\contract\\dto\\runtime\\entitydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|solutionrelative:contract\\dto\\runtime\\entitydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|c:\\users\\asrock\\documents\\github\\project-shroomfall.contracts\\contract\\contract\\dto\\runtime\\attributevaluedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|solutionrelative:contract\\dto\\runtime\\attributevaluedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|c:\\users\\asrock\\documents\\github\\project-shroomfall.contracts\\contract\\contract\\dto\\design\\designdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|solutionrelative:contract\\dto\\design\\designdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|c:\\users\\asrock\\documents\\github\\project-shroomfall.contracts\\contract\\contract\\dto\\identity\\identitydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|solutionrelative:contract\\dto\\identity\\identitydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|c:\\users\\asrock\\documents\\github\\project-shroomfall.contracts\\contract\\contract\\dto\\definition\\attributevaluedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|solutionrelative:contract\\dto\\definition\\attributevaluedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|c:\\users\\asrock\\documents\\github\\project-shroomfall.contracts\\contract\\contract\\enum\\attributedomain\\valuecategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|solutionrelative:contract\\enum\\attributedomain\\valuecategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|c:\\users\\asrock\\documents\\github\\project-shroomfall.contracts\\contract\\contract\\enum\\attributedomain\\domaintype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|solutionrelative:contract\\enum\\attributedomain\\domaintype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|c:\\users\\asrock\\documents\\github\\project-shroomfall.contracts\\contract\\contract\\dto\\connection\\commanddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|solutionrelative:contract\\dto\\connection\\commanddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|c:\\users\\asrock\\documents\\github\\project-shroomfall.contracts\\contract\\contract\\dto\\common\\vector2dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|solutionrelative:contract\\dto\\common\\vector2dto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|c:\\users\\asrock\\documents\\github\\project-shroomfall.contracts\\contract\\contract\\dto\\common\\hsvdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|solutionrelative:contract\\dto\\common\\hsvdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|c:\\users\\asrock\\documents\\github\\project-shroomfall.contracts\\contract\\contract\\dto\\definition\\worlddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|solutionrelative:contract\\dto\\definition\\worlddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|c:\\users\\asrock\\documents\\github\\project-shroomfall.contracts\\contract\\contract\\dto\\game\\gamedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|solutionrelative:contract\\dto\\game\\gamedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|c:\\users\\asrock\\documents\\github\\project-shroomfall.contracts\\contract\\contract\\enum\\attributedomain\\effecttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|solutionrelative:contract\\enum\\attributedomain\\effecttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|c:\\users\\asrock\\documents\\github\\project-shroomfall.be-v1.0-asp\\shroomfall\\contract\\contract\\enum\\attributedomain\\characteristictype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|c:\\users\\asrock\\documents\\github\\project-shroomfall.contracts\\contract\\contract\\enum\\attributedomain\\characteristictype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|solutionrelative:contract\\enum\\attributedomain\\characteristictype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|c:\\users\\asrock\\documents\\github\\project-shroomfall.be-v1.0-asp\\shroomfall\\contract\\contract\\enum\\attributedomain\\attributetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|c:\\users\\asrock\\documents\\github\\project-shroomfall.contracts\\contract\\contract\\enum\\attributedomain\\attributetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|solutionrelative:contract\\enum\\attributedomain\\attributetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|c:\\users\\asrock\\documents\\github\\project-shroomfall.be-v1.0-asp\\shroomfall\\contract\\contract\\enum\\entitydomain\\worldobjectinteractiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|c:\\users\\asrock\\documents\\github\\project-shroomfall.contracts\\contract\\contract\\enum\\entitydomain\\worldobjectinteractiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|solutionrelative:contract\\enum\\entitydomain\\worldobjectinteractiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|c:\\users\\asrock\\documents\\github\\project-shroomfall.be-v1.0-asp\\shroomfall\\contract\\contract\\enum\\entitydomain\\equipmentslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|c:\\users\\asrock\\documents\\github\\project-shroomfall.contracts\\contract\\contract\\enum\\entitydomain\\equipmentslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|solutionrelative:contract\\enum\\entitydomain\\equipmentslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|c:\\users\\asrock\\documents\\github\\project-shroomfall.be-v1.0-asp\\shroomfall\\contract\\contract\\enum\\entitydomain\\entitytype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|c:\\users\\asrock\\documents\\github\\project-shroomfall.contracts\\contract\\contract\\enum\\entitydomain\\entitytype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|solutionrelative:contract\\enum\\entitydomain\\entitytype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|c:\\users\\asrock\\documents\\github\\project-shroomfall.be-v1.0-asp\\shroomfall\\contract\\contract\\enum\\entitydomain\\collisionshapetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|c:\\users\\asrock\\documents\\github\\project-shroomfall.contracts\\contract\\contract\\enum\\entitydomain\\collisionshapetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|solutionrelative:contract\\enum\\entitydomain\\collisionshapetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|c:\\users\\asrock\\documents\\github\\project-shroomfall.be-v1.0-asp\\shroomfall\\contract\\contract\\enum\\identitydomain\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|c:\\users\\asrock\\documents\\github\\project-shroomfall.contracts\\contract\\contract\\enum\\identitydomain\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|solutionrelative:contract\\enum\\identitydomain\\role.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|c:\\users\\asrock\\documents\\github\\project-shroomfall.be-v1.0-asp\\shroomfall\\contract\\contract\\enum\\itemdomain\\itemtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|c:\\users\\asrock\\documents\\github\\project-shroomfall.contracts\\contract\\contract\\enum\\itemdomain\\itemtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|solutionrelative:contract\\enum\\itemdomain\\itemtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|c:\\users\\asrock\\documents\\github\\project-shroomfall.be-v1.0-asp\\shroomfall\\contract\\contract\\enum\\worlddomain\\tiletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|c:\\users\\asrock\\documents\\github\\project-shroomfall.contracts\\contract\\contract\\enum\\worlddomain\\tiletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AC6ABA69-67D3-4E8B-AAA1-2BFF46E9286E}|Contract\\Contract.csproj|solutionrelative:contract\\enum\\worlddomain\\tiletype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -103,288 +127,340 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ValueCategory.cs",
-              "DocumentMoniker": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.be-v1.0-asp\\Shroomfall\\Contract\\Contract\\Enum\\AttributeDomain\\ValueCategory.cs",
-              "RelativeDocumentMoniker": "Contract\\Enum\\AttributeDomain\\ValueCategory.cs",
-              "ToolTip": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.be-v1.0-asp\\Shroomfall\\Contract\\Contract\\Enum\\AttributeDomain\\ValueCategory.cs",
-              "RelativeToolTip": "Contract\\Enum\\AttributeDomain\\ValueCategory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Title": "ItemCategory.cs",
+              "DocumentMoniker": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\Enum\\ItemDomain\\ItemCategory.cs",
+              "RelativeDocumentMoniker": "Contract\\Enum\\ItemDomain\\ItemCategory.cs",
+              "ToolTip": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\Enum\\ItemDomain\\ItemCategory.cs",
+              "RelativeToolTip": "Contract\\Enum\\ItemDomain\\ItemCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T07:31:25.022Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DomainType.cs",
-              "DocumentMoniker": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.be-v1.0-asp\\Shroomfall\\Contract\\Contract\\Enum\\AttributeDomain\\DomainType.cs",
-              "RelativeDocumentMoniker": "Contract\\Enum\\AttributeDomain\\DomainType.cs",
-              "ToolTip": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.be-v1.0-asp\\Shroomfall\\Contract\\Contract\\Enum\\AttributeDomain\\DomainType.cs",
-              "RelativeToolTip": "Contract\\Enum\\AttributeDomain\\DomainType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T07:30:59.938Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AttributeValueDTO.cs",
-              "DocumentMoniker": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.be-v1.0-asp\\Shroomfall\\Contract\\Contract\\DTO\\Definition\\AttributeValueDTO.cs",
-              "RelativeDocumentMoniker": "Contract\\DTO\\Definition\\AttributeValueDTO.cs",
-              "ToolTip": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.be-v1.0-asp\\Shroomfall\\Contract\\Contract\\DTO\\Definition\\AttributeValueDTO.cs",
-              "RelativeToolTip": "Contract\\DTO\\Definition\\AttributeValueDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T07:29:50.095Z",
+              "WhenOpened": "2026-05-27T09:25:33.685Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "CommandDTO.cs",
-              "DocumentMoniker": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.be-v1.0-asp\\Shroomfall\\Contract\\Contract\\DTO\\Connection\\CommandDTO.cs",
-              "RelativeDocumentMoniker": "Contract\\DTO\\Connection\\CommandDTO.cs",
-              "ToolTip": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.be-v1.0-asp\\Shroomfall\\Contract\\Contract\\DTO\\Connection\\CommandDTO.cs",
-              "RelativeToolTip": "Contract\\DTO\\Connection\\CommandDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\DTO\\Identity\\CommandDTO.cs",
+              "RelativeDocumentMoniker": "Contract\\DTO\\Identity\\CommandDTO.cs",
+              "ToolTip": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\DTO\\Identity\\CommandDTO.cs",
+              "RelativeToolTip": "Contract\\DTO\\Identity\\CommandDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T07:29:47.288Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-27T09:07:22.155Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Vector2DTO.cs",
-              "DocumentMoniker": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.be-v1.0-asp\\Shroomfall\\Contract\\Contract\\DTO\\Common\\Vector2DTO.cs",
-              "RelativeDocumentMoniker": "Contract\\DTO\\Common\\Vector2DTO.cs",
-              "ToolTip": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.be-v1.0-asp\\Shroomfall\\Contract\\Contract\\DTO\\Common\\Vector2DTO.cs*",
-              "RelativeToolTip": "Contract\\DTO\\Common\\Vector2DTO.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T07:29:18.761Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HSVDTO.cs",
-              "DocumentMoniker": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.be-v1.0-asp\\Shroomfall\\Contract\\Contract\\DTO\\Common\\HSVDTO.cs",
-              "RelativeDocumentMoniker": "Contract\\DTO\\Common\\HSVDTO.cs",
-              "ToolTip": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.be-v1.0-asp\\Shroomfall\\Contract\\Contract\\DTO\\Common\\HSVDTO.cs*",
-              "RelativeToolTip": "Contract\\DTO\\Common\\HSVDTO.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T07:29:19.228Z",
+              "DocumentIndex": 0,
+              "Title": "Contract.csproj",
+              "DocumentMoniker": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\Contract.csproj",
+              "RelativeDocumentMoniker": "Contract\\Contract.csproj",
+              "ToolTip": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\Contract.csproj",
+              "RelativeToolTip": "Contract\\Contract.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-27T08:30:07.895Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ConnectionDTO.cs",
-              "DocumentMoniker": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.be-v1.0-asp\\Shroomfall\\Contract\\Contract\\DTO\\Connection\\ConnectionDTO.cs",
-              "RelativeDocumentMoniker": "Contract\\DTO\\Connection\\ConnectionDTO.cs",
-              "ToolTip": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.be-v1.0-asp\\Shroomfall\\Contract\\Contract\\DTO\\Connection\\ConnectionDTO.cs*",
-              "RelativeToolTip": "Contract\\DTO\\Connection\\ConnectionDTO.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "ItemDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\DTO\\Runtime\\ItemDTO.cs",
+              "RelativeDocumentMoniker": "Contract\\DTO\\Runtime\\ItemDTO.cs",
+              "ToolTip": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\DTO\\Runtime\\ItemDTO.cs",
+              "RelativeToolTip": "Contract\\DTO\\Runtime\\ItemDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T07:29:09.594Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-27T09:07:30.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WorldDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\DTO\\Runtime\\WorldDTO.cs",
+              "RelativeDocumentMoniker": "Contract\\DTO\\Runtime\\WorldDTO.cs",
+              "ToolTip": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\DTO\\Runtime\\WorldDTO.cs",
+              "RelativeToolTip": "Contract\\DTO\\Runtime\\WorldDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T07:28:20.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EntityDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\DTO\\Runtime\\EntityDTO.cs",
+              "RelativeDocumentMoniker": "Contract\\DTO\\Runtime\\EntityDTO.cs",
+              "ToolTip": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\DTO\\Runtime\\EntityDTO.cs",
+              "RelativeToolTip": "Contract\\DTO\\Runtime\\EntityDTO.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAcwCIAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T09:06:36.215Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "WorldDTO.cs",
-              "DocumentMoniker": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.be-v1.0-asp\\Shroomfall\\Contract\\Contract\\DTO\\Definition\\WorldDTO.cs",
-              "RelativeDocumentMoniker": "Contract\\DTO\\Definition\\WorldDTO.cs",
-              "ToolTip": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.be-v1.0-asp\\Shroomfall\\Contract\\Contract\\DTO\\Definition\\WorldDTO.cs*",
-              "RelativeToolTip": "Contract\\DTO\\Definition\\WorldDTO.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "AttributeValueDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\DTO\\Runtime\\AttributeValueDTO.cs",
+              "RelativeDocumentMoniker": "Contract\\DTO\\Runtime\\AttributeValueDTO.cs",
+              "ToolTip": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\DTO\\Runtime\\AttributeValueDTO.cs",
+              "RelativeToolTip": "Contract\\DTO\\Runtime\\AttributeValueDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T07:29:00.739Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-27T09:06:15.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ConnectionDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\DTO\\Connection\\ConnectionDTO.cs",
+              "RelativeDocumentMoniker": "Contract\\DTO\\Connection\\ConnectionDTO.cs",
+              "ToolTip": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\DTO\\Connection\\ConnectionDTO.cs",
+              "RelativeToolTip": "Contract\\DTO\\Connection\\ConnectionDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T07:29:09.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IdentityDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\DTO\\Identity\\IdentityDTO.cs",
+              "RelativeDocumentMoniker": "Contract\\DTO\\Identity\\IdentityDTO.cs",
+              "ToolTip": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\DTO\\Identity\\IdentityDTO.cs",
+              "RelativeToolTip": "Contract\\DTO\\Identity\\IdentityDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T07:28:29.956Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "DesignDTO.cs",
-              "DocumentMoniker": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.be-v1.0-asp\\Shroomfall\\Contract\\Contract\\DTO\\Design\\DesignDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\DTO\\Design\\DesignDTO.cs",
               "RelativeDocumentMoniker": "Contract\\DTO\\Design\\DesignDTO.cs",
-              "ToolTip": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.be-v1.0-asp\\Shroomfall\\Contract\\Contract\\DTO\\Design\\DesignDTO.cs*",
-              "RelativeToolTip": "Contract\\DTO\\Design\\DesignDTO.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\DTO\\Design\\DesignDTO.cs",
+              "RelativeToolTip": "Contract\\DTO\\Design\\DesignDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T07:28:52.474Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "GameDTO.cs",
-              "DocumentMoniker": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.be-v1.0-asp\\Shroomfall\\Contract\\Contract\\DTO\\Game\\GameDTO.cs",
-              "RelativeDocumentMoniker": "Contract\\DTO\\Game\\GameDTO.cs",
-              "ToolTip": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.be-v1.0-asp\\Shroomfall\\Contract\\Contract\\DTO\\Game\\GameDTO.cs*",
-              "RelativeToolTip": "Contract\\DTO\\Game\\GameDTO.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T07:28:44.584Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IdentityDTO.cs",
-              "DocumentMoniker": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.be-v1.0-asp\\Shroomfall\\Contract\\Contract\\DTO\\Identity\\IdentityDTO.cs",
-              "RelativeDocumentMoniker": "Contract\\DTO\\Identity\\IdentityDTO.cs",
-              "ToolTip": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.be-v1.0-asp\\Shroomfall\\Contract\\Contract\\DTO\\Identity\\IdentityDTO.cs*",
-              "RelativeToolTip": "Contract\\DTO\\Identity\\IdentityDTO.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T07:28:29.956Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "WorldDTO.cs",
-              "DocumentMoniker": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.be-v1.0-asp\\Shroomfall\\Contract\\Contract\\DTO\\Runtime\\WorldDTO.cs",
-              "RelativeDocumentMoniker": "Contract\\DTO\\Runtime\\WorldDTO.cs",
-              "ToolTip": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.be-v1.0-asp\\Shroomfall\\Contract\\Contract\\DTO\\Runtime\\WorldDTO.cs*",
-              "RelativeToolTip": "Contract\\DTO\\Runtime\\WorldDTO.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T07:28:20.554Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-27T07:28:52.474Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "EffectType.cs",
-              "DocumentMoniker": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.be-v1.0-asp\\Shroomfall\\Contract\\Contract\\Enum\\AttributeDomain\\EffectType.cs",
-              "RelativeDocumentMoniker": "Contract\\Enum\\AttributeDomain\\EffectType.cs",
-              "ToolTip": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.be-v1.0-asp\\Shroomfall\\Contract\\Contract\\Enum\\AttributeDomain\\EffectType.cs",
-              "RelativeToolTip": "Contract\\Enum\\AttributeDomain\\EffectType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAANAAAAAAAAAA==",
+              "Title": "DomainType.cs",
+              "DocumentMoniker": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\Enum\\AttributeDomain\\DomainType.cs",
+              "RelativeDocumentMoniker": "Contract\\Enum\\AttributeDomain\\DomainType.cs",
+              "ToolTip": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\Enum\\AttributeDomain\\DomainType.cs",
+              "RelativeToolTip": "Contract\\Enum\\AttributeDomain\\DomainType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T07:28:08.893Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-27T07:30:59.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ValueCategory.cs",
+              "DocumentMoniker": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\Enum\\AttributeDomain\\ValueCategory.cs",
+              "RelativeDocumentMoniker": "Contract\\Enum\\AttributeDomain\\ValueCategory.cs",
+              "ToolTip": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\Enum\\AttributeDomain\\ValueCategory.cs",
+              "RelativeToolTip": "Contract\\Enum\\AttributeDomain\\ValueCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T07:31:25.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AttributeValueDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\DTO\\Definition\\AttributeValueDTO.cs",
+              "RelativeDocumentMoniker": "Contract\\DTO\\Definition\\AttributeValueDTO.cs",
+              "ToolTip": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\DTO\\Definition\\AttributeValueDTO.cs",
+              "RelativeToolTip": "Contract\\DTO\\Definition\\AttributeValueDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T07:29:50.095Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "CharacteristicType.cs",
-              "DocumentMoniker": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.be-v1.0-asp\\Shroomfall\\Contract\\Contract\\Enum\\AttributeDomain\\CharacteristicType.cs",
-              "RelativeDocumentMoniker": "Contract\\Enum\\AttributeDomain\\CharacteristicType.cs",
-              "ToolTip": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.be-v1.0-asp\\Shroomfall\\Contract\\Contract\\Enum\\AttributeDomain\\CharacteristicType.cs",
-              "RelativeToolTip": "Contract\\Enum\\AttributeDomain\\CharacteristicType.cs",
+              "Title": "CommandDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\DTO\\Connection\\CommandDTO.cs",
+              "RelativeDocumentMoniker": "Contract\\DTO\\Connection\\CommandDTO.cs",
+              "ToolTip": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\DTO\\Connection\\CommandDTO.cs",
+              "RelativeToolTip": "Contract\\DTO\\Connection\\CommandDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T07:28:08.121Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-27T07:29:47.288Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "AttributeType.cs",
-              "DocumentMoniker": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.be-v1.0-asp\\Shroomfall\\Contract\\Contract\\Enum\\AttributeDomain\\AttributeType.cs",
-              "RelativeDocumentMoniker": "Contract\\Enum\\AttributeDomain\\AttributeType.cs",
-              "ToolTip": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.be-v1.0-asp\\Shroomfall\\Contract\\Contract\\Enum\\AttributeDomain\\AttributeType.cs*",
-              "RelativeToolTip": "Contract\\Enum\\AttributeDomain\\AttributeType.cs*",
+              "Title": "Vector2DTO.cs",
+              "DocumentMoniker": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\DTO\\Common\\Vector2DTO.cs",
+              "RelativeDocumentMoniker": "Contract\\DTO\\Common\\Vector2DTO.cs",
+              "ToolTip": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\DTO\\Common\\Vector2DTO.cs",
+              "RelativeToolTip": "Contract\\DTO\\Common\\Vector2DTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T07:27:57.663Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-27T07:29:18.761Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "WorldObjectInteractionType.cs",
-              "DocumentMoniker": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.be-v1.0-asp\\Shroomfall\\Contract\\Contract\\Enum\\EntityDomain\\WorldObjectInteractionType.cs",
-              "RelativeDocumentMoniker": "Contract\\Enum\\EntityDomain\\WorldObjectInteractionType.cs",
-              "ToolTip": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.be-v1.0-asp\\Shroomfall\\Contract\\Contract\\Enum\\EntityDomain\\WorldObjectInteractionType.cs*",
-              "RelativeToolTip": "Contract\\Enum\\EntityDomain\\WorldObjectInteractionType.cs*",
+              "Title": "HSVDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\DTO\\Common\\HSVDTO.cs",
+              "RelativeDocumentMoniker": "Contract\\DTO\\Common\\HSVDTO.cs",
+              "ToolTip": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\DTO\\Common\\HSVDTO.cs",
+              "RelativeToolTip": "Contract\\DTO\\Common\\HSVDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T07:27:04.454Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-27T07:29:19.228Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "EquipmentSlot.cs",
-              "DocumentMoniker": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.be-v1.0-asp\\Shroomfall\\Contract\\Contract\\Enum\\EntityDomain\\EquipmentSlot.cs",
-              "RelativeDocumentMoniker": "Contract\\Enum\\EntityDomain\\EquipmentSlot.cs",
-              "ToolTip": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.be-v1.0-asp\\Shroomfall\\Contract\\Contract\\Enum\\EntityDomain\\EquipmentSlot.cs*",
-              "RelativeToolTip": "Contract\\Enum\\EntityDomain\\EquipmentSlot.cs*",
+              "Title": "WorldDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\DTO\\Definition\\WorldDTO.cs",
+              "RelativeDocumentMoniker": "Contract\\DTO\\Definition\\WorldDTO.cs",
+              "ToolTip": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\DTO\\Definition\\WorldDTO.cs",
+              "RelativeToolTip": "Contract\\DTO\\Definition\\WorldDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T07:27:05.622Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "CollisionShapeType.cs",
-              "DocumentMoniker": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.be-v1.0-asp\\Shroomfall\\Contract\\Contract\\Enum\\EntityDomain\\CollisionShapeType.cs",
-              "RelativeDocumentMoniker": "Contract\\Enum\\EntityDomain\\CollisionShapeType.cs",
-              "ToolTip": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.be-v1.0-asp\\Shroomfall\\Contract\\Contract\\Enum\\EntityDomain\\CollisionShapeType.cs*",
-              "RelativeToolTip": "Contract\\Enum\\EntityDomain\\CollisionShapeType.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T07:27:05.56Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Role.cs",
-              "DocumentMoniker": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.be-v1.0-asp\\Shroomfall\\Contract\\Contract\\Enum\\IdentityDomain\\Role.cs",
-              "RelativeDocumentMoniker": "Contract\\Enum\\IdentityDomain\\Role.cs",
-              "ToolTip": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.be-v1.0-asp\\Shroomfall\\Contract\\Contract\\Enum\\IdentityDomain\\Role.cs*",
-              "RelativeToolTip": "Contract\\Enum\\IdentityDomain\\Role.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T07:26:55.865Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ItemType.cs",
-              "DocumentMoniker": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.be-v1.0-asp\\Shroomfall\\Contract\\Contract\\Enum\\ItemDomain\\ItemType.cs",
-              "RelativeDocumentMoniker": "Contract\\Enum\\ItemDomain\\ItemType.cs",
-              "ToolTip": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.be-v1.0-asp\\Shroomfall\\Contract\\Contract\\Enum\\ItemDomain\\ItemType.cs*",
-              "RelativeToolTip": "Contract\\Enum\\ItemDomain\\ItemType.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T07:26:45.762Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "TileType.cs",
-              "DocumentMoniker": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.be-v1.0-asp\\Shroomfall\\Contract\\Contract\\Enum\\WorldDomain\\TileType.cs",
-              "RelativeDocumentMoniker": "Contract\\Enum\\WorldDomain\\TileType.cs",
-              "ToolTip": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.be-v1.0-asp\\Shroomfall\\Contract\\Contract\\Enum\\WorldDomain\\TileType.cs*",
-              "RelativeToolTip": "Contract\\Enum\\WorldDomain\\TileType.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T07:26:37.459Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-27T07:29:00.739Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
+              "Title": "GameDTO.cs",
+              "DocumentMoniker": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\DTO\\Game\\GameDTO.cs",
+              "RelativeDocumentMoniker": "Contract\\DTO\\Game\\GameDTO.cs",
+              "ToolTip": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\DTO\\Game\\GameDTO.cs",
+              "RelativeToolTip": "Contract\\DTO\\Game\\GameDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T07:28:44.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "EffectType.cs",
+              "DocumentMoniker": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\Enum\\AttributeDomain\\EffectType.cs",
+              "RelativeDocumentMoniker": "Contract\\Enum\\AttributeDomain\\EffectType.cs",
+              "ToolTip": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\Enum\\AttributeDomain\\EffectType.cs",
+              "RelativeToolTip": "Contract\\Enum\\AttributeDomain\\EffectType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T07:28:08.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CharacteristicType.cs",
+              "DocumentMoniker": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\Enum\\AttributeDomain\\CharacteristicType.cs",
+              "RelativeDocumentMoniker": "Contract\\Enum\\AttributeDomain\\CharacteristicType.cs",
+              "ToolTip": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\Enum\\AttributeDomain\\CharacteristicType.cs",
+              "RelativeToolTip": "Contract\\Enum\\AttributeDomain\\CharacteristicType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T07:28:08.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AttributeType.cs",
+              "DocumentMoniker": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\Enum\\AttributeDomain\\AttributeType.cs",
+              "RelativeDocumentMoniker": "Contract\\Enum\\AttributeDomain\\AttributeType.cs",
+              "ToolTip": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\Enum\\AttributeDomain\\AttributeType.cs",
+              "RelativeToolTip": "Contract\\Enum\\AttributeDomain\\AttributeType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T07:27:57.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "WorldObjectInteractionType.cs",
+              "DocumentMoniker": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\Enum\\EntityDomain\\WorldObjectInteractionType.cs",
+              "RelativeDocumentMoniker": "Contract\\Enum\\EntityDomain\\WorldObjectInteractionType.cs",
+              "ToolTip": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\Enum\\EntityDomain\\WorldObjectInteractionType.cs",
+              "RelativeToolTip": "Contract\\Enum\\EntityDomain\\WorldObjectInteractionType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T07:27:04.454Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "EquipmentSlot.cs",
+              "DocumentMoniker": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\Enum\\EntityDomain\\EquipmentSlot.cs",
+              "RelativeDocumentMoniker": "Contract\\Enum\\EntityDomain\\EquipmentSlot.cs",
+              "ToolTip": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\Enum\\EntityDomain\\EquipmentSlot.cs",
+              "RelativeToolTip": "Contract\\Enum\\EntityDomain\\EquipmentSlot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T07:27:05.622Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CollisionShapeType.cs",
+              "DocumentMoniker": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\Enum\\EntityDomain\\CollisionShapeType.cs",
+              "RelativeDocumentMoniker": "Contract\\Enum\\EntityDomain\\CollisionShapeType.cs",
+              "ToolTip": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\Enum\\EntityDomain\\CollisionShapeType.cs",
+              "RelativeToolTip": "Contract\\Enum\\EntityDomain\\CollisionShapeType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T07:27:05.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Role.cs",
+              "DocumentMoniker": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\Enum\\IdentityDomain\\Role.cs",
+              "RelativeDocumentMoniker": "Contract\\Enum\\IdentityDomain\\Role.cs",
+              "ToolTip": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\Enum\\IdentityDomain\\Role.cs",
+              "RelativeToolTip": "Contract\\Enum\\IdentityDomain\\Role.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T07:26:55.865Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ItemType.cs",
+              "DocumentMoniker": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\Enum\\ItemDomain\\ItemType.cs",
+              "RelativeDocumentMoniker": "Contract\\Enum\\ItemDomain\\ItemType.cs",
+              "ToolTip": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\Enum\\ItemDomain\\ItemType.cs",
+              "RelativeToolTip": "Contract\\Enum\\ItemDomain\\ItemType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T07:26:45.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "TileType.cs",
+              "DocumentMoniker": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\Enum\\WorldDomain\\TileType.cs",
+              "RelativeDocumentMoniker": "Contract\\Enum\\WorldDomain\\TileType.cs",
+              "ToolTip": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\Enum\\WorldDomain\\TileType.cs",
+              "RelativeToolTip": "Contract\\Enum\\WorldDomain\\TileType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-27T07:26:37.459Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "EntityType.cs",
-              "DocumentMoniker": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.be-v1.0-asp\\Shroomfall\\Contract\\Contract\\Enum\\EntityDomain\\EntityType.cs",
+              "DocumentMoniker": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\Enum\\EntityDomain\\EntityType.cs",
               "RelativeDocumentMoniker": "Contract\\Enum\\EntityDomain\\EntityType.cs",
-              "ToolTip": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.be-v1.0-asp\\Shroomfall\\Contract\\Contract\\Enum\\EntityDomain\\EntityType.cs*",
-              "RelativeToolTip": "Contract\\Enum\\EntityDomain\\EntityType.cs*",
+              "ToolTip": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\Enum\\EntityDomain\\EntityType.cs",
+              "RelativeToolTip": "Contract\\Enum\\EntityDomain\\EntityType.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-27T07:11:58.918Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-27T07:11:58.918Z"
             }
           ]
         }

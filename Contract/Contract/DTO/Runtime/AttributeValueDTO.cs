@@ -1,4 +1,5 @@
 ﻿using Contract.Enum.AttributeDomain;
+using System.Collections.Generic;
 
 namespace Contract.DTO.Runtime
 {
@@ -12,8 +13,8 @@ namespace Contract.DTO.Runtime
     {
         public string ID { get; set; } = string.Empty;
         public string DefinitionID { get; set; } = string.Empty;
-        public List<AttributeValueRuntimeDTO> Cores { get; set; } = new();
-        public List<AttributeValueRuntimeDTO> Vitals { get; set; } = new();
+        public List<AttributeValueRuntimeDTO> Cores { get; set; } = new List<AttributeValueRuntimeDTO>();
+        public List<AttributeValueRuntimeDTO> Vitals { get; set; } = new List<AttributeValueRuntimeDTO>();
     }
 
     public class EffectRuntimeDTO
