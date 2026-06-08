@@ -50,13 +50,10 @@ namespace Contract.DTO.Runtime
     public class PlayerAppearanceRuntimeDTO : AppearanceRuntimeDTO
     {
         public string HairID { get; set; } = string.Empty;
-        public string GlassesID { get; set; } = string.Empty;
+        public string EyesID { get; set; } = string.Empty;
         public string ShirtID { get; set; } = string.Empty;
         public string PantID { get; set; } = string.Empty;
-        public string ShoeID { get; set; } = string.Empty;
-        public string EyesID { get; set; } = string.Empty;
         public HSVDTO HairColor { get; set; } = new HSVDTO();
         public HSVDTO PantColor { get; set; } = new HSVDTO();
-        public HSVDTO EyeColor { get; set; } = new HSVDTO();
     }
 }

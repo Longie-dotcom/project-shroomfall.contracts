@@ -1,9 +1,8 @@
 ﻿namespace Contract.Enum.WorldDomain
 {
-    public enum TileType
+    public enum CellType
     {
         Walkable,
         Transition,
-        Block
     }
 }

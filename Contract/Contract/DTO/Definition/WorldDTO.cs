@@ -6,6 +6,7 @@ namespace Contract.DTO.Definition
     {
         public string RoomID { get; set; } = string.Empty;
         public string TileID { get; set; } = string.Empty;
+        public CellType Type { get; set; }
         public int X { get; set; }
         public int Y { get; set; }
         public int Z { get; set; }
@@ -46,12 +47,5 @@ namespace Contract.DTO.Definition
         public int MaxCount { get; set; }
         public float Weight { get; set; }
         public string EntitySpawnRuleID { get; set; } = string.Empty;
-    }
-
-    public class TileDefinitionDTO
-    {
-        public string ID { get; set; } = string.Empty;
-        public TileType Type { get; set; }
-        public LocalizedTextDTO LocalizedText { get; set; } = new LocalizedTextDTO();
     }
 }
