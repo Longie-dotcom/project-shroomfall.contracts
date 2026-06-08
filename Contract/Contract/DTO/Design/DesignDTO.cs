@@ -36,7 +36,6 @@ namespace Contract.DTO.Design
         public List<RoomDefinitionDTO> Rooms { get; set; } = new List<RoomDefinitionDTO>();
         public List<RoomConnectionDefinitionDTO> RoomConnections { get; set; } = new List<RoomConnectionDefinitionDTO>();
         public List<SpawnAreaDefinitionDTO> SpawnAreas { get; set; } = new List<SpawnAreaDefinitionDTO>();
-        public List<TileDefinitionDTO> Tiles { get; set; } = new List<TileDefinitionDTO>();
 
         public List<LocaleDTO> Locales { get; set; } = new List<LocaleDTO>();
     }

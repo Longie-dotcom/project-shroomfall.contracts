@@ -2,10 +2,12 @@
 {
     public enum EntityType
     {
-        Player,
-        Creature,
-        WorldObject,
-        Projectile,
         AreaEffect,
+        Creature,
+        Entity,
+        Player,
+        Portal,
+        Projectile,
+        WorldObject,
     }
 }
