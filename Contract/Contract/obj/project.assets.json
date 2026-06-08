@@ -16,11 +16,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\Contract.csproj",
+      "projectUniqueName": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.be-v1.0-asp\\Contracts\\Contract\\Contract\\Contract.csproj",
       "projectName": "Contract",
-      "projectPath": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\Contract.csproj",
+      "projectPath": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.be-v1.0-asp\\Contracts\\Contract\\Contract\\Contract.csproj",
       "packagesPath": "C:\\Users\\ASROCK\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.contracts\\Contract\\Contract\\obj\\",
+      "outputPath": "C:\\Users\\ASROCK\\Documents\\GitHub\\project-shroomfall.be-v1.0-asp\\Contracts\\Contract\\Contract\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
