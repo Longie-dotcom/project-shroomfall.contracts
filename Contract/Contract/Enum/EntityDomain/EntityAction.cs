@@ -1,6 +1,6 @@
 ﻿namespace Contract.Enum.EntityDomain
 {
-    public enum EntityAction
+    public enum EntityAction : byte
     {
         // --- Movement ---
         IDLE = 0,

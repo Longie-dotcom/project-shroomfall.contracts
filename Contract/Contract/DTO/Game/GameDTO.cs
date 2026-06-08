@@ -1,12 +1,15 @@
 ﻿using Contract.DTO.Runtime;
+using Contract.Enum.EntityDomain;
 
 namespace Contract.DTO.Game
 {
-    public class EntityMovedDTO
+    public class EntityActedDTO
     {
         public string EntityInstanceID { get; set; } = string.Empty;
         public float X { get; set; }
         public float Y { get; set; }
+        public EntityDirection Direction { get; set; }
+        public EntityAction Action { get; set; }
     }
 
     public class MessageChattedDTO

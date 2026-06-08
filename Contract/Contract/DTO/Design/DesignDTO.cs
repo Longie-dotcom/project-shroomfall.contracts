@@ -40,7 +40,7 @@ namespace Contract.DTO.Design
         public List<LocaleDTO> Locales { get; set; } = new List<LocaleDTO>();
     }
 
-    public class ExistLocales
+    public class ExistLocalesDTO
     {
         public List<LocaleDTO> Locales { get; set; } = new List<LocaleDTO>();
     }
