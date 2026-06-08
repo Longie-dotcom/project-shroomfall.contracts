@@ -1,6 +1,6 @@
 @echo off
 
-set CONTRACTS_PATH=C:\Users\ASROCK\Documents\GitHub\project-shroomfall.contracts\Contract\Contract
+set CONTRACTS_PATH=C:\Users\ASROCK\Documents\GitHub\project-shroomfall.be-v1.0-asp\Contracts\Contract\Contract
 set UNITY_PATH=C:\Users\ASROCK\Documents\GitHub\project-shroomfall.fe-v1.0-unity\Shroomfall\Assets\Plugins\Contracts
 
 echo === Building Contracts ===
