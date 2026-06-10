@@ -3,8 +3,8 @@
     public enum EntityRelationshipType
     {
         Throwable,      // Projectile "delivers" AreaEffect
-        Cluster,        // Projectile "spawns" another Projectile
-        TriggeredBy,    // AreaEffect "is activated by" a specific creature
+        ProjectileTriggeredBy,    // Projectile "is activated by" a specific creature
+        AreaEffectTriggeredBy,    // Area Effect "is activated by" a specific creature
         AttachedTo      // WorldObject "is held by" a Creature
     }
 }

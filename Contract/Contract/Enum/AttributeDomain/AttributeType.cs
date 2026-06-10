@@ -3,12 +3,10 @@
     public enum AttributeType
     {
         // ───────── Combat ─────────
-        AttackDamage,
         AttackSpeed,
-        AttackStability,
-        AttackArea,
         AttackRange,
 
+        AttackDamage,
         FirePower,
         IcePower,
         EarthPower,
@@ -16,12 +14,7 @@
         LightPower,
 
         // ───────── Resistance ─────────
-        MeleeResistance,
-        RangedResistance,
-        MagicResistance,
-        HeavyResistance,
-        ThrowableResistance,
-
+        DamageResistance,
         FireResistance,
         IceResistance,
         EarthResistance,
@@ -31,8 +24,6 @@
         // ───────── Extraction ─────────
         ExtractDamage,
         ExtractSpeed,
-        ExtractStability,
-        ExtractArea,
         ExtractRange,
 
         // ───────── Farming ─────────
