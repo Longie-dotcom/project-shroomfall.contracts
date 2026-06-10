@@ -14,12 +14,13 @@ namespace Contract.DTO.Definition
 
     public class AreaEffectDefinitionDTO : EntityDefinitionDTO
     {
-
+        public float Duration { get; set; }
     }
 
     public class ProjectileDefinitionDTO : EntityDefinitionDTO
     {
-
+        public float Velocity { get; set; }
+        public float Duration { get; set; }
     }
 
     public class PortalDefinitionDTO : EntityDefinitionDTO

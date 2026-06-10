@@ -4,6 +4,8 @@
     {
         #region Event
         public const string OnEntityActed = "OnEntityActed";
+        public const string OnEntityVitalChanged = "OnEntityVitalChanged";
+        public const string OnPlayerCharacteristicSync = "OnPlayerCharacteristicSync";
         public const string OnEntitySpawned = "OnEntitySpawned";
         public const string OnEntityDespawned = "OnEntityDespawned";
         public const string OnPlayerAppearanceChanged = "OnPlayerAppearanceChanged";

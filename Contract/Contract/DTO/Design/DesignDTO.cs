@@ -26,7 +26,6 @@ namespace Contract.DTO.Design
         public List<InventoryDefinitionDTO> Inventories { get; set; } = new List<InventoryDefinitionDTO>();
         public List<InventoryItemDefinitionDTO> InventoryItems { get; set; } = new List<InventoryItemDefinitionDTO>();
         public List<ItemDefinitionDTO> Items { get; set; } = new List<ItemDefinitionDTO>();
-        public List<ItemConfigurationDefinitionDTO> ItemConfigurations { get; set; } = new List<ItemConfigurationDefinitionDTO>();
         public List<ItemEffectDefinitionDTO> ItemEffects { get; set; } = new List<ItemEffectDefinitionDTO>();
 
         public List<EntityDefinitionDTO> Entities { get; set; } = new List<EntityDefinitionDTO>();

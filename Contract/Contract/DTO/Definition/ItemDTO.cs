@@ -1,4 +1,5 @@
-﻿using Contract.Enum.ItemDomain;
+﻿using Contract.Enum.EntityDomain;
+using Contract.Enum.ItemDomain;
 
 namespace Contract.DTO.Definition
 {
@@ -26,15 +27,8 @@ namespace Contract.DTO.Definition
         public ItemCategory Category { get; set; }
         public int? Durability { get; set; }
         public bool Stackable { get; set; }
-        public string? CharacteristicID { get; set; }
-    }
-
-    public class ItemConfigurationDefinitionDTO
-    {
-        public string ID { get; set; } = string.Empty;
-        public string ItemID { get; set; } = string.Empty;
-        public string EntityID { get; set; } = string.Empty;
-        public ItemConfigurationType Type { get; set; }
+        public string? EntityID { get; set; }
+        public EntityAction DefaultAction { get; set; }
     }
 
     public class ItemEffectDefinitionDTO

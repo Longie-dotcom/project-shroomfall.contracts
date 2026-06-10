@@ -4,8 +4,14 @@
     {
         Material,
         Consumable,
-        Object,
-        Functional,
+        Placeable,
+
+        RangedWeapon,
+        MeleeWeapon,
+        ThrowableWeapon,
+        HeavyWeapon,
+        MagicWeapon,
+
         Equippable,
     }
 }

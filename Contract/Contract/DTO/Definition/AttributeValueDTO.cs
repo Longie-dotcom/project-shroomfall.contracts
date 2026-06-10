@@ -6,7 +6,6 @@ namespace Contract.DTO.Definition
     {
         public AttributeType Type { get; set; }
         public LocalizedTextDTO LocalizedText { get; set; } = new LocalizedTextDTO();
-        public ValueCategory Category { get; set; }
         public DomainType DomainType { get; set; }
     }
 

@@ -2,33 +2,22 @@
 {
     public enum EffectType
     {
-        ModifyAttribute,
+        // ─────────────────────────────
+        // Flat value (direct number)
+        // Example: Health = 100
+        // ─────────────────────────────
+        Flat,
 
-        Damage,
-        Heal,
+        // ─────────────────────────────
+        // Percentage-based value (0–100 or 0–1 depending design)
+        // Example: CritChance = +10%
+        // ─────────────────────────────
+        Percentage,
 
-        Stun,
-        Root,
-        Silence,
-        Slow,
-
-        Knockback,
-        Knockup,
-        Pull,
-
-        Dash,
-        Blink,
-
-        Shield,
-
-        Burn,
-        Freeze,
-        Poison,
-
-        Taunt,
-        Fear,
-
-        Reveal,
-        Invisible
+        // ─────────────────────────────
+        // Multiplicative value
+        // Example: MoveSpeed x1.2, AttackSpeed x1.5
+        // ─────────────────────────────
+        Multiplier,
     }
 }

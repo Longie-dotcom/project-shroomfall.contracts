@@ -51,8 +51,5 @@
         Health,
         Stamina,
         Energy,
-        HealthRegen,
-        StaminaRegen,
-        EnergyRegen
     }
 }

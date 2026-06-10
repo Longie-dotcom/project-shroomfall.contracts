@@ -1,5 +1,4 @@
 ﻿using Contract.DTO.Common;
-using System.Numerics;
 
 namespace Contract.DTO.Game
 {
@@ -29,7 +28,7 @@ namespace Contract.DTO.Game
     public class UseItemDTO
     {
         public string ItemInstanceID { get; set; } = string.Empty;
-        public Vector2 Direction { get; set; }
-        public Vector2 Position { get; set; }
+        public float TargetPositionX { get; set; }
+        public float TargetPositionY { get; set; }
     }
 }
