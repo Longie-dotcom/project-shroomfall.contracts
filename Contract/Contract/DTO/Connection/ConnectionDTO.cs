@@ -6,7 +6,7 @@ namespace Contract.DTO.Connection
     public class ExistedSessionEntryDTO
     {
         public string PlayerInstanceID { get; set; } = string.Empty;
-        public PlayerAppearanceRuntimeDTO PlayerAppearance { get; set; } = new PlayerAppearanceRuntimeDTO();
+        public AppearanceRuntimeDTO PlayerAppearance { get; set; } = new AppearanceRuntimeDTO();
     }
 
     public class RoomSnapshotDTO

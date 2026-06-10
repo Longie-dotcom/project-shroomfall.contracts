@@ -46,17 +46,13 @@ namespace Contract.DTO.Definition
 
     public class PlayerDefinitionDTO : CreatureDefinitionDTO
     {
-        public PlayerAppearanceDefinitionDTO PlayerAppearance { get; set; } = new PlayerAppearanceDefinitionDTO();
+
     }
 
     public class AppearanceDefinitionDTO
     {
         public string SkinID { get; set; } = string.Empty;
         public HSVDTO SkinColor { get; set; } = new HSVDTO();
-    }
-
-    public class PlayerAppearanceDefinitionDTO : AppearanceDefinitionDTO
-    {
         public string HairID { get; set; } = string.Empty;
         public string EyesID { get; set; } = string.Empty;
         public string ShirtID { get; set; } = string.Empty;

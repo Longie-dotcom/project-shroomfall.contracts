@@ -20,10 +20,10 @@ namespace Contract.DTO.Game
 
     }
 
-    public class PlayerAppearanceChangedDTO
+    public class EntityAppearanceChangedDTO
     {
         public string EntityInstanceID { get; set; } = string.Empty;
-        public PlayerAppearanceRuntimeDTO Appearance { get; set; } = new PlayerAppearanceRuntimeDTO();
+        public AppearanceRuntimeDTO Appearance { get; set; } = new AppearanceRuntimeDTO();
     }
 
     public class EntityVitalChangedDTO

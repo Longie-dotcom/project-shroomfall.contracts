@@ -41,22 +41,17 @@ namespace Contract.DTO.Runtime
     public class PlayerRuntimeDTO : CreatureRuntimeDTO
     {
         public string UserID { get; set; } = string.Empty;
-        public PlayerAppearanceRuntimeDTO PlayerAppearance { get; set; } = new PlayerAppearanceRuntimeDTO();
     }
 
     public class AppearanceRuntimeDTO
     {
         public string SkinID { get; set; } = string.Empty;
         public HSVDTO SkinColor { get; set; } = new HSVDTO();
-    }
-
-    public class PlayerAppearanceRuntimeDTO : AppearanceRuntimeDTO
-    {
-        public string HairID { get; set; } = string.Empty;
-        public string EyesID { get; set; } = string.Empty;
-        public string ShirtID { get; set; } = string.Empty;
-        public string PantID { get; set; } = string.Empty;
-        public HSVDTO HairColor { get; set; } = new HSVDTO();
-        public HSVDTO PantColor { get; set; } = new HSVDTO();
+        public string? HairID { get; set; } = string.Empty;
+        public string? EyesID { get; set; } = string.Empty;
+        public string? ShirtID { get; set; } = string.Empty;
+        public string? PantID { get; set; } = string.Empty;
+        public HSVDTO? HairColor { get; set; } = new HSVDTO();
+        public HSVDTO? PantColor { get; set; } = new HSVDTO();
     }
 }
