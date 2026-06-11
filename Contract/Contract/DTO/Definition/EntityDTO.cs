@@ -69,5 +69,7 @@ namespace Contract.DTO.Definition
         public float Radius { get; set; }
         public bool IsBlocking { get; set; }
         public bool IsTrigger { get; set; }
+        public float OffsetX { get; set; }
+        public float OffsetY { get; set; }
     }
 }

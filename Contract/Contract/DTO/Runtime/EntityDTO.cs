@@ -1,7 +1,6 @@
 ﻿using Contract.DTO.Common;
 using Contract.Enum.EntityDomain;
 using System.Collections.Generic;
-using System.Numerics;
 
 namespace Contract.DTO.Runtime
 {
@@ -18,7 +17,7 @@ namespace Contract.DTO.Runtime
         public string RoomSpatialID { get; set; } = string.Empty;
         public int LayerZ { get; set; }
         public Vector2DTO Position { get; set; } = new Vector2DTO();
-        public Vector2 MovementVector { get; set; }
+        public Vector2DTO MovementVector { get; set; } = new Vector2DTO();
         public EntityDirection FacingDirection { get; set; }
         public EntityAction CurrentAction { get; set; }
         public AppearanceRuntimeDTO Appearance { get; set; } = new AppearanceRuntimeDTO();
