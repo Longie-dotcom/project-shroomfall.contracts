@@ -1,11 +1,8 @@
-﻿namespace Contract.Enum.AttributeDomain
+﻿namespace Contract.Enum.MetaDomain.Effect
 {
     public enum AttributeType
     {
         // ───────── Combat ─────────
-        AttackSpeed,
-        AttackRange,
-
         AttackDamage,
         FirePower,
         IcePower,
@@ -21,21 +18,10 @@
         DarkResistance,
         LightResistance,
 
-        // ───────── Extraction ─────────
-        ExtractDamage,
-        ExtractSpeed,
-        ExtractRange,
-
-        // ───────── Farming ─────────
-        FarmEfficiency,
-        FarmQuality,
-
-        // ───────── Taming ─────────
-        TameEfficiency,
-        TameQuality,
-
         // ───────── Utility ─────────
         MoveSpeed,
+        AttackSpeed,
+        AttackRange,
         Lucky,
 
         // ───────── Vital System ─────────

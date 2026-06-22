@@ -1,4 +1,4 @@
-﻿namespace Contract.Enum.EntityDomain
+﻿namespace Contract.Enum.MetaDomain.Item
 {
     public enum EquipmentSlot
     {

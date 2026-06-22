@@ -1,6 +1,7 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
-namespace Contract.DTO.Definition
+namespace Contract.DTO.Domain.Definition
 {
     public class LocaleDTO
     {
@@ -12,17 +13,17 @@ namespace Contract.DTO.Definition
         public List<LocalizationEntryDTO> LocalizationEntries { get; set; } = new List<LocalizationEntryDTO>();
     }
 
+    public class LocalizationEntryDTO
+    {
+        public Guid ID { get; set; }
+        public string Key { get; set; } = string.Empty;
+        public string LocaleCode { get; set; } = string.Empty;
+        public string Value { get; set; } = string.Empty;
+    }
+
     public class LocalizedTextDTO
     {
         public string NameKey { get; set; } = string.Empty;
         public string DescriptionKey { get; set; } = string.Empty;
-    }
-
-    public class LocalizationEntryDTO
-    {
-        public string ID { get; set; } = string.Empty;
-        public string Key { get; set; } = string.Empty;
-        public string LocaleCode { get; set; } = string.Empty;
-        public string Value { get; set; } = string.Empty;
     }
 }

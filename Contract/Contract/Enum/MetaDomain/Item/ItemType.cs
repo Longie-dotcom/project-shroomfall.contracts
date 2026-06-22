@@ -1,4 +1,4 @@
-﻿namespace Contract.Enum.ItemDomain
+﻿namespace Contract.Enum.MetaDomain.Item
 {
     public enum ItemType
     {

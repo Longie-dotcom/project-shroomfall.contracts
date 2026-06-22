@@ -1,4 +1,4 @@
-﻿using Contract.DTO.Runtime;
+﻿using Contract.DTO.Domain.Runtime;
 using System.Collections.Generic;
 
 namespace Contract.DTO.Connection
@@ -6,7 +6,7 @@ namespace Contract.DTO.Connection
     public class ExistedSessionEntryDTO
     {
         public string PlayerInstanceID { get; set; } = string.Empty;
-        public AppearanceRuntimeDTO PlayerAppearance { get; set; } = new AppearanceRuntimeDTO();
+        public AppearanceInstanceDTO PlayerAppearance { get; set; } = new AppearanceInstanceDTO();
     }
 
     public class RoomSnapshotDTO
@@ -21,7 +21,7 @@ namespace Contract.DTO.Connection
 
     public class SaveGameDTO
     {
-        public PlayerRuntimeDTO PlayerData { get; set; } = new PlayerRuntimeDTO();
+        public EntityInstanceDTO PlayerData { get; set; } = new EntityInstanceDTO();
         public RoomRuntimeDTO RoomData { get; set; } = new RoomRuntimeDTO();
     }
 }

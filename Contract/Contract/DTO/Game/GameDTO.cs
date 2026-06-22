@@ -1,7 +1,6 @@
-﻿using Contract.DTO.Runtime;
-using Contract.Enum.AttributeDomain;
+﻿using Contract.DTO.Domain.Runtime;
 using Contract.Enum.EntityDomain;
-using System;
+using Contract.Enum.MetaDomain.Effect;
 
 namespace Contract.DTO.Game
 {
@@ -23,7 +22,7 @@ namespace Contract.DTO.Game
     public class EntityAppearanceChangedDTO
     {
         public string EntityInstanceID { get; set; } = string.Empty;
-        public AppearanceRuntimeDTO Appearance { get; set; } = new AppearanceRuntimeDTO();
+        public AppearanceInstanceDTO Appearance { get; set; } = new AppearanceInstanceDTO();
     }
 
     public class EntityVitalChangedDTO

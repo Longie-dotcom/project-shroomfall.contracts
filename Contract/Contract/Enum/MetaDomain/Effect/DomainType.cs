@@ -1,4 +1,4 @@
-﻿namespace Contract.Enum.AttributeDomain
+﻿namespace Contract.Enum.MetaDomain.Effect
 {
     public enum DomainType
     {

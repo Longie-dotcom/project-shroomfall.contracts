@@ -1,12 +1,9 @@
-﻿namespace Contract.Enum.ItemDomain
+﻿namespace Contract.Enum.MetaDomain.Item
 {
     public enum ItemCategory
     {
         // Equippable 
-        Shoe,
-        Pant,
-        Chest,
-        Head,
+        Equippable,
 
         // Material
         Material,
