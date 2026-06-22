@@ -4,7 +4,6 @@ using Contract.Enum.MetaDomain.Effect;
 using Contract.Enum.MetaDomain.Item;
 using System;
 using System.Collections.Generic;
-using System.Numerics;
 
 namespace Contract.DTO.Domain.Runtime
 {

@@ -22,6 +22,8 @@ namespace Contract.DTO.Design
         public List<ItemDefinitionDTO> Items { get; set; } = new List<ItemDefinitionDTO>();
 
         public List<EntityDefinitionDTO> Entities { get; set; } = new List<EntityDefinitionDTO>();
+        public List<InteractableDefinitionDTO> Interactables { get; set; } = new List<InteractableDefinitionDTO>();
+        public List<PortalDefinitionDTO> Portals { get; set; } = new List<PortalDefinitionDTO>();
 
         public List<CellDefinitionDTO> Cells { get; set; } = new List<CellDefinitionDTO>();
         public List<EntitySpawnRuleDefinitionDTO> EntitySpawnRules { get; set; } = new List<EntitySpawnRuleDefinitionDTO>();
