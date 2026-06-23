@@ -13,6 +13,12 @@ namespace Contract.DTO.Design
         public DateTime CreatedAt { get; set; }
     }
 
+    public class UpdateDefinitionNotificationDTO
+    {
+        public string Key { get; set; } = string.Empty;
+        public long Version { get; set; }
+    }
+
     public class DefinitionSnapshotDTO
     {
         public long Version { get; set; }

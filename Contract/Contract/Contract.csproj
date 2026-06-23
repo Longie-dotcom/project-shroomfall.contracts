@@ -17,5 +17,16 @@
 		<LangVersion>latest</LangVersion>
 		<ImplicitUsings>false</ImplicitUsings>
 	</PropertyGroup>
+	<ItemGroup Condition="'$(TargetFramework)' == 'net9.0'">
+		<PackageReference Include="TypeGen" Version="7.0.0" />
+	</ItemGroup>
+	<ItemGroup>
+	  <None Remove="tgconfig.json" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Content Include="tgconfig.json">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </Content>
+	</ItemGroup>
 
 </Project>
