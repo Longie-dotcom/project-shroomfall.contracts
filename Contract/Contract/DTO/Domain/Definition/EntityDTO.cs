@@ -11,6 +11,17 @@ namespace Contract.DTO.Domain.Definition
 #if NET9_0
     [ExportTsInterface(OutputDir = "domain/definition/entity")]
 #endif
+    public class EntityDefinitionDetailDTO
+    {
+        public string ID { get; set; } = string.Empty;
+        public EntityType Type { get; set; }
+        public EntityPresentationDefinitionDTO Presentation { get; set; } = new EntityPresentationDefinitionDTO();
+        public List<ComponentDefinitionDTO> Components { get; set; } = new List<ComponentDefinitionDTO>();
+    }
+
+#if NET9_0
+    [ExportTsInterface(OutputDir = "domain/definition/entity")]
+#endif
     public class EntityDefinitionDTO
     {
         public string ID { get; set; } = string.Empty;

@@ -8,7 +8,17 @@ using TypeGen.Core.TypeAnnotations;
 namespace Contract.DTO.Design
 {
 #if NET9_0
-    [ExportTsInterface(OutputDir = "design/command")]
+    [ExportTsInterface(OutputDir = "design/commands")]
+#endif
+    public class FetchAllEntitiesQueriesDTO
+    {
+        public string? SearchTerm { get; set; }
+        public int PageNumber { get; set; } = 1;
+        public int PageSize { get; set; } = 10;
+    }
+
+#if NET9_0
+    [ExportTsInterface(OutputDir = "design/commands")]
 #endif
     public class UpdateDefinitionDTO
     {
@@ -17,7 +27,7 @@ namespace Contract.DTO.Design
     }
 
 #if NET9_0
-    [ExportTsInterface(OutputDir = "design/command")]
+    [ExportTsInterface(OutputDir = "design/commands")]
 #endif
     public class UserRefreshDTO
     {
@@ -25,7 +35,7 @@ namespace Contract.DTO.Design
     }
 
 #if NET9_0
-    [ExportTsInterface(OutputDir = "design/command")]
+    [ExportTsInterface(OutputDir = "design/commands")]
 #endif
     public class UpsertEntityDefinitionDTO
     {
