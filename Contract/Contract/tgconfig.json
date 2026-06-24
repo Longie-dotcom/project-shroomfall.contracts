@@ -2,5 +2,7 @@
   "assemblies": [ "bin/Debug/net9.0/Contract.dll" ],
   "outputPath": "C:/Users/ASROCK/Documents/GitHub/project-shroomfall.fe-v1.0-reactjs/blue-cat-studio/src/contracts",
   "clearOutputPath": true,
-  "tabLength": 2
+  "enumStringInitializers": true,
+  "tabLength": 2,
+  "useImportType": true
 }

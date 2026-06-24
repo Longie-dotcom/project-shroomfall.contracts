@@ -1,9 +1,15 @@
 ﻿using Contract.DTO.Domain.Definition;
 using System;
 using System.Collections.Generic;
+#if NET9_0
+using TypeGen.Core.TypeAnnotations;
+#endif
 
 namespace Contract.DTO.Design
 {
+#if NET9_0
+    [ExportTsInterface(OutputDir = "design/responses")]
+#endif
     public class DefinitionVersionLogDTO
     {
         public string ID { get; set; } = string.Empty;
@@ -13,12 +19,18 @@ namespace Contract.DTO.Design
         public DateTime CreatedAt { get; set; }
     }
 
+#if NET9_0
+    [ExportTsInterface(OutputDir = "design/responses")]
+#endif
     public class UpdateDefinitionNotificationDTO
     {
         public string Key { get; set; } = string.Empty;
         public long Version { get; set; }
     }
 
+#if NET9_0
+    [ExportTsInterface(OutputDir = "design/responses")]
+#endif
     public class DefinitionSnapshotDTO
     {
         public long Version { get; set; }
@@ -39,6 +51,9 @@ namespace Contract.DTO.Design
         public List<LocaleDTO> Locales { get; set; } = new List<LocaleDTO>();
     }
 
+#if NET9_0
+    [ExportTsInterface(OutputDir = "design/responses")]
+#endif
     public class ExistLocalesDTO
     {
         public List<LocaleDTO> Locales { get; set; } = new List<LocaleDTO>();

@@ -6,6 +6,9 @@ using TypeGen.Core.TypeAnnotations;
 
 namespace Contract.DTO.Identity
 {
+#if NET9_0
+    [ExportTsInterface(OutputDir = "identity/commands")]
+#endif
     public class SteamAuthDTO
     {
         public string SteamTicket { get; set; } = string.Empty;
@@ -14,7 +17,7 @@ namespace Contract.DTO.Identity
     }
 
 #if NET9_0
-    [ExportTsInterface]
+    [ExportTsInterface(OutputDir = "identity/commands")]
 #endif
     public class RegisterDTO
     {
@@ -25,7 +28,7 @@ namespace Contract.DTO.Identity
     }
 
 #if NET9_0
-    [ExportTsInterface]
+    [ExportTsInterface(OutputDir = "identity/commands")]
 #endif
     public class LoginDTO
     {
@@ -34,7 +37,7 @@ namespace Contract.DTO.Identity
     }
 
 #if NET9_0
-    [ExportTsInterface]
+    [ExportTsInterface(OutputDir = "identity/commands")]
 #endif
     public class RefreshTokenDTO
     {
@@ -42,7 +45,7 @@ namespace Contract.DTO.Identity
     }
 
 #if NET9_0
-    [ExportTsInterface]
+    [ExportTsInterface(OutputDir = "identity/commands")]
 #endif
     public class UpdateProfileDTO
     {

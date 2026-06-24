@@ -1,8 +1,14 @@
 ﻿using Contract.Enum.WorldDomain;
 using System;
+#if NET9_0
+using TypeGen.Core.TypeAnnotations;
+#endif
 
 namespace Contract.DTO.Domain.Definition
 {
+#if NET9_0
+    [ExportTsInterface(OutputDir = "domain/definition/world")]
+#endif
     public class CellDefinitionDTO
     {
         public string RoomDefinitionID { get; set; } = string.Empty;
@@ -13,6 +19,9 @@ namespace Contract.DTO.Domain.Definition
         public int Z { get; set; }
     }
 
+#if NET9_0
+    [ExportTsInterface(OutputDir = "domain/definition/world")]
+#endif
     public class EntitySpawnRuleDefinitionDTO
     {
         public Guid ID { get; set; }
@@ -27,6 +36,9 @@ namespace Contract.DTO.Domain.Definition
         public string EntityDefinitionID { get; set; } = string.Empty;
     }
 
+#if NET9_0
+    [ExportTsInterface(OutputDir = "domain/definition/world")]
+#endif
     public class RoomConnectionDefinitionDTO
     {
         public string ID { get; set; } = string.Empty;
@@ -36,6 +48,9 @@ namespace Contract.DTO.Domain.Definition
         public string DestinationEntityID { get; set; } = string.Empty;
     }
 
+#if NET9_0
+    [ExportTsInterface(OutputDir = "domain/definition/world")]
+#endif
     public class RoomDefinitionDTO
     {
         public string ID { get; set; } = string.Empty;
@@ -43,6 +58,9 @@ namespace Contract.DTO.Domain.Definition
         public RoomPresentationDefinitionDTO Presentation { get; set; } = new RoomPresentationDefinitionDTO();  
     }
 
+#if NET9_0
+    [ExportTsInterface(OutputDir = "domain/definition/world")]
+#endif
     public class RoomPresentationDefinitionDTO
     {
         public LocalizedTextDTO LocalizedText { get; set; } = new LocalizedTextDTO();

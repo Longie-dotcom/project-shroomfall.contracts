@@ -1,8 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+#if NET9_0
+using TypeGen.Core.TypeAnnotations;
+#endif
 
 namespace Contract.DTO.Domain.Definition
 {
+#if NET9_0
+    [ExportTsInterface(OutputDir = "domain/definition/locale")]
+#endif
     public class LocaleDTO
     {
         public string Code { get; set; } = string.Empty;
@@ -13,6 +19,9 @@ namespace Contract.DTO.Domain.Definition
         public List<LocalizationEntryDTO> LocalizationEntries { get; set; } = new List<LocalizationEntryDTO>();
     }
 
+#if NET9_0
+    [ExportTsInterface(OutputDir = "domain/definition/locale")]
+#endif
     public class LocalizationEntryDTO
     {
         public Guid ID { get; set; }
@@ -21,6 +30,9 @@ namespace Contract.DTO.Domain.Definition
         public string Value { get; set; } = string.Empty;
     }
 
+#if NET9_0
+    [ExportTsInterface(OutputDir = "domain/definition/locale")]
+#endif
     public class LocalizedTextDTO
     {
         public string NameKey { get; set; } = string.Empty;
