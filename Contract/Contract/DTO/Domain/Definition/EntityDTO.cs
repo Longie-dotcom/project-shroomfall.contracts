@@ -45,6 +45,7 @@ namespace Contract.DTO.Domain.Definition
     {
         public Guid? ID { get; set; }
         public string EntityDefinitionID { get; set; } = string.Empty;
+        public string ComponentType { get; set; } = string.Empty;
     }
 
 #if NET9_0
@@ -52,6 +53,8 @@ namespace Contract.DTO.Domain.Definition
 #endif
     public class AIDefinitionDTO : ComponentDefinitionDTO
     {
+        public AIDefinitionDTO() { ComponentType = nameof(AIDefinitionDTO); }
+
         public float LeashDistance { get; set; }
         public float AggroRadius { get; set; }
         public float ThinkInterval { get; set; }
@@ -63,6 +66,8 @@ namespace Contract.DTO.Domain.Definition
 #endif
     public class AppearanceDefinitionDTO : ComponentDefinitionDTO
     {
+        public AppearanceDefinitionDTO() { ComponentType = nameof(AppearanceDefinitionDTO); }
+
         public string SkinID { get; set; } = string.Empty;
         public HSVDTO SkinColor { get; set; } = new  HSVDTO();
         public string? HairID { get; set; }
@@ -78,6 +83,8 @@ namespace Contract.DTO.Domain.Definition
 #endif
     public class CollisionDefinitionDTO : ComponentDefinitionDTO
     {
+        public CollisionDefinitionDTO() { ComponentType = nameof(CollisionDefinitionDTO); }
+
         public string ShapeType { get; set; } = string.Empty; // Maps string-converted enums cleanly
         public float Width { get; set; }
         public float Height { get; set; }
@@ -94,6 +101,8 @@ namespace Contract.DTO.Domain.Definition
 #endif
     public class CharacteristicDefinitionDTO : ComponentDefinitionDTO
     {
+        public CharacteristicDefinitionDTO() { ComponentType = nameof(CharacteristicDefinitionDTO); }
+
         public List<AttributeValueDTO> AttributeValues { get; set; } = new List<AttributeValueDTO>();
     }
 
@@ -126,6 +135,8 @@ namespace Contract.DTO.Domain.Definition
 #endif
     public class InteractableDefinitionDTO : ComponentDefinitionDTO
     {
+        public InteractableDefinitionDTO() { ComponentType = nameof(InteractableDefinitionDTO); }
+
         public WorldObjectInteractionType Type { get; set; }
     }
 
@@ -134,6 +145,8 @@ namespace Contract.DTO.Domain.Definition
 #endif
     public class InventoryDefinitionDTO : ComponentDefinitionDTO
     {
+        public InventoryDefinitionDTO() { ComponentType = nameof(InventoryDefinitionDTO); }
+
         public int SlotCount { get; set; }
         public List<InventoryEntryDTO> DefaultItems { get; set; } = new List<InventoryEntryDTO>();
     }
@@ -154,6 +167,8 @@ namespace Contract.DTO.Domain.Definition
 #endif
     public class LifetimeDefinitionDTO : ComponentDefinitionDTO
     {
+        public LifetimeDefinitionDTO() { ComponentType = nameof(LifetimeDefinitionDTO); }
+
         public float Lifetime { get; set; }
     }
 
@@ -162,6 +177,8 @@ namespace Contract.DTO.Domain.Definition
 #endif
     public class PortalDefinitionDTO : ComponentDefinitionDTO
     {
+        public PortalDefinitionDTO() { ComponentType = nameof(PortalDefinitionDTO); }
+
         public float LocalTriggerOffsetX { get; set; }
         public float LocalTriggerOffsetY { get; set; }
         public float TriggerWidth { get; set; }
@@ -173,6 +190,8 @@ namespace Contract.DTO.Domain.Definition
 #endif
     public class ProjectileDefinitionDTO : ComponentDefinitionDTO
     {
+        public ProjectileDefinitionDTO() { ComponentType = nameof(ProjectileDefinitionDTO); }
+
         public float Velocity { get; set; }
         public string? OnImpactSpawnEntityDefinitionID { get; set; }
     }
@@ -182,6 +201,8 @@ namespace Contract.DTO.Domain.Definition
 #endif
     public class TriggeredEffectDefinitionDTO : ComponentDefinitionDTO
     {
+        public TriggeredEffectDefinitionDTO() { ComponentType = nameof(TriggeredEffectDefinitionDTO); }
+
         public List<string> EffectDefinitionIDs { get; set; } = new List<string>();
     }
 }
