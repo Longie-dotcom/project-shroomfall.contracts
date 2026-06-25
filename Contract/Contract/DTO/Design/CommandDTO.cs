@@ -69,12 +69,29 @@ namespace Contract.DTO.Design
         public string ID { get; set; } = string.Empty;
         public ItemType Type { get; set; }
         public ItemCategory Category { get; set; }
+#if NET9_0
+        [TsOptional]
+#endif
         public int? MaxStack { get; set; }
+#if NET9_0
+        [TsOptional]
+#endif
         public int? MaxDurability { get; set; }
+#if NET9_0
+        [TsOptional]
+#endif
         public EntityAction? TriggeredAction { get; set; }
-        public string? IconID { get; set; } = string.Empty;
+#if NET9_0
+        [TsOptional]
+#endif
         public SpawnEntityConfigDTO? SpawnEntityConfig { get; set; }
+#if NET9_0
+        [TsOptional]
+#endif
         public ApplyEffectConfigDTO? ApplyEffectConfig { get; set; }
+#if NET9_0
+        [TsOptional]
+#endif
         public EquipConfigDTO? EquipConfig { get; set; }
         public CostConfigDTO CostConfig { get; set; } = new CostConfigDTO();
     }
@@ -87,11 +104,19 @@ namespace Contract.DTO.Design
         public string ID { get; set; } = string.Empty;
         public EffectType Type { get; set; }
         public AttributeType AttributeType { get; set; }
+#if NET9_0
+        [TsOptional]
+#endif
         public AttributeType? SourceType { get; set; }
         public float Value { get; set; }
+#if NET9_0
+        [TsOptional]
+#endif
         public float? Duration { get; set; }
+#if NET9_0
+        [TsOptional]
+#endif
         public float? Interval { get; set; }
-        public string? IconID { get; set; } = string.Empty;
     }
 
 #if NET9_0

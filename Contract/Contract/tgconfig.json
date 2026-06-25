@@ -4,5 +4,7 @@
   "clearOutputPath": true,
   "enumStringInitializers": true,
   "tabLength": 2,
-  "useImportType": true
+  "useImportType": true,
+  "csNullableTranslation": "QuestionMark",
+  "undefinedAndNullIsValid": true
 }
