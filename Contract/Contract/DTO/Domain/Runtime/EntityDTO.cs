@@ -39,12 +39,6 @@ namespace Contract.DTO.Domain.Runtime
     {
         public string SkinID { get; set; } = string.Empty;
         public HSVDTO SkinColor { get; set; } = new HSVDTO();
-        public string? HairID { get; set; }
-        public string? EyesID { get; set; }
-        public string? ShirtID { get; set; }
-        public string? PantID { get; set; }
-        public HSVDTO? HairColor { get; set; }
-        public HSVDTO? PantColor { get; set; }
     }
 
     public class CharacteristicInstanceDTO : ComponentInstanceDTO

@@ -88,24 +88,6 @@ namespace Contract.DTO.Domain.Definition
 
         public string SkinID { get; set; } = string.Empty;
         public HSVDTO SkinColor { get; set; } = new  HSVDTO();
-#if NET9_0
-        [TsOptional]
-#endif
-        public string? HairID { get; set; }
-#if NET9_0
-        [TsOptional]
-#endif
-        public string? EyesID { get; set; }
-#if NET9_0
-        [TsOptional]
-#endif
-        public string? ShirtID { get; set; }
-#if NET9_0
-        [TsOptional]
-#endif
-        public string? PantID { get; set; }
-        public HSVDTO HairColor { get; set; } = new HSVDTO();
-        public HSVDTO PantColor { get; set; } = new HSVDTO();
     }
 
 #if NET9_0

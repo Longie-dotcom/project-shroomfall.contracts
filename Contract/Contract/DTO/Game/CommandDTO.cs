@@ -17,12 +17,6 @@ namespace Contract.DTO.Game
     {
         public string SkinID { get; set; } = string.Empty;
         public HSVDTO SkinColor { get; set; } = new HSVDTO();
-        public string HairID { get; set; } = string.Empty;
-        public string EyesID { get; set; } = string.Empty;
-        public string ShirtID { get; set; } = string.Empty;
-        public string PantID { get; set; } = string.Empty;
-        public HSVDTO HairColor { get; set; } = new HSVDTO();
-        public HSVDTO PantColor { get; set; } = new HSVDTO();
     }
 
     public class UseItemDTO
