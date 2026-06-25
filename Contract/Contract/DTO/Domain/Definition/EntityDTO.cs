@@ -45,6 +45,9 @@ namespace Contract.DTO.Domain.Definition
 #endif
     public class ComponentDefinitionDTO
     {
+#if NET9_0
+        [TsOptional]
+#endif
         public Guid? ID { get; set; }
         public string EntityDefinitionID { get; set; } = string.Empty;
         public string ComponentType { get; set; } = string.Empty;
@@ -72,9 +75,21 @@ namespace Contract.DTO.Domain.Definition
 
         public string SkinID { get; set; } = string.Empty;
         public HSVDTO SkinColor { get; set; } = new  HSVDTO();
+#if NET9_0
+        [TsOptional]
+#endif
         public string? HairID { get; set; }
+#if NET9_0
+        [TsOptional]
+#endif
         public string? EyesID { get; set; }
+#if NET9_0
+        [TsOptional]
+#endif
         public string? ShirtID { get; set; }
+#if NET9_0
+        [TsOptional]
+#endif
         public string? PantID { get; set; }
         public HSVDTO HairColor { get; set; } = new HSVDTO();
         public HSVDTO PantColor { get; set; } = new HSVDTO();
@@ -113,7 +128,10 @@ namespace Contract.DTO.Domain.Definition
 #endif
     public class AttributeValueDTO
     {
-        public Guid ID { get; set; }
+#if NET9_0
+        [TsOptional]
+#endif
+        public Guid? ID { get; set; }
         public AttributeType Type { get; set; }
         public float BaseValue { get; set; }
         public int Level { get; set; }
@@ -127,7 +145,10 @@ namespace Contract.DTO.Domain.Definition
 #endif
     public class AttributeGrowthValueDTO
     {
-        public Guid ID { get; set; }
+#if NET9_0
+        [TsOptional]
+#endif
+        public Guid? ID { get; set; }
         public int Level { get; set; }
         public float GrowthValue { get; set; }
     }
@@ -158,7 +179,10 @@ namespace Contract.DTO.Domain.Definition
 #endif
     public class InventoryEntryDTO
     {
-        public Guid ID { get; set; }
+#if NET9_0
+        [TsOptional]
+#endif
+        public Guid? ID { get; set; }
         public string DefinitionID { get; set; } = string.Empty;
         public int Amount { get; set; }
         public ItemQuality Quality { get; set; }
