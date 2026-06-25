@@ -132,7 +132,6 @@ namespace Contract.DTO.Domain.Definition
         public Guid? ID { get; set; }
         public AttributeType Type { get; set; }
         public float BaseValue { get; set; }
-        public int Level { get; set; }
         public float Min { get; set; }
         public float Max { get; set; }
         public List<AttributeGrowthValueDTO> AttributeGrowthValues { get; set; } = new List<AttributeGrowthValueDTO>();
