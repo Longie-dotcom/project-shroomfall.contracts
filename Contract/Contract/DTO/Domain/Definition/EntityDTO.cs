@@ -1,5 +1,7 @@
 ﻿using Contract.DTO.Common;
 using Contract.Enum.EntityDomain;
+using Contract.Enum.MetaDomain.Effect;
+using Contract.Enum.MetaDomain.Item;
 using System;
 using System.Collections.Generic;
 #if NET9_0
@@ -85,13 +87,13 @@ namespace Contract.DTO.Domain.Definition
     {
         public CollisionDefinitionDTO() { ComponentType = nameof(CollisionDefinitionDTO); }
 
-        public string ShapeType { get; set; } = string.Empty; // Maps string-converted enums cleanly
+        public CollisionShapeType ShapeType { get; set; }
         public float Width { get; set; }
         public float Height { get; set; }
         public float Radius { get; set; }
         public bool IsBlocking { get; set; }
-        public string Layer { get; set; } = string.Empty;
-        public string Mask { get; set; } = string.Empty;
+        public CollisionLayer Layer { get; set; }
+        public CollisionLayer Mask { get; set; }
         public float OffsetX { get; set; }
         public float OffsetY { get; set; }
     }
@@ -112,7 +114,7 @@ namespace Contract.DTO.Domain.Definition
     public class AttributeValueDTO
     {
         public Guid ID { get; set; }
-        public string Type { get; set; } = string.Empty;
+        public AttributeType Type { get; set; }
         public float BaseValue { get; set; }
         public int Level { get; set; }
         public float Min { get; set; }
@@ -159,7 +161,7 @@ namespace Contract.DTO.Domain.Definition
         public Guid ID { get; set; }
         public string DefinitionID { get; set; } = string.Empty;
         public int Amount { get; set; }
-        public string Quality { get; set; } = string.Empty;
+        public ItemQuality Quality { get; set; }
     }
 
 #if NET9_0
