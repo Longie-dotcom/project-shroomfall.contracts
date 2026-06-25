@@ -86,7 +86,10 @@ namespace Contract.DTO.Domain.Definition
     {
         public AppearanceDefinitionDTO() { ComponentType = nameof(AppearanceDefinitionDTO); }
 
-        public string SkinID { get; set; } = string.Empty;
+#if NET9_0
+        [TsIgnore]
+#endif
+        public string? SkinID { get; set; } = string.Empty;
         public HSVDTO SkinColor { get; set; } = new  HSVDTO();
     }
 
