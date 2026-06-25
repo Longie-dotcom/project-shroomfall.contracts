@@ -4,8 +4,10 @@ using Contract.Enum.MetaDomain.Effect;
 using Contract.Enum.MetaDomain.Item;
 using System;
 using System.Collections.Generic;
+
 #if NET9_0
 using TypeGen.Core.TypeAnnotations;
+using System.Text.Json.Serialization;
 #endif
 
 namespace Contract.DTO.Domain.Definition
@@ -42,6 +44,17 @@ namespace Contract.DTO.Domain.Definition
 
 #if NET9_0
     [ExportTsInterface(OutputDir = "domain/definition/entity")]
+    [JsonPolymorphic(TypeDiscriminatorPropertyName = "ComponentType")]
+    [JsonDerivedType(typeof(AIDefinitionDTO), typeDiscriminator: "AIDefinitionDTO")]
+    [JsonDerivedType(typeof(AppearanceDefinitionDTO), typeDiscriminator: "AppearanceDefinitionDTO")]
+    [JsonDerivedType(typeof(CollisionDefinitionDTO), typeDiscriminator: "CollisionDefinitionDTO")]
+    [JsonDerivedType(typeof(CharacteristicDefinitionDTO), typeDiscriminator: "CharacteristicDefinitionDTO")]
+    [JsonDerivedType(typeof(InteractableDefinitionDTO), typeDiscriminator: "InteractableDefinitionDTO")]
+    [JsonDerivedType(typeof(InventoryDefinitionDTO), typeDiscriminator: "InventoryDefinitionDTO")]
+    [JsonDerivedType(typeof(LifetimeDefinitionDTO), typeDiscriminator: "LifetimeDefinitionDTO")]
+    [JsonDerivedType(typeof(PortalDefinitionDTO), typeDiscriminator: "PortalDefinitionDTO")]
+    [JsonDerivedType(typeof(ProjectileDefinitionDTO), typeDiscriminator: "ProjectileDefinitionDTO")]
+    [JsonDerivedType(typeof(TriggeredEffectDefinitionDTO), typeDiscriminator: "TriggeredEffectDefinitionDTO")]
 #endif
     public class ComponentDefinitionDTO
     {
