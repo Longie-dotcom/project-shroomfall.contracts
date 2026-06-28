@@ -12,7 +12,6 @@ namespace Contract.DTO.Domain.Definition
     public class CellDefinitionDTO
     {
         public string RoomDefinitionID { get; set; } = string.Empty;
-        public string TileID { get; set; } = string.Empty;
         public CellType Type { get; set; }
         public int X { get; set; }
         public int Y { get; set; }
