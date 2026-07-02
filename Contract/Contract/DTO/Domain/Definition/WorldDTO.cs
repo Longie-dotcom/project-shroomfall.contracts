@@ -1,11 +1,31 @@
 ﻿using Contract.Enum.WorldDomain;
 using System;
+using System.Collections.Generic;
+
 #if NET9_0
 using TypeGen.Core.TypeAnnotations;
 #endif
 
 namespace Contract.DTO.Domain.Definition
 {
+#if NET9_0
+    [ExportTsInterface(OutputDir = "domain/definition/world")]
+#endif
+    public class CombatRunDefinitionDTO
+    {
+        public string ID { get; set; } = string.Empty;
+        public List<FloorDTO> Floors { get; set; } = new List<FloorDTO>();
+    }
+
+#if NET9_0
+    [ExportTsInterface(OutputDir = "domain/definition/world")]
+#endif
+    public class FloorDTO
+    {
+        public int Level { get; set; }
+        public string RoomDefinitionID { get; set; } = string.Empty;
+    }
+
 #if NET9_0
     [ExportTsInterface(OutputDir = "domain/definition/world")]
 #endif
@@ -33,18 +53,6 @@ namespace Contract.DTO.Domain.Definition
         public int MaxCount { get; set; }
         public string RoomDefinitionID { get; set; } = string.Empty;
         public string EntityDefinitionID { get; set; } = string.Empty;
-    }
-
-#if NET9_0
-    [ExportTsInterface(OutputDir = "domain/definition/world")]
-#endif
-    public class RoomConnectionDefinitionDTO
-    {
-        public string ID { get; set; } = string.Empty;
-        public string SourceRoomID { get; set; } = string.Empty;
-        public string SourceEntityID { get; set; } = string.Empty;
-        public string DestinationRoomID { get; set; } = string.Empty;
-        public string DestinationEntityID { get; set; } = string.Empty;
     }
 
 #if NET9_0

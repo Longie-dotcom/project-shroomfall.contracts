@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using Contract.Enum.WorldDomain;
+using System.Collections.Generic;
 
 namespace Contract.DTO.Domain.Runtime
 {
@@ -10,14 +11,14 @@ namespace Contract.DTO.Domain.Runtime
         public List<EntityInstanceDTO> Entities { get; set; } = new List<EntityInstanceDTO>();
     }
 
-    public class RoomConnectionRuntimeDTO
+    public class CombatRunInstanceDTO
     {
         public string ID { get; set; } = string.Empty;
-        public string DefinitionID { get; set; } = string.Empty;
-        public string SourceRoomSpatialID { get; set; } = string.Empty;
-        public string SourceEntityInstanceID { get; set; } = string.Empty;
-        public string? DestinationRoomSpatialID { get; set; }
-        public string? DestinationEntityInstanceID { get; set; }
-        public string? ReverseConnectionID { get; set; }
+        public string CombatRunDefinitionID { get; set; } = string.Empty;
+        public int CurrentLevel { get; set; }
+        public string CurrentRoomSpatialID { get; set; } = string.Empty;
+        public string LeaderEntityInstanceID { get; set; } = string.Empty;
+        public IReadOnlyCollection<string> PlayerEntityInstanceIDs { get; set; } = new List<string>();
+        public CombatRunStatus Status { get; set; }
     }
 }

@@ -93,6 +93,7 @@ namespace Contract.DTO.Domain.Runtime
     public class OwnershipInstanceDTO : ComponentInstanceDTO
     {
         public string UserID { get; set; } = string.Empty;
+        public string PersonalRoomID { get; set; } = string.Empty;
     }
 
     public class TransformInstanceDTO : ComponentInstanceDTO

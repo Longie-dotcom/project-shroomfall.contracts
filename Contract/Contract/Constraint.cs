@@ -1,4 +1,6 @@
-﻿namespace Contract
+﻿using System.Collections.Generic;
+
+namespace Contract
 {
     public static class Constraint
     {
@@ -13,5 +15,9 @@
         public const string ADMIN_REALTIME_GROUP = "Admin";
         public const float RESIDENCY_TICK_PER_SECOND = 1f;
         public const float RESIDENCY_REPORT_PER_SECOND = 10f;
+        public static readonly IReadOnlyCollection<string> STATIC_HUB_ROOM_SPATIAL_IDS = new HashSet<string>
+        {
+            "hub.village",
+        };
     }
 }

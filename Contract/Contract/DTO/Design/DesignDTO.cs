@@ -46,7 +46,7 @@ namespace Contract.DTO.Design
         public List<CellDefinitionDTO> Cells { get; set; } = new List<CellDefinitionDTO>();
         public List<EntitySpawnRuleDefinitionDTO> EntitySpawnRules { get; set; } = new List<EntitySpawnRuleDefinitionDTO>();
         public List<RoomDefinitionDTO> Rooms { get; set; } = new List<RoomDefinitionDTO>();
-        public List<RoomConnectionDefinitionDTO> RoomConnections { get; set; } = new List<RoomConnectionDefinitionDTO>();
+        public List<CombatRunDefinitionDTO> CombatRuns { get; set; } = new List<CombatRunDefinitionDTO>();
 
         public List<LocaleDTO> Locales { get; set; } = new List<LocaleDTO>();
     }
