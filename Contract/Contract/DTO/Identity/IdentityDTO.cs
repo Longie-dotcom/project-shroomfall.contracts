@@ -14,7 +14,6 @@ namespace Contract.DTO.Identity
         public string ID { get; set; } = string.Empty;
         public Role Role { get; set; }
         public string Name { get; set; } = string.Empty;
-        public string PreferredLocale { get; set; } = string.Empty;
         public DateTime? Dob { get; set; }
         public string? Gender { get; set; }
         public string? Email { get; set; }

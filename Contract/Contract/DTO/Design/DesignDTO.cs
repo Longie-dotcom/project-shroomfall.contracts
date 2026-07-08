@@ -50,12 +50,4 @@ namespace Contract.DTO.Design
 
         public List<LocaleDTO> Locales { get; set; } = new List<LocaleDTO>();
     }
-
-#if NET9_0
-    [ExportTsInterface(OutputDir = "design/responses")]
-#endif
-    public class ExistLocalesDTO
-    {
-        public List<LocaleDTO> Locales { get; set; } = new List<LocaleDTO>();
-    }
 }

@@ -13,7 +13,6 @@ namespace Contract.DTO.Identity
     {
         public string SteamTicket { get; set; } = string.Empty;
         public string? SteamName { get; set; }
-        public string PreferredLocale { get; set; } = string.Empty;
     }
 
 #if NET9_0
@@ -24,7 +23,6 @@ namespace Contract.DTO.Identity
         public string Email { get; set; } = string.Empty;
         public string Password { get; set; } = string.Empty;
         public string Name { get; set; } = string.Empty;
-        public string PreferredLocale { get; set; } = string.Empty;
     }
 
 #if NET9_0
