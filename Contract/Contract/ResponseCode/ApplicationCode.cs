@@ -176,6 +176,8 @@
             public static string RoomDefinitionNotFound = Format("room-definition-not-found");
             public static string NoSpawnCellFound = Format("no-spawn-cell-found");
             public static string SpawnRuleMissing = Format("spawn-rule-missing");
+            public static string TransformComponentMissing = Format("transform-component-missing");
+            public static string CollisionComponentMissing = Format("collision-component-missing");
         }
 
         public static class PartyServiceCode
