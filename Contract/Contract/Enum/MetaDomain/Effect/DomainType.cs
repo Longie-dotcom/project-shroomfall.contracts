@@ -5,7 +5,7 @@ using TypeGen.Core.TypeAnnotations;
 namespace Contract.Enum.MetaDomain.Effect
 {
 #if NET9_0
-    [ExportTsEnum(OutputDir = "enums/meta/effect")]
+    [ExportTsEnum(OutputDir = "enum/meta-domain/effect")]
 #endif
     public enum DomainType
     {

@@ -1,4 +1,0 @@
-﻿namespace Contract.DTO.Admin
-{
-
-}

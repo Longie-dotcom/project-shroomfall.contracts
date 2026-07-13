@@ -123,10 +123,11 @@
         {
             private static string Format(string problem) => Code("connection-manager", problem);
 
+            public static string ConnectionAlreadyExists = Format("connection-already-exists");
+            public static string ConnectionNotFound = Format("connection-not-found");
+            public static string ConnectionMismatch = Format("connection-mismatch");
             public static string ConnectionAdded = Format("connection-added");
             public static string ConnectionRemoved = Format("connection-removed");
-            public static string WatchStatusOnline = Format("watch-status-online");
-            public static string WatchStatusOffline = Format("watch-status-offline");
         }
 
         public static class SessionManagerCode
@@ -144,6 +145,13 @@
 
             public static string UserIdNotFound = Format("user-id-not-found");
             public static string ConnectionIdNotFound = Format("connection-id-not-found");
+        }
+
+        public static class PlayerCharacteristicSyncHandlerCode
+        {
+            private static string Format(string problem) => Code("player-characteristic-sync-handler", problem);
+
+            public static string ConnectionNotFound = Format("connection-not-found");
         }
         #endregion
 

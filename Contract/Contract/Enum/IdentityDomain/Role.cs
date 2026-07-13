@@ -5,7 +5,7 @@ using TypeGen.Core.TypeAnnotations;
 namespace Contract.Enum.IdentityDomain
 {
 #if NET9_0
-    [ExportTsEnum(OutputDir = "enums/identity")]
+    [ExportTsEnum(OutputDir = "enum/identity-domain")]
 #endif
     public enum Role
     {

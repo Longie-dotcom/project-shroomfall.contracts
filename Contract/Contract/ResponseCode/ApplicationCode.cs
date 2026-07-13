@@ -24,9 +24,7 @@
             public static string UnloadSessionPlayerInstanceNotFound = Format("unload-session-player-instance-not-found");
             public static string UnloadSessionTransformMissing = Format("unload-session-transform-missing");
             public static string LoadSessionAlreadyExisted = Format("load-session-already-existed");
-            public static string LoadSessionPlayerNotFoundInPersistence = Format("load-session-player-not-found-in-persistence");
             public static string LoadSessionUnauthorizedPlayer = Format("load-session-unauthorized-player");
-            public static string LoadSessionOwnershipMissing = Format("load-session-ownership-missing");
         }
 
         public static class DesignHandlerCode
@@ -41,6 +39,8 @@
             public static string RoomFilePayloadEmpty = Format("room-file-payload-empty");
             public static string RoomFileInvalidJson = Format("room-file-invalid-json");
             public static string RoomFileSchemaParseFailed = Format("room-file-schema-parse-failed");
+            public static string ItemCategoryConfigMissing = Format("item-category-config-missing");
+            public static string ItemCategoryConfigConflict = Format("item-category-config-conflict");
         }
 
         public static class GameHandlerCode
@@ -57,8 +57,6 @@
             public static string UpdateAppearancePlayerInstanceNotFound = Format("update-appearance-player-instance-not-found");
             public static string UpdateAppearanceComponentMissing = Format("update-appearance-component-missing");
             public static string UpdateAppearanceTransformMissing = Format("update-appearance-transform-missing");
-            public static string UnequipItemSessionNotFound = Format("unequip-item-session-not-found");
-            public static string UnequipItemPlayerInstanceNotFound = Format("unequip-item-player-instance-not-found");
             public static string EnterHubInvalidHubRoom = Format("enter-hub-invalid-hub-room");
             public static string EnterHubSessionNotFound = Format("enter-hub-session-not-found");
             public static string EnterHubPlayerInstanceNotFound = Format("enter-hub-player-instance-not-found");
@@ -81,10 +79,18 @@
             public static string LoginPasswordRequired = Format("login-password-required");
             public static string LoginInvalidCredentials = Format("login-invalid-credentials");
         }
+
+        public static class DispatcherCode
+        {
+            private static string Format(string problem) => Code("dispatcher", problem);
+
+            public static string HandlerWithResponseInvoked = Format("handler-with-response-invoked");
+            public static string HandlerInvoked = Format("handler-invoked");
+        }
         #endregion
 
         #region Services
-        // Item Service
+        // Usage Service
         public static class InventoryServiceCode
         {
             private static string Format(string problem) => Code("inventory-service", problem);
@@ -101,17 +107,14 @@
             public static string CanAddItemDefinitionNotFound = Format("can-add-item-definition-not-found");
         }
 
-        public static class ItemUsageServiceCode
+        public static class ItemServiceCode
         {
-            private static string Format(string problem) => Code("item-usage-service", problem);
+            private static string Format(string problem) => Code("item-service", problem);
 
-            public static string EquipEquipmentMissing = Format("equip-equipment-missing");
-            public static string ExecuteEntityMissingTransform = Format("execute-entity-missing-transform");
-            public static string EquipInvalidItem = Format("equip-invalid-item");
-            public static string EquipSlotOccupied = Format("equip-slot-occupied");
-            public static string UnequipInventoryFull = Format("unequip-inventory-full");
-            public static string UnequipItemDefinitionNotFound = Format("unequip-item-definition-not-found");
-            public static string UnequipTransactionFailed = Format("unequip-transaction-failed");
+            public static string PlaceableMissingTransform = Format("placeable-missing-transform");
+            public static string RangedMissingTransform = Format("ranged-missing-transform");
+            public static string MeleeMissingTransform = Format("melee-missing-transform");
+            public static string UnsupportedActionType = Format("unsupported-action-type");
         }
 
         // World Service
@@ -133,13 +136,9 @@
             public static string AIDefinitionNotFound = Format("ai-definition-not-found");
             public static string CollisionDefinitionNotFound = Format("collision-definition-not-found");
             public static string ProjectileDefinitionNotFound = Format("projectile-definition-not-found");
-        }
-
-        public static class DefinitionComponentFactoryCode
-        {
-            private static string Format(string problem) => Code("definition-component-factory", problem);
-
-            public static string ComponentDefinitionNotSupported = Format("component-definition-not-supported");
+            public static string LifetimeDefinitionNotFound = Format("lifetime-definition-not-found");
+            public static string TriggeredEffectDefinitionNotFound = Format("triggered-effect-definition-not-found");
+            public static string ItemDefinitionNotFound = Format("item-definition-not-found");
         }
 
         public static class EntityInstanceFactoryCode
@@ -174,10 +173,9 @@
             private static string Format(string problem) => Code("initialization-service", problem);
 
             public static string RoomDefinitionNotFound = Format("room-definition-not-found");
-            public static string NoSpawnCellFound = Format("no-spawn-cell-found");
-            public static string SpawnRuleMissing = Format("spawn-rule-missing");
             public static string TransformComponentMissing = Format("transform-component-missing");
             public static string CollisionComponentMissing = Format("collision-component-missing");
+            public static string NoSpawnCellFound = Format("no-spawn-cell-found");
         }
 
         public static class PartyServiceCode
@@ -204,9 +202,10 @@
         {
             private static string Format(string problem) => Code("residency-service", problem);
 
+            public static string PlayerNotFoundInSystem = Format("player-not-found-in-system");
             public static string RoomSnapshotPersistenceFailed = Format("room-snapshot-persistence-failed");
             public static string RoomSpatialNotFoundInRuntime = Format("room-spatial-not-found-in-runtime");
-            public static string RoomSnapshotNotFoundInPersistence = Format("room-snapshot-not-found-in-persistence");
+            public static string RoomInstanceNotFoundInPersistence = Format("room-instance-not-found-in-persistence");
             public static string StateHeartbeatReport = Format("state-heartbeat-report");
         }
         #endregion

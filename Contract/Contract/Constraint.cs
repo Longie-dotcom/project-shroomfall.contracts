@@ -12,6 +12,8 @@ namespace Contract
         public const string DEFAULT_ENTITY_ITEM_DEFINITION_ID = "entity.default_item";
         public const int DEFAULT_CHARACTERISTIC_LEVEL = 1;
         public const int CHUNK_SIZE = 16;
+        public const int ITEM_DEGRADED_VALUE = 1;
+        public const int ITEM_DEDUCTED_VALUE = 1;
 
         // Ticking constraints
         public const float RESIDENCY_TICK_PER_SECOND = 1f;

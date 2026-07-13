@@ -61,6 +61,13 @@
         {
             private static string Format(string problem) => Code("inventory-instance", problem);
 
+            public static string EquippedItemNotExistInInventory = Format("equipped-item-not-exist-in-inventory");
+        }
+
+        public static class ItemInstanceCode
+        {
+            private static string Format(string problem) => Code("item-instance", problem);
+
             public static string AddAmountInvalid = Format("add-amount-invalid");
             public static string RemoveAmountInvalid = Format("remove-amount-invalid");
             public static string InsufficientItemAmount = Format("insufficient-item-amount");
@@ -71,7 +78,6 @@
             private static string Format(string problem) => Code("spatial-index", problem);
 
             public static string RoomSpatialNotFoundOnEntityAdded = Format("room-spatial-not-found-on-entity-added");
-            public static string RoomSpatialNotFoundOnEntityRemoved = Format("room-spatial-not-found-on-entity-removed");
             public static string RoomSpatialNotFoundOnEntityMoved = Format("room-spatial-not-found-on-entity-moved");
         }
 
@@ -79,7 +85,6 @@
         {
             private static string Format(string problem) => Code("world", problem);
 
-            public static string EntityInstanceNotFoundOnRemoved = Format("entity-instance-not-found-on-removed");
             public static string EntityInstanceNotFoundOnMoved = Format("entity-instance-not-found-on-moved");
             public static string EntityInstanceNotFoundOnRoomChanged = Format("entity-instance-not-found-on-room-changed");
         }

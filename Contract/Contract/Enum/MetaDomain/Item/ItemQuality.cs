@@ -5,7 +5,7 @@ using TypeGen.Core.TypeAnnotations;
 namespace Contract.Enum.MetaDomain.Item
 {
 #if NET9_0
-    [ExportTsEnum(OutputDir = "enums/meta/item")]
+    [ExportTsEnum(OutputDir = "enum/meta-domain/item")]
 #endif
     public enum ItemQuality
     {

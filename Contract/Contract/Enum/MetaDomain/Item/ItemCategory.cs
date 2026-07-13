@@ -5,29 +5,26 @@ using TypeGen.Core.TypeAnnotations;
 namespace Contract.Enum.MetaDomain.Item
 {
 #if NET9_0
-    [ExportTsEnum(OutputDir = "enums/meta/item")]
+    [ExportTsEnum(OutputDir = "enum/meta-domain/item")]
 #endif
     public enum ItemCategory
     {
-        // Equippable 
+        // Equippable (Armor, Accessories)
         Equippable,
 
-        // Material
+        // Material (Resources, crafting components)
         Material,
 
-        // Consumable
+        // Consumable (Potions, food)
         Consumable,
 
-        // Placeable
+        // Placeable (Desired world position)
         Placeable,
 
-        // RangedWeapon
-        RangedWeapon,
+        // Ranged (Merged RangedWeapon and ThrowableWeapon, using desired direction/velocity)
+        Ranged,
 
-        // MeleeWeapon
-        MeleeWeapon,
-
-        // ThrowableWeapon
-        ThrowableWeapon,
+        // Melee (Using entity melee/ranged characteristics)
+        Melee
     }
 }

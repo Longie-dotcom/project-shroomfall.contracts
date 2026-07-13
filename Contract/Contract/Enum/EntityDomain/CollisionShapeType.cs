@@ -5,7 +5,7 @@ using TypeGen.Core.TypeAnnotations;
 namespace Contract.Enum.EntityDomain
 {
 #if NET9_0
-    [ExportTsEnum(OutputDir = "enums/entity")]
+    [ExportTsEnum(OutputDir = "enum/entity-domain")]
 #endif
     public enum CollisionShapeType
     {

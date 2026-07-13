@@ -5,7 +5,7 @@ using TypeGen.Core.TypeAnnotations;
 namespace Contract.Enum.WorldDomain
 {
 #if NET9_0
-    [ExportTsEnum(OutputDir = "enums/world")]
+    [ExportTsEnum(OutputDir = "enum/world-domain")]
 #endif
     public enum CellType
     {
