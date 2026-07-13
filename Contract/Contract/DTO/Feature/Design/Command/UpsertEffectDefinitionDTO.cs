@@ -10,7 +10,7 @@ namespace Contract.DTO.Feature.Design.Command
 #endif
     public class UpsertEffectDefinitionDTO
     {
-        public string ID { get; set; } = string.Empty;
+        public string Id { get; set; } = string.Empty;
         public EffectType Type { get; set; }
         public AttributeType AttributeType { get; set; }
 #if NET9_0

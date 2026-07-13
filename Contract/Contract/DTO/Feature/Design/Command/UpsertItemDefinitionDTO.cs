@@ -12,7 +12,7 @@ namespace Contract.DTO.Feature.Design.Command
 #endif
     public class UpsertItemDefinitionDTO
     {
-        public string ID { get; set; } = string.Empty;
+        public string Id { get; set; } = string.Empty;
         public ItemType Type { get; set; }
         public ItemCategory Category { get; set; }
 #if NET9_0

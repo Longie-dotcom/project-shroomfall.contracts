@@ -12,7 +12,7 @@ namespace Contract.DTO.Feature.Design.Command
 #endif
     public class UpsertEntityDefinitionDTO
     {
-        public string ID { get; set; } = string.Empty;
+        public string Id { get; set; } = string.Empty;
         public EntityType Type { get; set; }
         public List<ComponentDefinitionDTO> Components { get; set; } = new List<ComponentDefinitionDTO>();
     }
