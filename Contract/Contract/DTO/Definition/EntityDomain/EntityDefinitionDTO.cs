@@ -13,8 +13,12 @@ namespace Contract.DTO.Definition.EntityDomain.Component
 #endif
     public class EntityDefinitionDTO
     {
-        public string ID { get; set; } = string.Empty;
+        public string Id { get; set; } = string.Empty;
         public EntityType Type { get; set; }
+        public List<ComponentDefinitionDTO> Components { get; set; } = new List<ComponentDefinitionDTO>();
+#if NET9_0
+        [TsOptional]
+#endif
         public EntityPresentationDefinitionDTO Presentation { get; set; } = new EntityPresentationDefinitionDTO();
     }
 
@@ -24,17 +28,9 @@ namespace Contract.DTO.Definition.EntityDomain.Component
     public class EntityPresentationDefinitionDTO
     {
         public LocalizedTextDTO LocalizedText { get; set; } = new LocalizedTextDTO();
-        public string? IconID { get; set; } = string.Empty;
-    }
-
 #if NET9_0
-    [ExportTsInterface(OutputDir = "dto/definition/entity-domain")]
+        [TsOptional]
 #endif
-    public class EntityDefinitionDetailDTO
-    {
-        public string ID { get; set; } = string.Empty;
-        public EntityType Type { get; set; }
-        public EntityPresentationDefinitionDTO Presentation { get; set; } = new EntityPresentationDefinitionDTO();
-        public List<ComponentDefinitionDTO> Components { get; set; } = new List<ComponentDefinitionDTO>();
+        public string? IconID { get; set; } = string.Empty;
     }
 }

@@ -11,13 +11,25 @@ namespace Contract.DTO.Definition.MetaDomain
 #endif
     public class EffectDefinitionDTO
     {
-        public string ID { get; set; } = string.Empty;
+        public string Id { get; set; } = string.Empty;
         public EffectType Type { get; set; }
         public AttributeType AttributeType { get; set; }
+#if NET9_0
+        [TsOptional]
+#endif
         public AttributeType? SourceType { get; set; }
         public float Value { get; set; }
+#if NET9_0
+        [TsOptional]
+#endif
         public float? Duration { get; set; }
+#if NET9_0
+        [TsOptional]
+#endif
         public float? Interval { get; set; }
+#if NET9_0
+        [TsOptional]
+#endif
         public EffectPresentationDefinitionDTO Presentation { get; set; } = new EffectPresentationDefinitionDTO();
     }
 
@@ -27,6 +39,9 @@ namespace Contract.DTO.Definition.MetaDomain
     public class EffectPresentationDefinitionDTO
     {
         public LocalizedTextDTO LocalizedText { get; set; } = new LocalizedTextDTO();
+#if NET9_0
+        [TsOptional]
+#endif
         public string? IconID { get; set; } = string.Empty;
     }
 }

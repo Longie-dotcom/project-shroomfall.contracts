@@ -14,18 +14,45 @@ namespace Contract.DTO.Definition.MetaDomain
 #endif
     public class ItemDefinitionDTO
     {
-        public string ID { get; set; } = string.Empty;
+        public string Id { get; set; } = string.Empty;
         public ItemType Type { get; set; }
         public ItemCategory Category { get; set; }
+#if NET9_0
+        [TsOptional]
+#endif
         public int? MaxStack { get; set; }
+#if NET9_0
+        [TsOptional]
+#endif
         public int? MaxDurability { get; set; }
+#if NET9_0
+        [TsOptional]
+#endif
         public EntityAction? TriggeredAction { get; set; }
+#if NET9_0
+        [TsOptional]
+#endif
         public ItemPresentationDefinitionDTO Presentation { get; set; } = new ItemPresentationDefinitionDTO();
 
+#if NET9_0
+        [TsOptional]
+#endif
         public ConsumableConfigDTO? ConsumableConfig { get; set; }
+#if NET9_0
+        [TsOptional]
+#endif
         public EquippableConfigDTO? EquippableConfig { get; set; }
+#if NET9_0
+        [TsOptional]
+#endif
         public PlaceableConfigDTO? PlaceableConfig { get; set; }
+#if NET9_0
+        [TsOptional]
+#endif
         public RangedConfigDTO? RangedConfig { get; set; }
+#if NET9_0
+        [TsOptional]
+#endif
         public MeleeConfigDTO? MeleeConfig { get; set; }
 
         public CostConfigDTO CostConfig { get; set; } = new CostConfigDTO();
@@ -37,6 +64,9 @@ namespace Contract.DTO.Definition.MetaDomain
     public class ItemPresentationDefinitionDTO
     {
         public LocalizedTextDTO LocalizedText { get; set; } = new LocalizedTextDTO();
+#if NET9_0
+        [TsOptional]
+#endif
         public string? IconID { get; set; } = string.Empty;
     }
 
