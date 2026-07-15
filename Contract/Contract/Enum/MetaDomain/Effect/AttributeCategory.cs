@@ -11,7 +11,8 @@ namespace Contract.Enum.MetaDomain.Effect
     {
         Health,
         Energy,
-        Offensive,
+        OffensiveHealth,
+        OffensiveEnergy,
         Defensive,
         Utility,
     }

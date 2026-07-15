@@ -16,6 +16,14 @@ namespace Contract.Enum.MetaDomain.Effect
         Health,
         Energy,
 
+        // Offensive
+        PhysicalDamage,
+        FireDamage,
+        IceDamage,
+        EarthDamage,
+        DarkDamage,
+        LightDamage,
+
         // ============================================================
         // Domain: Core
         // ============================================================
