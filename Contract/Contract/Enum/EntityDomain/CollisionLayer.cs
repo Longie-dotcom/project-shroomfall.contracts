@@ -17,7 +17,6 @@ namespace Contract.Enum.EntityDomain
         Enemy = 1 << 2,  // 4  - Monsters, bosses, bad guys
         PlayerProjectile = 1 << 3,  // 8  - Fireballs, arrows shot by players
         EnemyProjectile = 1 << 4,  // 16 - Spells, bullets shot by enemies
-        TriggerZone = 1 << 5,  // 32 - Spike traps, area-of-effect clouds, town doors
-        Collectible = 1 << 6   // 64 - Gold coins, potions, mushroom drops
+        Collectible = 1 << 5   // 32 - Gold coins, potions, mushroom drops
     }
 }
