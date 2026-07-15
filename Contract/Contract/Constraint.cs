@@ -14,6 +14,7 @@ namespace Contract
         public const int CHUNK_SIZE = 16;
         public const int ITEM_DEGRADED_VALUE = 1;
         public const int ITEM_DEDUCTED_VALUE = 1;
+        public const int ITEM_COOLDOWN_VALUE = 5;
 
         // Ticking constraints
         public const float RESIDENCY_TICK_PER_SECOND = 1f;

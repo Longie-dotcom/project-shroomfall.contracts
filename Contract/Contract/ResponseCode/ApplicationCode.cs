@@ -95,13 +95,8 @@
         {
             private static string Format(string problem) => Code("inventory-service", problem);
 
-            public static string TransferSourceInventoryMissing = Format("transfer-source-inventory-missing");
-            public static string AddTargetInventoryMissing = Format("add-target-inventory-missing");
-            public static string AddInventoryDefinitionNotFound = Format("add-inventory-definition-not-found");
-            public static string AddItemDefinitionNotFound = Format("add-item-definition-not-found");
+            public static string DropSourceInventoryMissing = Format("drop-source-inventory-missing");
             public static string RemoveTargetInventoryMissing = Format("remove-target-inventory-missing");
-            public static string RemoveItemNotFound = Format("remove-item-not-found");
-            public static string DeductTargetInventoryMissing = Format("deduct-target-inventory-missing");
             public static string CanAddTargetInventoryMissing = Format("can-add-target-inventory-missing");
             public static string CanAddInventoryDefinitionNotFound = Format("can-add-inventory-definition-not-found");
             public static string CanAddItemDefinitionNotFound = Format("can-add-item-definition-not-found");
@@ -165,7 +160,6 @@
             public static string ActivateTransformMissing = Format("activate-transform-missing");
             public static string TransitionTransformMissing = Format("transition-transform-missing");
             public static string SpawnEntityCreationFailed = Format("spawn-entity-creation-failed");
-            public static string DespawnEntityMissing = Format("despawn-entity-missing");
         }
 
         public static class InitializationServiceCode

@@ -14,10 +14,6 @@ namespace Contract.DTO.Definition.MetaDomain
         public string Id { get; set; } = string.Empty;
         public EffectType Type { get; set; }
         public AttributeType AttributeType { get; set; }
-#if NET9_0
-        [TsOptional]
-#endif
-        public AttributeType? SourceType { get; set; }
         public float Value { get; set; }
 #if NET9_0
         [TsOptional]

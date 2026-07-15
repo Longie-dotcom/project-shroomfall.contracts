@@ -13,7 +13,6 @@ namespace Contract.DTO.Feature.Design.Command
         public string? SearchTerm { get; set; }
         public EffectType? Type { get; set; }
         public AttributeType? AttributeType { get; set; }
-        public AttributeType? SourceType { get; set; }
         public int PageNumber { get; set; } = 1;
         public int PageSize { get; set; } = 10;
     }

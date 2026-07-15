@@ -1,4 +1,4 @@
-﻿#if NET9_0 
+﻿#if NET9_0
 using TypeGen.Core.TypeAnnotations;
 #endif
 
@@ -9,31 +9,48 @@ namespace Contract.Enum.MetaDomain.Effect
 #endif
     public enum AttributeType
     {
-        // ───────── Combat ─────────
-        AttackDamage,
+        // ============================================================
+        // Domain: Vital
+        // ============================================================
+
+        Health,
+        Energy,
+
+        // ============================================================
+        // Domain: Core
+        // ============================================================
+
+        // Offensive
+        PhysicalPower,
         FirePower,
         IcePower,
         EarthPower,
         DarkPower,
         LightPower,
 
-        // ───────── Resistance ─────────
-        DamageResistance,
+        PhysicalPenetration,
+        FirePenetration,
+        IcePenetration,
+        EarthPenetration,
+        DarkPenetration,
+        LightPenetration,
+
+        LifeSteal,
+
+        // Defensive
+        PhysicalResistance,
         FireResistance,
         IceResistance,
         EarthResistance,
         DarkResistance,
         LightResistance,
 
-        // ───────── Utility ─────────
-        MoveSpeed,
-        AttackSpeed,
-        AttackRange,
-        Lucky,
+        BlockChance,
 
-        // ───────── Vital System ─────────
-        Health,
-        Stamina,
-        Energy,
+        // Utility
+        MoveSpeed,
+        CriticalChance,
+        CooldownReduction,
+        Lucky,
     }
 }

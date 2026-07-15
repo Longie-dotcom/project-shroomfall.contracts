@@ -9,7 +9,6 @@ namespace Contract.Enum.EntityDomain
 #endif
     public enum EntityType
     {
-        AreaEffect,
         Portal,
         Projectile,
         WorldObject,

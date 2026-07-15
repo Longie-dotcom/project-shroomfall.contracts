@@ -15,6 +15,6 @@ namespace Contract.DTO.Feature.Game.Response
         public float Y { get; set; }
         public EntityDirection Direction { get; set; }
         public EntityAction Action { get; set; }
-        public string? UsedItemDefinitionDTO { get; set; } = string.Empty;
+        public string? UsedItemDefinitionID { get; set; } = string.Empty;
     }
 }

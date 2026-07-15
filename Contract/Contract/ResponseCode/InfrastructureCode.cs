@@ -146,13 +146,6 @@
             public static string UserIdNotFound = Format("user-id-not-found");
             public static string ConnectionIdNotFound = Format("connection-id-not-found");
         }
-
-        public static class PlayerCharacteristicSyncHandlerCode
-        {
-            private static string Format(string problem) => Code("player-characteristic-sync-handler", problem);
-
-            public static string ConnectionNotFound = Format("connection-not-found");
-        }
         #endregion
 
         #region Repository

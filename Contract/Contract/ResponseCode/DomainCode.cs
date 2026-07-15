@@ -57,22 +57,6 @@
             public static string NotACoreAttribute = Format("not-a-core-attribute");
         }
 
-        public static class InventoryInstanceCode
-        {
-            private static string Format(string problem) => Code("inventory-instance", problem);
-
-            public static string EquippedItemNotExistInInventory = Format("equipped-item-not-exist-in-inventory");
-        }
-
-        public static class ItemInstanceCode
-        {
-            private static string Format(string problem) => Code("item-instance", problem);
-
-            public static string AddAmountInvalid = Format("add-amount-invalid");
-            public static string RemoveAmountInvalid = Format("remove-amount-invalid");
-            public static string InsufficientItemAmount = Format("insufficient-item-amount");
-        }
-
         public static class SpatialIndexCode
         {
             private static string Format(string problem) => Code("spatial-index", problem);

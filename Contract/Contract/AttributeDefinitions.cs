@@ -5,43 +5,50 @@ namespace Contract
 {
     public static class AttributeLocalizationKeys
     {
-        public const string AttackDamage = "attr_attack_damage";
+        // Offensive
+        public const string PhysicalPower = "attr_physical_power";
         public const string FirePower = "attr_fire_power";
         public const string IcePower = "attr_ice_power";
         public const string EarthPower = "attr_earth_power";
         public const string DarkPower = "attr_dark_power";
         public const string LightPower = "attr_light_power";
 
-        public const string DamageResistance = "attr_damage_resistance";
+        public const string PhysicalPenetration = "attr_physical_penetration";
+        public const string FirePenetration = "attr_fire_penetration";
+        public const string IcePenetration = "attr_ice_penetration";
+        public const string EarthPenetration = "attr_earth_penetration";
+        public const string DarkPenetration = "attr_dark_penetration";
+        public const string LightPenetration = "attr_light_penetration";
+
+        public const string LifeSteal = "attr_life_steal";
+
+        // Defensive
+        public const string PhysicalResistance = "attr_physical_resistance";
         public const string FireResistance = "attr_fire_resistance";
         public const string IceResistance = "attr_ice_resistance";
         public const string EarthResistance = "attr_earth_resistance";
         public const string DarkResistance = "attr_dark_resistance";
         public const string LightResistance = "attr_light_resistance";
 
-        public const string MoveSpeed = "attr_move_speed";
-        public const string Lucky = "attr_luck";
-        public const string AttackSpeed = "attr_attack_speed";
-        public const string AttackRange = "attr_attack_range";
+        public const string BlockChance = "attr_block_chance";
 
+        // Utility
+        public const string MoveSpeed = "attr_move_speed";
+        public const string CriticalChance = "attr_critical_chance";
+        public const string CooldownReduction = "attr_cooldown_reduction";
+        public const string Lucky = "attr_lucky";
+
+        // Vital
         public const string Health = "attr_health";
-        public const string Stamina = "attr_stamina";
         public const string Energy = "attr_energy";
     }
 
     public class AttributeDefinition
     {
-        #region Attributes
-        #endregion
-
-        #region Properties
         public AttributeType Type { get; set; }
         public string LocalizationKey { get; set; } = string.Empty;
-        public DomainType DomainType { get; set; }
-        #endregion
-
-        #region Methods
-        #endregion
+        public DomainType DomainType { get; set; } // Storage
+        public AttributeCategory Category { get; set; } // Semantic usage
     }
 
     public static class AttributeDefinitions
@@ -52,51 +59,92 @@ namespace Contract
         {
             map = new Dictionary<AttributeType, AttributeDefinition>
             {
-                // ───────── Combat ─────────
-                [AttributeType.AttackDamage] = CreateCore(AttributeType.AttackDamage, AttributeLocalizationKeys.AttackDamage),
-                [AttributeType.FirePower] = CreateCore(AttributeType.FirePower, AttributeLocalizationKeys.FirePower),
-                [AttributeType.IcePower] = CreateCore(AttributeType.IcePower, AttributeLocalizationKeys.IcePower),
-                [AttributeType.EarthPower] = CreateCore(AttributeType.EarthPower, AttributeLocalizationKeys.EarthPower),
-                [AttributeType.DarkPower] = CreateCore(AttributeType.DarkPower, AttributeLocalizationKeys.DarkPower),
-                [AttributeType.LightPower] = CreateCore(AttributeType.LightPower, AttributeLocalizationKeys.LightPower),
+                // ============================================================
+                // Vital
+                // ============================================================
 
-                // ───────── Resistance ─────────
-                [AttributeType.DamageResistance] = CreateCore(AttributeType.DamageResistance, AttributeLocalizationKeys.DamageResistance),
-                [AttributeType.FireResistance] = CreateCore(AttributeType.FireResistance, AttributeLocalizationKeys.FireResistance),
-                [AttributeType.IceResistance] = CreateCore(AttributeType.IceResistance, AttributeLocalizationKeys.IceResistance),
-                [AttributeType.EarthResistance] = CreateCore(AttributeType.EarthResistance, AttributeLocalizationKeys.EarthResistance),
-                [AttributeType.DarkResistance] = CreateCore(AttributeType.DarkResistance, AttributeLocalizationKeys.DarkResistance),
-                [AttributeType.LightResistance] = CreateCore(AttributeType.LightResistance, AttributeLocalizationKeys.LightResistance),
+                [AttributeType.Health] = CreateVital(
+                    AttributeType.Health,
+                    AttributeCategory.Health,
+                    AttributeLocalizationKeys.Health),
 
-                // ───────── Utility ─────────
-                [AttributeType.MoveSpeed] = CreateCore(AttributeType.MoveSpeed, AttributeLocalizationKeys.MoveSpeed),
-                [AttributeType.Lucky] = CreateCore(AttributeType.Lucky, AttributeLocalizationKeys.Lucky),
-                [AttributeType.AttackSpeed] = CreateCore(AttributeType.AttackSpeed, AttributeLocalizationKeys.AttackSpeed),
-                [AttributeType.AttackRange] = CreateCore(AttributeType.AttackRange, AttributeLocalizationKeys.AttackRange),
+                [AttributeType.Energy] = CreateVital(
+                    AttributeType.Energy,
+                    AttributeCategory.Energy,
+                    AttributeLocalizationKeys.Energy),
 
-                // ───────── Vital ─────────
-                [AttributeType.Health] = CreateVital(AttributeType.Health, AttributeLocalizationKeys.Health),
-                [AttributeType.Stamina] = CreateVital(AttributeType.Stamina, AttributeLocalizationKeys.Stamina),
-                [AttributeType.Energy] = CreateVital(AttributeType.Energy, AttributeLocalizationKeys.Energy),
+                // ============================================================
+                // Offensive
+                // ============================================================
+
+                [AttributeType.PhysicalPower] = CreateCore(AttributeType.PhysicalPower, AttributeCategory.Offensive, AttributeLocalizationKeys.PhysicalPower),
+                [AttributeType.FirePower] = CreateCore(AttributeType.FirePower, AttributeCategory.Offensive, AttributeLocalizationKeys.FirePower),
+                [AttributeType.IcePower] = CreateCore(AttributeType.IcePower, AttributeCategory.Offensive, AttributeLocalizationKeys.IcePower),
+                [AttributeType.EarthPower] = CreateCore(AttributeType.EarthPower, AttributeCategory.Offensive, AttributeLocalizationKeys.EarthPower),
+                [AttributeType.DarkPower] = CreateCore(AttributeType.DarkPower, AttributeCategory.Offensive, AttributeLocalizationKeys.DarkPower),
+                [AttributeType.LightPower] = CreateCore(AttributeType.LightPower, AttributeCategory.Offensive, AttributeLocalizationKeys.LightPower),
+
+                [AttributeType.PhysicalPenetration] = CreateCore(AttributeType.PhysicalPenetration, AttributeCategory.Offensive, AttributeLocalizationKeys.PhysicalPenetration),
+                [AttributeType.FirePenetration] = CreateCore(AttributeType.FirePenetration, AttributeCategory.Offensive, AttributeLocalizationKeys.FirePenetration),
+                [AttributeType.IcePenetration] = CreateCore(AttributeType.IcePenetration, AttributeCategory.Offensive, AttributeLocalizationKeys.IcePenetration),
+                [AttributeType.EarthPenetration] = CreateCore(AttributeType.EarthPenetration, AttributeCategory.Offensive, AttributeLocalizationKeys.EarthPenetration),
+                [AttributeType.DarkPenetration] = CreateCore(AttributeType.DarkPenetration, AttributeCategory.Offensive, AttributeLocalizationKeys.DarkPenetration),
+                [AttributeType.LightPenetration] = CreateCore(AttributeType.LightPenetration, AttributeCategory.Offensive, AttributeLocalizationKeys.LightPenetration),
+
+                [AttributeType.LifeSteal] = CreateCore(AttributeType.LifeSteal, AttributeCategory.Offensive, AttributeLocalizationKeys.LifeSteal),
+
+                // ============================================================
+                // Defensive
+                // ============================================================
+
+                [AttributeType.PhysicalResistance] = CreateCore(AttributeType.PhysicalResistance, AttributeCategory.Defensive, AttributeLocalizationKeys.PhysicalResistance),
+                [AttributeType.FireResistance] = CreateCore(AttributeType.FireResistance, AttributeCategory.Defensive, AttributeLocalizationKeys.FireResistance),
+                [AttributeType.IceResistance] = CreateCore(AttributeType.IceResistance, AttributeCategory.Defensive, AttributeLocalizationKeys.IceResistance),
+                [AttributeType.EarthResistance] = CreateCore(AttributeType.EarthResistance, AttributeCategory.Defensive, AttributeLocalizationKeys.EarthResistance),
+                [AttributeType.DarkResistance] = CreateCore(AttributeType.DarkResistance, AttributeCategory.Defensive, AttributeLocalizationKeys.DarkResistance),
+                [AttributeType.LightResistance] = CreateCore(AttributeType.LightResistance, AttributeCategory.Defensive, AttributeLocalizationKeys.LightResistance),
+
+                [AttributeType.BlockChance] = CreateCore(AttributeType.BlockChance, AttributeCategory.Defensive, AttributeLocalizationKeys.BlockChance),
+
+                // ============================================================
+                // Utility
+                // ============================================================
+
+                [AttributeType.MoveSpeed] = CreateCore(AttributeType.MoveSpeed, AttributeCategory.Utility, AttributeLocalizationKeys.MoveSpeed),
+                [AttributeType.CriticalChance] = CreateCore(AttributeType.CriticalChance, AttributeCategory.Utility, AttributeLocalizationKeys.CriticalChance),
+                [AttributeType.CooldownReduction] = CreateCore(AttributeType.CooldownReduction, AttributeCategory.Utility, AttributeLocalizationKeys.CooldownReduction),
+                [AttributeType.Lucky] = CreateCore(AttributeType.Lucky, AttributeCategory.Utility, AttributeLocalizationKeys.Lucky),
             };
         }
 
         #region Helper Factory Methods
-        private static AttributeDefinition CreateCore(AttributeType type, string keyName) =>
-            Create(type, DomainType.Core, keyName);
+        private static AttributeDefinition CreateCore(
+            AttributeType type,
+            AttributeCategory category,
+            string localizationKey)
+        {
+            return Create(type, DomainType.Core, category, localizationKey);
+        }
 
-        private static AttributeDefinition CreateVital(AttributeType type, string keyName) =>
-            Create(type, DomainType.Vital, keyName);
+        private static AttributeDefinition CreateVital(
+            AttributeType type,
+            AttributeCategory category,
+            string localizationKey)
+        {
+            return Create(type, DomainType.Vital, category, localizationKey);
+        }
 
         private static AttributeDefinition Create(
             AttributeType type,
             DomainType domainType,
+            AttributeCategory category,
             string localizationKey)
         {
             return new AttributeDefinition
             {
                 Type = type,
                 DomainType = domainType,
+                Category = category,
                 LocalizationKey = localizationKey
             };
         }

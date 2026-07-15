@@ -7,10 +7,10 @@ namespace Contract.Enum.WorldDomain
 #if NET9_0
     [ExportTsEnum(OutputDir = "enum/world-domain")]
 #endif
-    public enum RoomType
+    public enum CombatRunParticipantMode
     {
-        PersonalSpace,
-        PublicSpace,
-        CombatSpace
+        Alive,
+        Spectator,
+        Inactive
     }
 }

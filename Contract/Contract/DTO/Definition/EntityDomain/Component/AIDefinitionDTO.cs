@@ -16,5 +16,7 @@ namespace Contract.DTO.Definition.EntityDomain.Component
         public float AggroRadius { get; set; }
         public float ThinkInterval { get; set; }
         public bool IsAIControlled { get; set; }
+        public string EquippedItemDefinitionID { get; set; } = string.Empty;
+        public float AttackRange { get; set; }
     }
 }
