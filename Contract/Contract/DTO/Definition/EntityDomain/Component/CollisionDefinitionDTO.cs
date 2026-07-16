@@ -13,11 +13,7 @@ namespace Contract.DTO.Definition.EntityDomain.Component
     {
         public CollisionDefinitionDTO() { ComponentType = nameof(CollisionDefinitionDTO); }
 
-#if NET9_0
-        [TsIgnore]
-#endif
-        public CollisionRole? CollisionRole { get; set; }
-
+        public CollisionRole CollisionRole { get; set; }
         public CollisionShapeType ShapeType { get; set; }
         public float Width { get; set; }
         public float Height { get; set; }
