@@ -46,6 +46,17 @@
 
             public static string CanNotDisableDefault = Format("can-not-disable-default");
         }
+
+        public static class EffectDefinitionCode
+        {
+            private static string Format(string problem) => Code("effect-definition", problem);
+
+            public static string DirectTargetingForbidden = Format("direct-targeting-forbidden");
+            public static string DurationNegative = Format("duration-negative");
+            public static string IntervalInvalid = Format("interval-invalid");
+            public static string CoreDomainIntervalNotSupported = Format("core-domain-interval-not-supported");
+            public static string InstantEffectIntervalNotSupported = Format("instant-effect-interval-not-supported");
+        }
         #endregion
 
         #region Runtime

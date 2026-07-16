@@ -5,7 +5,23 @@ namespace Contract
 {
     public static class AttributeLocalizationKeys
     {
-        // Offensive
+        // ============================================================
+        // Domain: Vital
+        // ============================================================
+
+        // Target - Health
+        public const string Health = "attr_health";
+
+        // Target - Energy
+        public const string Energy = "attr_energy";
+
+        // Restorative - Health
+        public const string HealthRestore = "attr_health_restore";
+
+        // Restorative - Energy
+        public const string EnergyRestore = "attr_energy_restore";
+
+        // Offensive - Health
         public const string PhysicalDamage = "attr_physical_damage";
         public const string FireDamage = "attr_fire_damage";
         public const string IceDamage = "attr_ice_damage";
@@ -13,6 +29,14 @@ namespace Contract
         public const string DarkDamage = "attr_dark_damage";
         public const string LightDamage = "attr_light_damage";
 
+        // Offensive - Energy
+        public const string EnergyConsume = "attr_energy_consume";
+
+        // ============================================================
+        // Domain: Core
+        // ============================================================
+
+        // Offensive Support - Health
         public const string PhysicalPower = "attr_physical_power";
         public const string FirePower = "attr_fire_power";
         public const string IcePower = "attr_ice_power";
@@ -28,8 +52,9 @@ namespace Contract
         public const string LightPenetration = "attr_light_penetration";
 
         public const string LifeSteal = "attr_life_steal";
+        public const string CriticalChance = "attr_critical_chance";
 
-        // Defensive
+        // Defensive Support - Health
         public const string PhysicalResistance = "attr_physical_resistance";
         public const string FireResistance = "attr_fire_resistance";
         public const string IceResistance = "attr_ice_resistance";
@@ -41,13 +66,8 @@ namespace Contract
 
         // Utility
         public const string MoveSpeed = "attr_move_speed";
-        public const string CriticalChance = "attr_critical_chance";
         public const string CooldownReduction = "attr_cooldown_reduction";
         public const string Lucky = "attr_lucky";
-
-        // Vital
-        public const string Health = "attr_health";
-        public const string Energy = "attr_energy";
     }
 
     public class AttributeDefinition
@@ -67,184 +87,196 @@ namespace Contract
             map = new Dictionary<AttributeType, AttributeDefinition>
             {
                 // ============================================================
-                // Vital
+                // Domain: Vital
                 // ============================================================
 
+                // Target - Health
                 [AttributeType.Health] = CreateVital(
-                    AttributeType.Health,
-                    AttributeCategory.Health,
-                    AttributeLocalizationKeys.Health),
+                AttributeType.Health,
+                AttributeCategory.TargetHealth,
+                AttributeLocalizationKeys.Health),
 
+                // Target - Energy
                 [AttributeType.Energy] = CreateVital(
-                    AttributeType.Energy,
-                    AttributeCategory.Energy,
-                    AttributeLocalizationKeys.Energy),
+                AttributeType.Energy,
+                AttributeCategory.TargetEnergy,
+                AttributeLocalizationKeys.Energy),
 
-                // ============================================================
-                // Vital - Offensive Health (Effect Attributes)
-                // ============================================================
+                // Restorative - Health
+                [AttributeType.HealthRestore] = CreateVital(
+                AttributeType.HealthRestore,
+                AttributeCategory.RestorativeHealth,
+                AttributeLocalizationKeys.HealthRestore),
 
+                // Restorative - Energy
+                [AttributeType.EnergyRestore] = CreateVital(
+                AttributeType.EnergyRestore,
+                AttributeCategory.RestorativeEnergy,
+                AttributeLocalizationKeys.EnergyRestore),
+
+                // Offensive - Health
                 [AttributeType.PhysicalDamage] = CreateVital(
-                    AttributeType.PhysicalDamage,
-                    AttributeCategory.OffensiveHealth,
-                    AttributeLocalizationKeys.PhysicalDamage),
+                AttributeType.PhysicalDamage,
+                AttributeCategory.OffensiveHealth,
+                AttributeLocalizationKeys.PhysicalDamage),
 
                 [AttributeType.FireDamage] = CreateVital(
-                    AttributeType.FireDamage,
-                    AttributeCategory.OffensiveHealth,
-                    AttributeLocalizationKeys.FireDamage),
+                AttributeType.FireDamage,
+                AttributeCategory.OffensiveHealth,
+                AttributeLocalizationKeys.FireDamage),
 
                 [AttributeType.IceDamage] = CreateVital(
-                    AttributeType.IceDamage,
-                    AttributeCategory.OffensiveHealth,
-                    AttributeLocalizationKeys.IceDamage),
+                AttributeType.IceDamage,
+                AttributeCategory.OffensiveHealth,
+                AttributeLocalizationKeys.IceDamage),
 
                 [AttributeType.EarthDamage] = CreateVital(
-                    AttributeType.EarthDamage,
-                    AttributeCategory.OffensiveHealth,
-                    AttributeLocalizationKeys.EarthDamage),
+                AttributeType.EarthDamage,
+                AttributeCategory.OffensiveHealth,
+                AttributeLocalizationKeys.EarthDamage),
 
                 [AttributeType.DarkDamage] = CreateVital(
-                    AttributeType.DarkDamage,
-                    AttributeCategory.OffensiveHealth,
-                    AttributeLocalizationKeys.DarkDamage),
+                AttributeType.DarkDamage,
+                AttributeCategory.OffensiveHealth,
+                AttributeLocalizationKeys.DarkDamage),
 
                 [AttributeType.LightDamage] = CreateVital(
-                    AttributeType.LightDamage,
-                    AttributeCategory.OffensiveHealth,
-                    AttributeLocalizationKeys.LightDamage),
+                AttributeType.LightDamage,
+                AttributeCategory.OffensiveHealth,
+                AttributeLocalizationKeys.LightDamage),
+
+                // Offensive - Energy
+                [AttributeType.EnergyConsume] = CreateVital(
+                AttributeType.EnergyConsume,
+                AttributeCategory.OffensiveEnergy,
+                AttributeLocalizationKeys.EnergyConsume),
 
                 // ============================================================
-                // Core - Offensive
+                // Domain: Core
                 // ============================================================
 
+                // Offensive Support - Health
                 [AttributeType.PhysicalPower] = CreateCore(
-                    AttributeType.PhysicalPower,
-                    AttributeCategory.OffensiveHealth,
-                    AttributeLocalizationKeys.PhysicalPower),
+                AttributeType.PhysicalPower,
+                AttributeCategory.OffensiveHealth,
+                AttributeLocalizationKeys.PhysicalPower),
 
                 [AttributeType.FirePower] = CreateCore(
-                    AttributeType.FirePower,
-                    AttributeCategory.OffensiveHealth,
-                    AttributeLocalizationKeys.FirePower),
+                AttributeType.FirePower,
+                AttributeCategory.OffensiveHealth,
+                AttributeLocalizationKeys.FirePower),
 
                 [AttributeType.IcePower] = CreateCore(
-                    AttributeType.IcePower,
-                    AttributeCategory.OffensiveHealth,
-                    AttributeLocalizationKeys.IcePower),
+                AttributeType.IcePower,
+                AttributeCategory.OffensiveHealth,
+                AttributeLocalizationKeys.IcePower),
 
                 [AttributeType.EarthPower] = CreateCore(
-                    AttributeType.EarthPower,
-                    AttributeCategory.OffensiveHealth,
-                    AttributeLocalizationKeys.EarthPower),
+                AttributeType.EarthPower,
+                AttributeCategory.OffensiveHealth,
+                AttributeLocalizationKeys.EarthPower),
 
                 [AttributeType.DarkPower] = CreateCore(
-                    AttributeType.DarkPower,
-                    AttributeCategory.OffensiveHealth,
-                    AttributeLocalizationKeys.DarkPower),
+                AttributeType.DarkPower,
+                AttributeCategory.OffensiveHealth,
+                AttributeLocalizationKeys.DarkPower),
 
                 [AttributeType.LightPower] = CreateCore(
-                    AttributeType.LightPower,
-                    AttributeCategory.OffensiveHealth,
-                    AttributeLocalizationKeys.LightPower),
+                AttributeType.LightPower,
+                AttributeCategory.OffensiveHealth,
+                AttributeLocalizationKeys.LightPower),
 
                 [AttributeType.PhysicalPenetration] = CreateCore(
-                    AttributeType.PhysicalPenetration,
-                    AttributeCategory.OffensiveHealth,
-                    AttributeLocalizationKeys.PhysicalPenetration),
+                AttributeType.PhysicalPenetration,
+                AttributeCategory.OffensiveHealth,
+                AttributeLocalizationKeys.PhysicalPenetration),
 
                 [AttributeType.FirePenetration] = CreateCore(
-                    AttributeType.FirePenetration,
-                    AttributeCategory.OffensiveHealth,
-                    AttributeLocalizationKeys.FirePenetration),
+                AttributeType.FirePenetration,
+                AttributeCategory.OffensiveHealth,
+                AttributeLocalizationKeys.FirePenetration),
 
                 [AttributeType.IcePenetration] = CreateCore(
-                    AttributeType.IcePenetration,
-                    AttributeCategory.OffensiveHealth,
-                    AttributeLocalizationKeys.IcePenetration),
+                AttributeType.IcePenetration,
+                AttributeCategory.OffensiveHealth,
+                AttributeLocalizationKeys.IcePenetration),
 
                 [AttributeType.EarthPenetration] = CreateCore(
-                    AttributeType.EarthPenetration,
-                    AttributeCategory.OffensiveHealth,
-                    AttributeLocalizationKeys.EarthPenetration),
+                AttributeType.EarthPenetration,
+                AttributeCategory.OffensiveHealth,
+                AttributeLocalizationKeys.EarthPenetration),
 
                 [AttributeType.DarkPenetration] = CreateCore(
-                    AttributeType.DarkPenetration,
-                    AttributeCategory.OffensiveHealth,
-                    AttributeLocalizationKeys.DarkPenetration),
+                AttributeType.DarkPenetration,
+                AttributeCategory.OffensiveHealth,
+                AttributeLocalizationKeys.DarkPenetration),
 
                 [AttributeType.LightPenetration] = CreateCore(
-                    AttributeType.LightPenetration,
-                    AttributeCategory.OffensiveHealth,
-                    AttributeLocalizationKeys.LightPenetration),
+                AttributeType.LightPenetration,
+                AttributeCategory.OffensiveHealth,
+                AttributeLocalizationKeys.LightPenetration),
 
                 [AttributeType.LifeSteal] = CreateCore(
-                    AttributeType.LifeSteal,
-                    AttributeCategory.OffensiveHealth,
-                    AttributeLocalizationKeys.LifeSteal),
-
-                // ============================================================
-                // Core - Defensive
-                // ============================================================
-
-                [AttributeType.PhysicalResistance] = CreateCore(
-                    AttributeType.PhysicalResistance,
-                    AttributeCategory.Defensive,
-                    AttributeLocalizationKeys.PhysicalResistance),
-
-                [AttributeType.FireResistance] = CreateCore(
-                    AttributeType.FireResistance,
-                    AttributeCategory.Defensive,
-                    AttributeLocalizationKeys.FireResistance),
-
-                [AttributeType.IceResistance] = CreateCore(
-                    AttributeType.IceResistance,
-                    AttributeCategory.Defensive,
-                    AttributeLocalizationKeys.IceResistance),
-
-                [AttributeType.EarthResistance] = CreateCore(
-                    AttributeType.EarthResistance,
-                    AttributeCategory.Defensive,
-                    AttributeLocalizationKeys.EarthResistance),
-
-                [AttributeType.DarkResistance] = CreateCore(
-                    AttributeType.DarkResistance,
-                    AttributeCategory.Defensive,
-                    AttributeLocalizationKeys.DarkResistance),
-
-                [AttributeType.LightResistance] = CreateCore(
-                    AttributeType.LightResistance,
-                    AttributeCategory.Defensive,
-                    AttributeLocalizationKeys.LightResistance),
-
-                [AttributeType.BlockChance] = CreateCore(
-                    AttributeType.BlockChance,
-                    AttributeCategory.Defensive,
-                    AttributeLocalizationKeys.BlockChance),
-
-                // ============================================================
-                // Core - Utility
-                // ============================================================
-
-                [AttributeType.MoveSpeed] = CreateCore(
-                    AttributeType.MoveSpeed,
-                    AttributeCategory.Utility,
-                    AttributeLocalizationKeys.MoveSpeed),
+                AttributeType.LifeSteal,
+                AttributeCategory.OffensiveHealth,
+                AttributeLocalizationKeys.LifeSteal),
 
                 [AttributeType.CriticalChance] = CreateCore(
-                    AttributeType.CriticalChance,
-                    AttributeCategory.Utility,
-                    AttributeLocalizationKeys.CriticalChance),
+                AttributeType.CriticalChance,
+                AttributeCategory.OffensiveHealth,
+                AttributeLocalizationKeys.CriticalChance),
+
+                // Defensive Support - Health
+                [AttributeType.PhysicalResistance] = CreateCore(
+                AttributeType.PhysicalResistance,
+                AttributeCategory.DefensiveHealth,
+                AttributeLocalizationKeys.PhysicalResistance),
+
+                [AttributeType.FireResistance] = CreateCore(
+                AttributeType.FireResistance,
+                AttributeCategory.DefensiveHealth,
+                AttributeLocalizationKeys.FireResistance),
+
+                [AttributeType.IceResistance] = CreateCore(
+                AttributeType.IceResistance,
+                AttributeCategory.DefensiveHealth,
+                AttributeLocalizationKeys.IceResistance),
+
+                [AttributeType.EarthResistance] = CreateCore(
+                AttributeType.EarthResistance,
+                AttributeCategory.DefensiveHealth,
+                AttributeLocalizationKeys.EarthResistance),
+
+                [AttributeType.DarkResistance] = CreateCore(
+                AttributeType.DarkResistance,
+                AttributeCategory.DefensiveHealth,
+                AttributeLocalizationKeys.DarkResistance),
+
+                [AttributeType.LightResistance] = CreateCore(
+                AttributeType.LightResistance,
+                AttributeCategory.DefensiveHealth,
+                AttributeLocalizationKeys.LightResistance),
+
+                [AttributeType.BlockChance] = CreateCore(
+                AttributeType.BlockChance,
+                AttributeCategory.DefensiveHealth,
+                AttributeLocalizationKeys.BlockChance),
+
+                // Utility
+                [AttributeType.MoveSpeed] = CreateCore(
+                AttributeType.MoveSpeed,
+                AttributeCategory.Utility,
+                AttributeLocalizationKeys.MoveSpeed),
 
                 [AttributeType.CooldownReduction] = CreateCore(
-                    AttributeType.CooldownReduction,
-                    AttributeCategory.Utility,
-                    AttributeLocalizationKeys.CooldownReduction),
+                AttributeType.CooldownReduction,
+                AttributeCategory.Utility,
+                AttributeLocalizationKeys.CooldownReduction),
 
                 [AttributeType.Lucky] = CreateCore(
-                    AttributeType.Lucky,
-                    AttributeCategory.Utility,
-                    AttributeLocalizationKeys.Lucky),
+                AttributeType.Lucky,
+                AttributeCategory.Utility,
+                AttributeLocalizationKeys.Lucky),
             };
         }
 

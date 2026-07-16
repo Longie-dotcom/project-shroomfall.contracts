@@ -4,6 +4,26 @@ using TypeGen.Core.TypeAnnotations;
 
 namespace Contract.Enum.MetaDomain.Effect
 {
+    /**
+     * Convention:
+     * - Attributes marked as "Characteristic Only" exist exclusively on
+     *   CharacteristicInstance.
+     * - Attributes marked as "Effect Only" exist exclusively on EffectDefinition.
+     *
+     * Design:
+     * - Domain groups attributes that share the same application pipeline.
+     * - Category defines the role of an attribute within its domain.
+     *
+     * - Vital Domain:
+     *   - Target attributes are the characteristics being modified.
+     *   - Offensive and Restorative attributes are effect attributes that are
+     *     translated into updates for their corresponding target attributes.
+     *
+     * - Core Domain:
+     *   - Attributes are supporting characteristics used to resolve Vital
+     *     effects (e.g. Power, Penetration, Resistance, LifeSteal).
+     */
+
 #if NET9_0
     [ExportTsEnum(OutputDir = "enum/meta-domain/effect")]
 #endif
@@ -13,10 +33,22 @@ namespace Contract.Enum.MetaDomain.Effect
         // Domain: Vital
         // ============================================================
 
+        // Target - Energy - Characteristic Only
         Health,
+
+        // Target - Health - Characteristic Only
         Energy,
 
-        // Offensive
+        // Restorative - Energy - Effect Only
+        EnergyRestore,
+
+        // Offensive - Energy - Effect Only
+        EnergyConsume,
+
+        // Restorative - Health - Effect Only
+        HealthRestore,
+
+        // Offensive - Health - Effect Only
         PhysicalDamage,
         FireDamage,
         IceDamage,
@@ -28,7 +60,7 @@ namespace Contract.Enum.MetaDomain.Effect
         // Domain: Core
         // ============================================================
 
-        // Offensive
+        // Offensive Support - Health
         PhysicalPower,
         FirePower,
         IcePower,
@@ -44,8 +76,9 @@ namespace Contract.Enum.MetaDomain.Effect
         LightPenetration,
 
         LifeSteal,
+        CriticalChance,
 
-        // Defensive
+        // Defensive Support - Health
         PhysicalResistance,
         FireResistance,
         IceResistance,
@@ -57,7 +90,6 @@ namespace Contract.Enum.MetaDomain.Effect
 
         // Utility
         MoveSpeed,
-        CriticalChance,
         CooldownReduction,
         Lucky,
     }

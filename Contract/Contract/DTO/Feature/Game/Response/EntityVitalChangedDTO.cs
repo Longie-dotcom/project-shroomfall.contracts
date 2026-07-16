@@ -13,5 +13,6 @@ namespace Contract.DTO.Feature.Game.Response
         public string EntityInstanceID { get; set; } = string.Empty;
         public AttributeType AttributeType { get; set; }
         public float NewValue { get; set; }
+        public VitalChangeReason VitalChangeReason { get; set; }
     }
 }

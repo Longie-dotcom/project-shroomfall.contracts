@@ -2,19 +2,21 @@
 {
     public enum VitalChangeReason
     {
-        Block,
-
-        Damage,
+        // Health - Restorative
         Heal,
 
-        Poison,
-        Burn,
-        Bleed,
-
+        // Health - Offensive
+        Critical,
+        Damage,
         LifeSteal,
-        Regeneration,
 
-        EnergyConsume,
+        // Health - Defensive
+        Block,
+
+        // Energy - Restorative
         EnergyRestore,
+
+        // Energy - Offensive
+        EnergyConsume,
     }
 }

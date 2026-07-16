@@ -9,11 +9,13 @@ namespace Contract.Enum.MetaDomain.Effect
 #endif
     public enum AttributeCategory
     {
-        Health,
-        Energy,
+        TargetHealth,
+        TargetEnergy,
+        RestorativeHealth,
+        RestorativeEnergy,
         OffensiveHealth,
         OffensiveEnergy,
-        Defensive,
+        DefensiveHealth,
         Utility,
     }
 }
