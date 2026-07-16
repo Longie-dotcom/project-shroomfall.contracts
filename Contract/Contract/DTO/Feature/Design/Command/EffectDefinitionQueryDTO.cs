@@ -10,7 +10,13 @@ namespace Contract.DTO.Feature.Design.Command
 #endif
     public class EffectDefinitionQueryDTO
     {
+#if NET9_0
+        [TsIgnore]
+#endif
         public string? SearchTerm { get; set; }
+#if NET9_0
+        [TsIgnore]
+#endif
         public EffectType? Type { get; set; }
         public AttributeType? AttributeType { get; set; }
         public int PageNumber { get; set; } = 1;

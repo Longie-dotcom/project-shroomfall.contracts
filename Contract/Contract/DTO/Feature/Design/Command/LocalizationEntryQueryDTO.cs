@@ -10,6 +10,9 @@ namespace Contract.DTO.Feature.Design.Command
     public class LocalizationEntryQueryDTO
     {
         public string LocaleCode { get; set; } = Constraint.DEFAULT_LOCALE;
+#if NET9_0
+        [TsIgnore]
+#endif
         public string? SearchTerm { get; set; }
         public int PageNumber { get; set; } = 1;
         public int PageSize { get; set; } = 100;

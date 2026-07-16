@@ -9,7 +9,13 @@ namespace Contract.DTO.Feature.Design.Command
 #endif
     public class UpdateDefinitionDTO
     {
+#if NET9_0
+        [TsIgnore]
+#endif
         public string? Key { get; set; }
+#if NET9_0
+        [TsIgnore]
+#endif
         public string? Description { get; set; }
     }
 }

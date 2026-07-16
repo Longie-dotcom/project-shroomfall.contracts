@@ -10,7 +10,13 @@ namespace Contract.DTO.Feature.Design.Command
 #endif
     public class RoomDefinitionQueryDTO
     {
+#if NET9_0
+        [TsIgnore]
+#endif
         public string? SearchTerm { get; set; }
+#if NET9_0
+        [TsIgnore]
+#endif
         public RoomType? Type { get; set; }
         public int PageNumber { get; set; } = 1;
         public int PageSize { get; set; } = 10;

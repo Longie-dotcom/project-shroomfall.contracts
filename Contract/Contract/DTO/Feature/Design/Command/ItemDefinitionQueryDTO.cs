@@ -10,8 +10,17 @@ namespace Contract.DTO.Feature.Design.Command
 #endif
     public class ItemDefinitionQueryDTO
     {
+#if NET9_0
+        [TsIgnore]
+#endif
         public string? SearchTerm { get; set; }
+#if NET9_0
+        [TsIgnore]
+#endif
         public ItemType? Type { get; set; }
+#if NET9_0
+        [TsIgnore]
+#endif
         public ItemCategory? Category { get; set; }
         public int PageNumber { get; set; } = 1;
         public int PageSize { get; set; } = 10;
