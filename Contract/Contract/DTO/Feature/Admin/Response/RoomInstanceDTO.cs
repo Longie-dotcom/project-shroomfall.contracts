@@ -13,6 +13,6 @@ namespace Contract.DTO.Feature.Admin.Response
     public class RoomInstanceDTO
     {
         public RoomSpatialDTO Room { get; set; } = new RoomSpatialDTO();
-        public List<EntityInstanceDTO> Entities = new List<EntityInstanceDTO>();
+        public List<EntityInstanceDTO> Entities { get; set; } = new List<EntityInstanceDTO>();
     }
 }
