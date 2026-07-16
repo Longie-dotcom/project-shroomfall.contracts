@@ -41,6 +41,7 @@
             public static string RoomFileSchemaParseFailed = Format("room-file-schema-parse-failed");
             public static string ItemCategoryConfigMissing = Format("item-category-config-missing");
             public static string ItemCategoryConfigConflict = Format("item-category-config-conflict");
+            public static string LocalizationEntryNotFound = Format("localization-entry-not-found");
         }
 
         public static class GameHandlerCode
