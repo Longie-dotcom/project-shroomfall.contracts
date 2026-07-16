@@ -11,11 +11,11 @@ namespace Contract.DTO.Feature.Design.Command
     public class EntityDefinitionQueryDTO
     {
 #if NET9_0
-        [TsIgnore]
+        [TsOptional]
 #endif
         public string? SearchTerm { get; set; }
 #if NET9_0
-        [TsIgnore]
+        [TsOptional]
 #endif
         public EntityType? EntityType { get; set; }
         public int PageNumber { get; set; } = 1;

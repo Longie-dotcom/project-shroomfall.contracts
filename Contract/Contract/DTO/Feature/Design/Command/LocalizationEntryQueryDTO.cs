@@ -11,7 +11,7 @@ namespace Contract.DTO.Feature.Design.Command
     {
         public string LocaleCode { get; set; } = Constraint.DEFAULT_LOCALE;
 #if NET9_0
-        [TsIgnore]
+        [TsOptional]
 #endif
         public string? SearchTerm { get; set; }
         public int PageNumber { get; set; } = 1;

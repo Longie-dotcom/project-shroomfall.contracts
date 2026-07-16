@@ -11,11 +11,11 @@ namespace Contract.DTO.Feature.Design.Command
     public class EffectDefinitionQueryDTO
     {
 #if NET9_0
-        [TsIgnore]
+        [TsOptional]
 #endif
         public string? SearchTerm { get; set; }
 #if NET9_0
-        [TsIgnore]
+        [TsOptional]
 #endif
         public EffectType? Type { get; set; }
         public AttributeType? AttributeType { get; set; }

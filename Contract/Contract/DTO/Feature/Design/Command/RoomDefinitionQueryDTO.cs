@@ -11,11 +11,11 @@ namespace Contract.DTO.Feature.Design.Command
     public class RoomDefinitionQueryDTO
     {
 #if NET9_0
-        [TsIgnore]
+        [TsOptional]
 #endif
         public string? SearchTerm { get; set; }
 #if NET9_0
-        [TsIgnore]
+        [TsOptional]
 #endif
         public RoomType? Type { get; set; }
         public int PageNumber { get; set; } = 1;
