@@ -2,6 +2,8 @@
 using TypeGen.Core.TypeAnnotations;
 #endif
 
+using Contract.Enum.EntityDomain;
+
 namespace Contract.DTO.Feature.Design.Command
 {
 #if NET9_0
@@ -10,6 +12,7 @@ namespace Contract.DTO.Feature.Design.Command
     public class EntityDefinitionQueryDTO
     {
         public string? SearchTerm { get; set; }
+        public EntityType? EntityType { get; set; }
         public int PageNumber { get; set; } = 1;
         public int PageSize { get; set; } = 10;
     }
