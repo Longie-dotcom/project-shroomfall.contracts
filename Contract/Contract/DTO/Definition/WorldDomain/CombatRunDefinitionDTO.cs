@@ -10,7 +10,7 @@ namespace Contract.DTO.Definition.WorldDomain
 #endif
     public class CombatRunDefinitionDTO
     {
-        public string ID { get; set; } = string.Empty;
+        public string Id { get; set; } = string.Empty;
         public List<FloorDTO> Floors { get; set; } = new List<FloorDTO>();
     }
 

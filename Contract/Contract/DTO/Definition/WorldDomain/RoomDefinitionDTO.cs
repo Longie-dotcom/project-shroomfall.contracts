@@ -12,7 +12,7 @@ namespace Contract.DTO.Definition.WorldDomain
 #endif
     public class RoomDefinitionDTO
     {
-        public string ID { get; set; } = string.Empty;
+        public string Id { get; set; } = string.Empty;
         public RoomType Type { get; set; }
         public RoomPresentationDefinitionDTO Presentation { get; set; } = new RoomPresentationDefinitionDTO();
     }
