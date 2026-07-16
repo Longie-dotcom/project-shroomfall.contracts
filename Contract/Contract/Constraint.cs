@@ -30,10 +30,7 @@ namespace Contract
         public static readonly IReadOnlyCollection<(string DefinitionKey, string SpatialId)> STATIC_HUB_ROOM_MAPS =
             new HashSet<(string DefinitionKey, string SpatialId)>
             {
-                ("hub.village", "hub.village.main-square"),
-                ("hub.village", "hub.village.market-district"),
-                ("hub.village", "hub.village.tavern-zone"),
-                ("hub.castle",  "hub.castle.courtyard")
+                ("village", "village"),
             };
 
         // Supported locales
