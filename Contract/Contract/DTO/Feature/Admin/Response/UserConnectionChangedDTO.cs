@@ -10,6 +10,9 @@ namespace Contract.DTO.Feature.Admin.Response
     public class UserConnectionChangedDTO
     {
         public string UserID { get; set; } = string.Empty;
-        public int ActiveConnectionCount { get; set; }
+#if NET9_0
+        [TsOptional]
+#endif
+        public string? ConnectionID { get; set; } = string.Empty;
     }
 }

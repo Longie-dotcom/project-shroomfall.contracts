@@ -123,7 +123,7 @@
         {
             private static string Format(string problem) => Code("connection-manager", problem);
 
-            public static string ConnectionAlreadyExists = Format("connection-already-exists");
+            public static string ConnectionReplaced = Format("connection-replaced");
             public static string ConnectionNotFound = Format("connection-not-found");
             public static string ConnectionMismatch = Format("connection-mismatch");
             public static string ConnectionAdded = Format("connection-added");
