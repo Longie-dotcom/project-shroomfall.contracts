@@ -16,7 +16,8 @@
         public const string OnDefinitionUpdated = "OnDefinitionUpdated";
 
         public const string OnTelemetrySended = "OnTelemetrySended";
-        public const string OnRoomResidencyChanged = "OnRoomResidencyChanged";
+        public const string OnRoomStateChanged = "OnRoomStateChanged";
+        public const string OnRoomSyncChanged = "OnRoomSyncChanged";
         public const string OnUserConnectionChanged = "OnUserConnectionChanged";
         public const string OnUserSessionChanged = "OnUserSessionChanged";
         #endregion
