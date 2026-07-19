@@ -23,7 +23,6 @@
 
             public static string UnloadSessionPlayerInstanceNotFound = Format("unload-session-player-instance-not-found");
             public static string UnloadSessionTransformMissing = Format("unload-session-transform-missing");
-            public static string LoadSessionAlreadyExisted = Format("load-session-already-existed");
             public static string LoadSessionUnauthorizedPlayer = Format("load-session-unauthorized-player");
         }
 
