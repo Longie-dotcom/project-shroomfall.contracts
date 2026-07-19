@@ -1,14 +1,13 @@
-﻿#if NET9_0
+﻿using Contract.DTO.Runtime.EntityDomain;
+using System.Collections.Generic;
+#if NET9_0
 using TypeGen.Core.TypeAnnotations;
 #endif
-using Contract.DTO.Runtime.EntityDomain;
-using Contract.DTO.Runtime.WorldDomain;
-using System.Collections.Generic;
 
-namespace Contract.DTO.Feature.Admin.Response
+namespace Contract.DTO.Runtime.WorldDomain
 {
 #if NET9_0
-    [ExportTsInterface(OutputDir = "dto/feature/admin/response")]
+    [ExportTsInterface(OutputDir = "dto/runtime/world-domain")]
 #endif
     public class RoomInstanceDTO
     {

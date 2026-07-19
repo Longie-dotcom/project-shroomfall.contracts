@@ -1,4 +1,5 @@
 ﻿using Contract.DTO.Runtime.EntityDomain;
+using Contract.DTO.Runtime.EntityDomain.Component;
 using Contract.DTO.Runtime.WorldDomain;
 #if NET9_0
 using TypeGen.Core.TypeAnnotations;
@@ -12,6 +13,6 @@ namespace Contract.DTO.Feature.Connection.Response
     public class SaveGameDTO
     {
         public EntityInstanceDTO PlayerData { get; set; } = new EntityInstanceDTO();
-        public RoomSpatialDTO RoomData { get; set; } = new RoomSpatialDTO();
+        public RoomInstanceDTO RoomData { get; set; } = new RoomInstanceDTO();
     }
 }

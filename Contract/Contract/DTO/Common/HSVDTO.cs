@@ -5,7 +5,7 @@ using TypeGen.Core.TypeAnnotations;
 namespace Contract.DTO.Common
 {
 #if NET9_0
-    [ExportTsInterface(OutputDir = "common")]
+    [ExportTsInterface(OutputDir = "dto/common")] 
 #endif
     public class HSVDTO
     {

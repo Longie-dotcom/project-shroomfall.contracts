@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 #if NET9_0
 using TypeGen.Core.TypeAnnotations;
 #endif
