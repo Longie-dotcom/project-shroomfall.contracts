@@ -131,8 +131,10 @@
             public static string SnapshotTypeNotSupported = Format("snapshot-type-not-supported");
             public static string AIDefinitionNotFound = Format("ai-definition-not-found");
             public static string CollisionDefinitionNotFound = Format("collision-definition-not-found");
+            public static string CharacteristicDefinitionNotFound = Format("characteristic-definition-not-found");
             public static string ProjectileDefinitionNotFound = Format("projectile-definition-not-found");
             public static string LifetimeDefinitionNotFound = Format("lifetime-definition-not-found");
+            public static string InventoryDefinitionNotFound = Format("inventory-definition-not-found");
             public static string TriggeredEffectDefinitionNotFound = Format("triggered-effect-definition-not-found");
             public static string ItemDefinitionNotFound = Format("item-definition-not-found");
         }
