@@ -2,6 +2,8 @@
 using TypeGen.Core.TypeAnnotations;
 #endif
 
+using Contract.DTO.Runtime.WorldDomain;
+
 namespace Contract.DTO.Feature.Admin.Response
 {
 #if NET9_0
@@ -9,7 +11,7 @@ namespace Contract.DTO.Feature.Admin.Response
 #endif
     public class RoomSyncChangedDTO
     {
-        public string RoomSpatialID { get; set; } = string.Empty;
+        public RoomSpatialDTO RoomSpatial { get; set; } = new RoomSpatialDTO();
         public bool IsLoaded { get; set; }
     }
 }
