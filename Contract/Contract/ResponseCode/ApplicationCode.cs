@@ -27,17 +27,25 @@
             // Update Localization Entry Handler
             public static string LocalizationEntryNotFound = Format("localization-entry-not-found");
 
-            // Upsert Entity Definition Handler
-            public static string MandatorySchemaElementsMissing = Format("mandatory-schema-elements-missing");
-
-            // Upsert Item Definition Handler
-            public static string ItemCategoryConfigMissing = Format("item-category-config-missing");
-            public static string ItemCategoryConfigConflict = Format("item-category-config-conflict");
-
-            // Upsert Room Definition Handler
+            // Import Room Definition Handler
             public static string RoomFilePayloadEmpty = Format("room-file-payload-empty");
             public static string RoomFileInvalidJson = Format("room-file-invalid-json");
             public static string RoomFileSchemaParseFailed = Format("room-file-schema-parse-failed");
+
+            // Import Effect Definitions Handler
+            public static string EffectFilePayloadEmpty = Format("effect-file-payload-empty");
+            public static string EffectFileInvalidJson = Format("effect-file-invalid-json");
+            public static string EffectFileSchemaParseFailed = Format("effect-file-schema-parse-failed");
+
+            // Import Entity Definitions Handler
+            public static string EntityFilePayloadEmpty = Format("entity-file-payload-empty");
+            public static string EntityFileInvalidJson = Format("entity-file-invalid-json");
+            public static string EntityFileSchemaParseFailed = Format("entity-file-schema-parse-failed");
+
+            // Import Item Definitions Handler
+            public static string ItemFilePayloadEmpty = Format("item-file-payload-empty");
+            public static string ItemFileInvalidJson = Format("item-file-invalid-json");
+            public static string ItemFileSchemaParseFailed = Format("item-file-schema-parse-failed");
         }
 
         public static class GameHandlerCode
@@ -97,12 +105,27 @@
         #endregion
 
         #region Services
-        // Design
-        public class ComponentDiscoveryRegistryCode
+        // Design Service
+        public static class ComponentDiscoveryRegistryCode
         {
             private static string Format(string problem) => Code("component-discovery-registry", problem);
 
             public static string DTOMissingAttribute = Format("dto-missing-attribute");
+        }
+
+        public static class EntityDefinitionServiceCode
+        {
+            private static string Format(string problem) => Code("entity-definition-service", problem);
+
+            public static string MandatorySchemaElementsMissing = Format("mandatory-schema-elements-missing");
+        }
+
+        public static class ItemDefinitionServiceCode
+        {
+            private static string Format(string problem) => Code("item-definition-service", problem);
+
+            public static string ItemCategoryConfigMissing = Format("item-category-config-missing");
+            public static string ItemCategoryConfigConflict = Format("item-category-config-conflict");
         }
 
         public static class DefinitionComponentFactoryCode
