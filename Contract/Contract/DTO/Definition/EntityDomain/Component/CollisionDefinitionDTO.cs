@@ -1,4 +1,5 @@
-﻿using Contract.DTO.Abstraction;
+﻿using Contract.Attributes;
+using Contract.DTO.Abstraction;
 using Contract.Enum.EntityDomain;
 #if NET9_0
 using TypeGen.Core.TypeAnnotations;
@@ -9,6 +10,7 @@ namespace Contract.DTO.Definition.EntityDomain.Component
 #if NET9_0
     [ExportTsInterface(OutputDir = "dto/definition/entity-domain/component")]
 #endif
+    [EntityComponent(EntityType.Projectile, EntityType.WorldObject, EntityType.Creature, EntityType.Player, EntityType.Item, Required = true)]
     public class CollisionDefinitionDTO : ComponentDefinitionDTO
     {
         public CollisionDefinitionDTO() { ComponentType = nameof(CollisionDefinitionDTO); }

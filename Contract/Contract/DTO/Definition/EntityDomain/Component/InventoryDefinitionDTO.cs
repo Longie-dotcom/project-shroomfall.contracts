@@ -1,4 +1,6 @@
-﻿using Contract.DTO.Abstraction;
+﻿using Contract.Attributes;
+using Contract.DTO.Abstraction;
+using Contract.Enum.EntityDomain;
 using Contract.Enum.MetaDomain.Item;
 using System;
 using System.Collections.Generic;
@@ -11,6 +13,7 @@ namespace Contract.DTO.Definition.EntityDomain.Component
 #if NET9_0
     [ExportTsInterface(OutputDir = "dto/definition/entity-domain/component")]
 #endif
+    [EntityComponent(EntityType.Creature, EntityType.Player, Required = true)]
     public class InventoryDefinitionDTO : ComponentDefinitionDTO
     {
         public InventoryDefinitionDTO() { ComponentType = nameof(InventoryDefinitionDTO); }

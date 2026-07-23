@@ -55,13 +55,6 @@
             public static string DuplicateCharacteristicComponent = Format("duplicate-characteristic-component");
         }
 
-        public static class InteractableCacheCode
-        {
-            private static string Format(string problem) => Code("interactable-cache", problem);
-
-            public static string DuplicateInteractableComponent = Format("duplicate-interactable-component");
-        }
-
         public static class InventoryCacheCode
         {
             private static string Format(string problem) => Code("inventory-cache", problem);
@@ -74,13 +67,6 @@
             private static string Format(string problem) => Code("lifetime-cache", problem);
 
             public static string DuplicateLifetimeComponent = Format("duplicate-lifetime-component");
-        }
-
-        public static class PortalCacheCode
-        {
-            private static string Format(string problem) => Code("portal-cache", problem);
-
-            public static string DuplicatePortalComponent = Format("duplicate-portal-component");
         }
 
         public static class ProjectileCacheCode

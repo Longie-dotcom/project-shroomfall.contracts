@@ -11,6 +11,13 @@
 
             public static string ClaimMissingUserId = Format("claim-missing-user-id");
         }
+
+        public static class GlobalExceptionHandlerCode
+        {
+            private static string Format(string problem) => Code("global-exception-handler", problem);
+
+            public static string UnexpectedError = Format("claim-missing-user-id");
+        }
         #endregion
     }
 }
