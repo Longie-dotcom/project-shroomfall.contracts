@@ -20,11 +20,5 @@ namespace Contract.Enum.MetaDomain.Effect
         // Example: CritChance = +10%
         // ─────────────────────────────
         Percentage,
-
-        // ─────────────────────────────
-        // Multiplicative value
-        // Example: MoveSpeed x1.2, AttackSpeed x1.5
-        // ─────────────────────────────
-        Multiplier,
     }
 }

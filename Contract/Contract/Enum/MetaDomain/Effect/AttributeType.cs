@@ -5,92 +5,167 @@ using TypeGen.Core.TypeAnnotations;
 namespace Contract.Enum.MetaDomain.Effect
 {
     /**
-     * Convention:
-     * - Attributes marked as "Characteristic Only" exist exclusively on
-     *   CharacteristicInstance.
-     * - Attributes marked as "Effect Only" exist exclusively on EffectDefinition.
+     * Architectural Categories & Pipeline Rules:
+     * ──────────────────────────────────────────────────────────────────────────────────────────
+     * 1. Vital Pool
+     *    - Scope: Characteristic Only
+     *    - Allowed Effect Types: N/A
+     *    - Value Range: [0, Max]
+     *    - Formula: See detail in code
      *
-     * Design:
-     * - Domain groups attributes that share the same application pipeline.
-     * - Category defines the role of an attribute within its domain.
+     * 2. Vital Delta
+     *    - Scope: Effect Only
+     *    - Allowed Effect Types: Flat, Percentage
+     *    - Value Range: [0, ∞)
+     *    - Formula: See detail in code
      *
-     * - Vital Domain:
-     *   - Target attributes are the characteristics being modified.
-     *   - Offensive and Restorative attributes are effect attributes that are
-     *     translated into updates for their corresponding target attributes.
+     * 3. Core Scalable
+     *    - Scope: Characteristic & Effect
+     *    - Allowed Effect Types: Flat, Percentage
+     *    - Value Range: Flat: (-∞, ∞), Percentage: [-1.0, 1.0]
+     *    - Formula: (Base + Sum(Flat)) * (1 + Sum(Percentage))
      *
-     * - Core Domain:
-     *   - Attributes are supporting characteristics used to resolve Vital
-     *     effects (e.g. Power, Penetration, Resistance, LifeSteal).
+     * 4. Core Rate Signed
+     *    - Scope: Characteristic & Effect
+     *    - Allowed Effect Types: Flat Only
+     *    - Value Range: [-1.0, 1.0]
+     *    - Formula: Clamp(Base + Sum(Flat), -1.0, 1.0)
+     *
+     * 5. Core Rate Strict
+     *    - Scope: Characteristic & Effect
+     *    - Allowed Effect Types: Flat Only
+     *    - Value Range: [0.0, 1.0]
+     *    - Formula: Clamp(Base + Sum(Flat), 0.0, 1.0)
+     * ──────────────────────────────────────────────────────────────────────────────────────────
      */
-
 #if NET9_0
     [ExportTsEnum(OutputDir = "enum/meta-domain/effect")]
 #endif
     public enum AttributeType
     {
         // ============================================================
-        // Domain: Vital
+        // Category: Vital Pool
         // ============================================================
 
-        // Target - Energy - Characteristic Only
+        /// <summary>Category: Vital Pool</summary> 0
         Health,
 
-        // Target - Health - Characteristic Only
+        /// <summary>Category: Vital Pool</summary> 1
         Energy,
 
-        // Restorative - Energy - Effect Only
+        // ============================================================
+        // Category: Vital Delta
+        // ============================================================
+
+        /// <summary>Category: Vital Delta</summary> 2
         EnergyRestore,
 
-        // Offensive - Energy - Effect Only
+        /// <summary>Category: Vital Delta</summary> 3
         EnergyConsume,
 
-        // Restorative - Health - Effect Only
+        /// <summary>Category: Vital Delta</summary> 4
         HealthRestore,
 
-        // Offensive - Health - Effect Only
+        /// <summary>Category: Vital Delta</summary> 5
         PhysicalDamage,
+
+        /// <summary>Category: Vital Delta</summary> 6
         FireDamage,
+
+        /// <summary>Category: Vital Delta</summary> 7
         IceDamage,
+
+        /// <summary>Category: Vital Delta</summary> 8
         EarthDamage,
+
+        /// <summary>Category: Vital Delta</summary> 9
         DarkDamage,
+
+        /// <summary>Category: Vital Delta</summary> 10
         LightDamage,
 
         // ============================================================
-        // Domain: Core
+        // Category: Core Scalable
         // ============================================================
 
-        // Offensive Support - Health
+        /// <summary>Category: Core Scalable</summary> 11
         PhysicalPower,
+
+        /// <summary>Category: Core Scalable</summary> 12
         FirePower,
+
+        /// <summary>Category: Core Scalable</summary> 14-1
         IcePower,
+
+        /// <summary>Category: Core Scalable</summary> 14
         EarthPower,
+
+        /// <summary>Category: Core Scalable</summary> 15
         DarkPower,
+
+        /// <summary>Category: Core Scalable</summary> 16
         LightPower,
 
+        /// <summary>Category: Core Scalable</summary> 17
+        MoveSpeed,
+
+        // ============================================================
+        // Category: Core Rate Signed
+        // ============================================================
+
+        /// <summary>Category: Core Rate Signed</summary> 18
         PhysicalPenetration,
+
+        /// <summary>Category: Core Rate Signed</summary> 19
         FirePenetration,
+
+        /// <summary>Category: Core Rate Signed</summary> 20
         IcePenetration,
+
+        /// <summary>Category: Core Rate Signed</summary> 21
         EarthPenetration,
+
+        /// <summary>Category: Core Rate Signed</summary> 22
         DarkPenetration,
+
+        /// <summary>Category: Core Rate Signed</summary> 23
         LightPenetration,
 
-        LifeSteal,
-        CriticalChance,
-
-        // Defensive Support - Health
+        /// <summary>Category: Core Rate Signed</summary> 24
         PhysicalResistance,
+
+        /// <summary>Category: Core Rate Signed</summary> 25
         FireResistance,
+
+        /// <summary>Category: Core Rate Signed</summary> 26
         IceResistance,
+
+        /// <summary>Category: Core Rate Signed</summary> 27
         EarthResistance,
+
+        /// <summary>Category: Core Rate Signed</summary> 28
         DarkResistance,
+
+        /// <summary>Category: Core Rate Signed</summary> 29
         LightResistance,
 
-        BlockChance,
-
-        // Utility
-        MoveSpeed,
+        /// <summary>Category: Core Rate Signed</summary> 30
         CooldownReduction,
+
+        /// <summary>Category: Core Rate Signed</summary> 31
         Lucky,
+
+        // ============================================================
+        // Category: Core Rate Strict
+        // ============================================================
+
+        /// <summary>Category: Core Rate Strict</summary> 32
+        LifeSteal,
+
+        /// <summary>Category: Core Rate Strict</summary> 33
+        CriticalChance,
+
+        /// <summary>Category: Core Rate Strict</summary> 34
+        BlockChance,
     }
 }
