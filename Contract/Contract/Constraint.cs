@@ -16,6 +16,7 @@ namespace Contract
         public const int ITEM_DEDUCTED_VALUE = 1;
         public const int ITEM_COOLDOWN_VALUE = 5;
         public const float CRITICAL_DAMAGE_VALUE = 1.95f; // Add 95% current damage
+        public const float LOCK_ACTION_DURATION = 0.2f;
 
         // Ticking constraints
         public const float RESIDENCY_TICK_PER_SECOND = 1f;
