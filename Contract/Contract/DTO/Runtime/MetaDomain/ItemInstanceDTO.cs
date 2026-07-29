@@ -15,5 +15,6 @@ namespace Contract.DTO.Runtime.MetaDomain
         public int Amount { get; set; }
         public ItemQuality Quality { get; set; }
         public int? Durability { get; set; }
+        public EquipmentSlot? EquippedSlot { get; set; }
     }
 }
