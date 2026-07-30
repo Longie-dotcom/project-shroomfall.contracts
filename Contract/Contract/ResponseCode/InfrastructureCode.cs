@@ -26,6 +26,15 @@
         }
         #endregion
 
+        #region Background
+        public static class WorldLoopServiceCode
+        {
+            private static string Format(string problem) => Code("world-loop-service", problem);
+
+            public static string UnhandleException = Format("unhandle-exception");
+        }
+        #endregion
+
         #region Cache
         public static class AICacheCode
         {

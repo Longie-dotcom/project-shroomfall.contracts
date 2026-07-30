@@ -17,6 +17,9 @@ namespace Contract.DTO.Runtime.EntityDomain.Component
         public int CurrentLevel { get; set; }
     }
 
+#if NET9_0
+    [ExportTsInterface(OutputDir = "dto/runtime/entity-domain/component")]
+#endif
     public class AttributeValueInstanceDTO
     {
         public AttributeType AttributeType { get; set; }
