@@ -9,7 +9,6 @@ namespace Contract.Enum.WorldDomain
 #endif
     public enum CombatRunStatus
     {
-        Waiting,
         InProgress,
         Completed,
         Failed
