@@ -4,6 +4,9 @@ namespace Contract
 {
     public static class Constraint
     {
+        // Combat instance ID generation
+        public const string RUN_CODE_CHARS = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789";
+
         // Default versioning
         public const string GLOBAL_DEFINITION_VERSION = "global_definition";
 
