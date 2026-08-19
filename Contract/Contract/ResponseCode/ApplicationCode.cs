@@ -241,6 +241,7 @@
 
             public static string RunAlreadyRegistered = Format("run-already-registered");
             public static string PlayerAlreadyInRun = Format("player-already-in-run");
+            public static string PlayerAlreadyRegistered = Format("player-already-registered");
         }
 
         public static class ResidencyServiceCode

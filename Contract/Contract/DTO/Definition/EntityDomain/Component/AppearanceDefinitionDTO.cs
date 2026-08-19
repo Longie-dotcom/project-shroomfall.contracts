@@ -1,7 +1,8 @@
 ﻿using Contract.Attributes;
+using Contract.Common;
 using Contract.DTO.Abstraction;
-using Contract.DTO.Common;
 using Contract.Enum.EntityDomain;
+
 #if NET9_0
 using TypeGen.Core.TypeAnnotations;
 #endif
@@ -20,6 +21,6 @@ namespace Contract.DTO.Definition.EntityDomain.Component
         [TsIgnore]
 #endif
         public string? SkinID { get; set; } = string.Empty;
-        public HSVDTO SkinColor { get; set; } = new HSVDTO();
+        public HSV SkinColor { get; set; } = new HSV();
     }
 }

@@ -4,10 +4,10 @@ using System.Collections.Generic;
 using TypeGen.Core.TypeAnnotations;
 #endif
 
-namespace Contract.DTO.Common
+namespace Contract.DTO.Abstraction
 {
 #if NET9_0
-    [ExportTsInterface(OutputDir = "dto/common")] 
+    [ExportTsInterface(OutputDir = "dto/abstraction")] 
 #endif
     public class PagedResponseDTO<T>
     {

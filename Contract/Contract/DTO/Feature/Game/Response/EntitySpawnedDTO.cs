@@ -1,4 +1,4 @@
-﻿using Contract.DTO.Common;
+﻿using Contract.Common;
 using Contract.DTO.Runtime.EntityDomain;
 #if NET9_0
 using TypeGen.Core.TypeAnnotations;
@@ -12,6 +12,6 @@ namespace Contract.DTO.Feature.Game.Response
     public class EntitySpawnedDTO
     {
         public EntityInstanceDTO EntityInstance { get; set; } = new EntityInstanceDTO();
-        public Vector2DTO? Direction { get; set; } 
+        public Vector2? Direction { get; set; } 
     }
 }

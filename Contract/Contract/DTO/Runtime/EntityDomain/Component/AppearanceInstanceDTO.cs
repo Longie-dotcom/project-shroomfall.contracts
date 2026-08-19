@@ -1,5 +1,5 @@
-﻿using Contract.DTO.Abstraction;
-using Contract.DTO.Common;
+﻿using Contract.Common;
+using Contract.DTO.Abstraction;
 #if NET9_0
 using TypeGen.Core.TypeAnnotations;
 #endif
@@ -12,6 +12,6 @@ namespace Contract.DTO.Runtime.EntityDomain.Component
     public class AppearanceInstanceDTO : ComponentInstanceDTO
     {
         public string SkinID { get; set; } = string.Empty;
-        public HSVDTO SkinColor { get; set; } = new HSVDTO();
+        public HSV SkinColor { get; set; } = new HSV();
     }
 }

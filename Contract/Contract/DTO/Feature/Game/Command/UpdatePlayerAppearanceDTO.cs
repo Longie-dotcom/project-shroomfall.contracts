@@ -1,4 +1,4 @@
-﻿using Contract.DTO.Common;
+﻿using Contract.Common;
 #if NET9_0
 using TypeGen.Core.TypeAnnotations;
 #endif
@@ -11,6 +11,6 @@ namespace Contract.DTO.Feature.Game.Command
     public class UpdatePlayerAppearanceDTO
     {
         public string SkinID { get; set; } = string.Empty;
-        public HSVDTO SkinColor { get; set; } = new HSVDTO();
+        public HSV SkinColor { get; set; } = new HSV();
     }
 }
