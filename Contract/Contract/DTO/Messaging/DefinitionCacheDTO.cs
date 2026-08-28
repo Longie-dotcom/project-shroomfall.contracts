@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using TypeGen.Core.TypeAnnotations;
 #endif
 
-namespace Contract.DTO.Definition
+namespace Contract.DTO.Messaging
 {
 #if NET9_0
     [ExportTsInterface(OutputDir = "dto/messaging")]
