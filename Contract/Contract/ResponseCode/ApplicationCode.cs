@@ -230,9 +230,7 @@
             private static string Format(string problem) => Code("room-spatial-factory", problem);
 
             public static string RehydrateDefinitionNotFound = Format("rehydrate-definition-not-found");
-            public static string RehydrateRoomWithoutCells = Format("rehydrate-room-without-cells");
             public static string CreateDefinitionNotFound = Format("create-definition-not-found");
-            public static string CreateRoomWithoutCells = Format("create-room-without-cells");
         }
 
         public static class PartyServiceCode

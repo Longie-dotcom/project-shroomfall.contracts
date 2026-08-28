@@ -33,6 +33,13 @@
             public static string RabbitMqUsernameMissing = Format("rabbitmq-username-missing");
             public static string RabbitMqPasswordMissing = Format("rabbitmq-password-missing");
         }
+
+        public static class GrpcConfigurationCode
+        {
+            private static string Format(string problem) => Code("grpc-configuration", problem);
+
+            public static string ManagementGrpcUrlMissing = Format("management-grpc-url-missing");
+        }
         #endregion
 
         #region Background

@@ -1,0 +1,17 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "Contract.Grpc.Management";
+
+package management;
+
+service DefinitionService {
+    rpc RequestDefinitionCache (DefinitionCacheRequest)
+        returns (DefinitionCacheResponse);
+}
+
+message DefinitionCacheRequest {
+}
+
+message DefinitionCacheResponse {
+    bool accepted = 1;
+}
