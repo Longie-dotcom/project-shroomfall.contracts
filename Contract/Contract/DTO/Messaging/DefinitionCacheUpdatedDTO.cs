@@ -7,12 +7,12 @@ using System.Collections.Generic;
 using TypeGen.Core.TypeAnnotations;
 #endif
 
-namespace Contract.DTO.Feature.Design.Response
+namespace Contract.DTO.Definition
 {
 #if NET9_0
-    [ExportTsInterface(OutputDir = "dto/feature/design/response")]
+    [ExportTsInterface(OutputDir = "dto/messaging")]
 #endif
-    public class DefinitionSnapshotDTO
+    public class DefinitionCacheDTO
     {
         public long Version { get; set; }
 
@@ -23,6 +23,8 @@ namespace Contract.DTO.Feature.Design.Response
 
         public List<CombatRunDefinitionDTO> CombatRuns { get; set; } = new List<CombatRunDefinitionDTO>();
         public List<RoomDefinitionDTO> Rooms { get; set; } = new List<RoomDefinitionDTO>();
+        public List<EntitySpawnRuleDTO> EntitySpawnRules { get; set; } = new List<EntitySpawnRuleDTO>();
+        public List<CellDTO> Cells { get; set; } = new List<CellDTO>();
 
         public List<LocaleDTO> Locales { get; set; } = new List<LocaleDTO>();
     }

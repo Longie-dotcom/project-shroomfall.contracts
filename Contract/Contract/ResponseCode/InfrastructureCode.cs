@@ -24,6 +24,15 @@
             public static string SteamApiKeyMissing = Format("steam-api-key-missing");
             public static string SteamAppIdMissing = Format("steam-app-id-missing");
         }
+
+        public static class MessagingConfigurationCode
+        {
+            private static string Format(string problem) => Code("messaging-configuration", problem);
+
+            public static string RabbitMqHostMissing = Format("rabbitmq-host-missing");
+            public static string RabbitMqUsernameMissing = Format("rabbitmq-username-missing");
+            public static string RabbitMqPasswordMissing = Format("rabbitmq-password-missing");
+        }
         #endregion
 
         #region Background
@@ -97,8 +106,6 @@
             private static string Format(string problem) => Code("locale-cache", problem);
 
             public static string NoDefaultLocale = Format("no-default-locale");
-            public static string FallbackToDefault = Format("fallback-locale-used");
-            public static string FallbackToKey = Format("fallback-key-used");
         }
 
         public static class CacheProviderCode
