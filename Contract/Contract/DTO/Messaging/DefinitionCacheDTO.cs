@@ -19,6 +19,15 @@ namespace Contract.DTO.Messaging
         public List<EffectDefinitionDTO> Effects { get; set; } = new List<EffectDefinitionDTO>();
         public List<ItemDefinitionDTO> Items { get; set; } = new List<ItemDefinitionDTO>();
 
+
+        public List<AIDefinitionDTO> AIs { get; set; } = new List<AIDefinitionDTO>();
+        public List<AppearanceDefinitionDTO> Appearances { get; set; } = new List<AppearanceDefinitionDTO>();
+        public List<CollisionDefinitionDTO> Collisions { get; set; } = new List<CollisionDefinitionDTO>();
+        public List<CharacteristicDefinitionDTO> Characteristics { get; set; } = new List<CharacteristicDefinitionDTO>();
+        public List<InventoryDefinitionDTO> Inventories { get; set; } = new List<InventoryDefinitionDTO>();
+        public List<LifetimeDefinitionDTO> Lifetimes { get; set; } = new List<LifetimeDefinitionDTO>();
+        public List<ProjectileDefinitionDTO> Projectiles { get; set; } = new List<ProjectileDefinitionDTO>();
+        public List<TriggeredEffectDefinitionDTO> TriggeredEffects { get; set; } = new List<TriggeredEffectDefinitionDTO>();
         public List<EntityDefinitionDTO> Entities { get; set; } = new List<EntityDefinitionDTO>();
 
         public List<CombatRunDefinitionDTO> CombatRuns { get; set; } = new List<CombatRunDefinitionDTO>();
