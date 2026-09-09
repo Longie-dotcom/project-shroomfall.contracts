@@ -27,11 +27,6 @@
             // Update Localization Entry Handler
             public static string LocalizationEntryNotFound = Format("localization-entry-not-found");
 
-            // Import Combat Run Definition Handler
-            public static string CombatRunFilePayloadEmpty = Format("combat-run-file-payload-empty");
-            public static string CombatRunFileInvalidJson = Format("combat-run-file-invalid-json");
-            public static string CombatRunFileSchemaParseFailed = Format("combat-run-file-schema-parse-failed");
-
             // Import Effect Definitions Handler
             public static string EffectFilePayloadEmpty = Format("effect-file-payload-empty");
             public static string EffectFileInvalidJson = Format("effect-file-invalid-json");
@@ -61,12 +56,6 @@
             public static string BackHomeSessionNotFound = Format("back-home-session-not-found");
             public static string BackHomePlayerInstanceNotFound = Format("back-home-player-instance-not-found");
             public static string BackHomeOwnershipInstanceNotFound = Format("back-home-ownership-instance-not-found");
-
-            // Create Combat Run Handler
-            public static string CreateCombatRunSessionNotFound = Format("create-combat-run-session-not-found");
-            public static string CreateCombatRunPlayerInstanceNotFound = Format("create-combat-run-player-instance-not-found");
-            public static string CreateCombatRunPlayerAlreadyInCombatRun = Format("create-combat-run-player-already-in-combat-run");
-            public static string CreateCombatRunDefinitionNotFound = Format("create-combat-run-definition-not-found");
 
             // Enter Hub Handler
             public static string EnterHubInvalidHubRoom = Format("enter-hub-invalid-hub-room");

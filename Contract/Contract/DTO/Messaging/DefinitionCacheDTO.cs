@@ -30,7 +30,6 @@ namespace Contract.DTO.Messaging
         public List<TriggeredEffectDefinitionDTO> TriggeredEffects { get; set; } = new List<TriggeredEffectDefinitionDTO>();
         public List<EntityDefinitionDTO> Entities { get; set; } = new List<EntityDefinitionDTO>();
 
-        public List<CombatRunDefinitionDTO> CombatRuns { get; set; } = new List<CombatRunDefinitionDTO>();
         public List<RoomDefinitionDTO> Rooms { get; set; } = new List<RoomDefinitionDTO>();
         public List<EntitySpawnRuleDTO> EntitySpawnRules { get; set; } = new List<EntitySpawnRuleDTO>();
         public List<CellDTO> Cells { get; set; } = new List<CellDTO>();

@@ -21,7 +21,6 @@ namespace Contract.DTO.Feature.Design.Response
 
         public List<EntityDefinitionDTO> Entities { get; set; } = new List<EntityDefinitionDTO>();
 
-        public List<CombatRunDefinitionDTO> CombatRuns { get; set; } = new List<CombatRunDefinitionDTO>();
         public List<RoomDefinitionDTO> Rooms { get; set; } = new List<RoomDefinitionDTO>();
 
         public List<LocaleDTO> Locales { get; set; } = new List<LocaleDTO>();
