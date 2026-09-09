@@ -10,8 +10,7 @@
         public const string OnInventoryCleared = "OnInventoryCleared";
         public const string OnEntitySpawned = "OnEntitySpawned";
         public const string OnEntityDespawned = "OnEntityDespawned";
-        public const string OnPlayerAppearanceChanged = "OnPlayerAppearanceChanged";
-        public const string OnRoomSnapshotUpdated = "OnRoomSnapshotUpdated";
+        public const string OnEntityAppearanceChanged = "OnEntityAppearanceChanged";
 
         public const string OnDefinitionUpdated = "OnDefinitionUpdated";
 
