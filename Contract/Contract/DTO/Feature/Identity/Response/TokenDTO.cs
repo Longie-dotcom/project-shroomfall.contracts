@@ -1,6 +1,7 @@
 ﻿#if NET9_0
 using TypeGen.Core.TypeAnnotations;
 #endif
+using System;
 
 namespace Contract.DTO.Feature.Identity.Response
 {
@@ -11,5 +12,7 @@ namespace Contract.DTO.Feature.Identity.Response
     {
         public string AccessToken { get; set; } = string.Empty;
         public string RefreshToken { get; set; } = string.Empty;
+        public DateTime AccessExpiry { get; set; }
+        public DateTime RefreshExpiry { get; set; }
     }
 }

@@ -5,7 +5,8 @@ namespace Contract
     public static class Constraint
     {
         // Combat instance ID generation
-        public const string RUN_CODE_CHARS = "ABCDEFGHJKLMNPQRSTUVWXYZ23456789";
+        public const int ACCESS_TOKEN_EXPIRY_MINUTES = 15;
+        public const int REFRESH_TOKEN_EXPIRY_DAYS = 7;
 
         // Default versioning
         public const string GLOBAL_DEFINITION_VERSION = "global_definition";
