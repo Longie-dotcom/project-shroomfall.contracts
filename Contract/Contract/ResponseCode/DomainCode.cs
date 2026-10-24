@@ -68,18 +68,12 @@
             public static string NotACoreAttribute = Format("not-a-core-attribute");
         }
 
-        public static class SpatialIndexCode
-        {
-            private static string Format(string problem) => Code("spatial-index", problem);
-
-            public static string RoomSpatialNotFoundOnEntityAdded = Format("room-spatial-not-found-on-entity-added");
-            public static string RoomSpatialNotFoundOnEntityMoved = Format("room-spatial-not-found-on-entity-moved");
-        }
-
         public static class WorldCode
         {
             private static string Format(string problem) => Code("world", problem);
 
+            public static string RoomSpatialNotFoundOnEntityAdded = Format("room-spatial-not-found-on-entity-added");
+            public static string RoomSpatialNotFoundOnEntityMoved = Format("room-spatial-not-found-on-entity-moved");
             public static string EntityInstanceNotFoundOnMoved = Format("entity-instance-not-found-on-moved");
             public static string EntityInstanceNotFoundOnRoomChanged = Format("entity-instance-not-found-on-room-changed");
         }
