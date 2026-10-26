@@ -126,6 +126,10 @@
 
             public static string ItemCategoryConfigMissing = Format("item-category-config-missing");
             public static string ItemCategoryConfigConflict = Format("item-category-config-conflict");
+            public static string InvalidRequiredMaterialsID = Format("invalid-required-materials-id");
+            public static string InvalidRequiredMaterialsQuantity = Format("invalid-required-materials-quantity");
+            public static string InvalidRequiredMaterialsDuplicated = Format("invalid-required-materials-duplicated");
+            public static string InvalidRequiredMaterialsSelfCrafted = Format("invalid-required-materials-self-crafted");
         }
 
         public static class DefinitionComponentFactoryCode

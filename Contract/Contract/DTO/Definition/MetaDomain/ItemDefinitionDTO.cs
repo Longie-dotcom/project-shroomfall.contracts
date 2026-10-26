@@ -54,8 +54,14 @@ namespace Contract.DTO.Definition.MetaDomain
         [TsOptional]
 #endif
         public MeleeConfigDTO? MeleeConfig { get; set; }
+#if NET9_0
+        [TsOptional]
+#endif
+        public TradingConfigDTO? TradingConfig { get; set; }
 
         public CostConfigDTO CostConfig { get; set; } = new CostConfigDTO();
+
+        public List<RequiredMaterialDTO> RequiredMaterials { get; set; } = new List<RequiredMaterialDTO>();
     }
 
 #if NET9_0
@@ -114,8 +120,27 @@ namespace Contract.DTO.Definition.MetaDomain
 #if NET9_0
     [ExportTsInterface(OutputDir = "dto/definition/meta-domain")]
 #endif
+    public class TradingConfigDTO
+    {
+        public string NPCSellerID { get; set; } = string.Empty;
+        public int Price { get; set; }
+    }
+
+#if NET9_0
+    [ExportTsInterface(OutputDir = "dto/definition/meta-domain")]
+#endif
     public class CostConfigDTO
     {
         public ItemConsumptionMethod Method { get; set; }
+    }
+
+#if NET9_0
+    [ExportTsInterface(OutputDir = "dto/definition/meta-domain")]
+#endif
+    public class RequiredMaterialDTO
+    {
+        public string ItemDefinitionID { get; set; } = string.Empty;
+        public string MaterialItemDefinitionID { get; set; } = string.Empty;
+        public int Quantity { get; set; }
     }
 }
