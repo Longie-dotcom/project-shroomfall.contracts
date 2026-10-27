@@ -9,6 +9,6 @@ namespace Contract.Enum.IdentityDomain
 #endif
     public enum Role
     {
-        Designer, Admin, Player
+        Designer, Admin, Player, GameMaster, Moderator
     }
 }
