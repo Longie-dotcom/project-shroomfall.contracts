@@ -95,9 +95,10 @@
             public static string RegisterEmailRequired = Format("register-email-required");
             public static string RegisterEmailAlreadyExists = Format("register-email-already-exists");
 
-            // Steam Auth Handler
-            public static string SteamAuthInvalidSteamTicket = Format("steam-auth-invalid-steam-ticket");
-            public static string SteamAuthValidationFailed = Format("steam-auth-validation-failed");
+            // Google Auth Handler
+            public static string GoogleAuthValidationFailed = Format("gooogle-auth-validation-failed");
+            public static string GoogleIdTokenMissing = Format("gooogle-id-token-missing");
+            public static string GoogleAuthPayloadMissing = Format("gooogle-auth-payload-missing");
 
             // Update Profile Handler
             public static string UpdateProfileUserNotFound = Format("update-profile-user-not-found");

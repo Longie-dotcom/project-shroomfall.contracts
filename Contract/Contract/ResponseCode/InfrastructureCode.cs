@@ -21,8 +21,7 @@
             public static string JwtKeyMissing = Format("jwt-key-missing");
             public static string JwtIssuerMissing = Format("jwt-issuer-missing");
             public static string JwtAudienceMissing = Format("jwt-audience-missing");
-            public static string SteamApiKeyMissing = Format("steam-api-key-missing");
-            public static string SteamAppIdMissing = Format("steam-app-id-missing");
+            public static string GoogleClientIdMissing = Format("google-client-id-missing");
         }
 
         public static class MessagingConfigurationCode
@@ -169,14 +168,11 @@
         #endregion
 
         #region Utility
-        public static class SteamValidatorCode
+        public static class GoogleTokenValidatorCode
         {
-            private static string Format(string problem) => Code("steam-validator", problem);
+            private static string Format(string problem) => Code("google-token-validator", problem);
 
-            public static string ConnectionFailed = Format("connection-failed");
-            public static string ConnectionError = Format("connection-error");
-            public static string InvalidResponse = Format("invalid-response");
-            public static string SteamRejected = Format("steam-rejected");
+            public static string GoogleValidatationFailed = Format("google-validation-failed");
         }
         #endregion
     }
