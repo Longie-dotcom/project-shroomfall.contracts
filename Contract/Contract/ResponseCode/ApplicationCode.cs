@@ -79,6 +79,26 @@
             public static string UseItemActionComponentMissing = Format("use-item-action-component-missing");
         }
 
+        public static class QuestHandlerCode
+        {
+            private static string Format(string problem) => Code("quest-handler", problem);
+
+            // Submit Quest Result Handler
+            public static string PlayerInstanceIDNotFoundSubmit = Format("player-instance-id-not-found-submit");
+            public static string PlayerInstanceNotFoundSubmit = Format("player-instance-not-found-submit");
+            public static string CanNotSubmitQuest = Format("can-not-submit-quest");
+
+            // Gacha Reward Handler
+            public static string PlayerInstanceIDNotFoundGacha = Format("player-instance-id-not-found-gacha");
+            public static string PlayerInstanceNotFoundGacha = Format("player-instance-not-found-gacha");
+            public static string CanNotReceiveReward = Format("can-not-receive-reward");
+
+            // Accept Quest Handler
+            public static string PlayerInstanceIDNotFoundAcceptQuest = Format("player-instance-id-not-found-accept-quest");
+            public static string PlayerInstanceNotFoundAcceptQuest = Format("player-instance-not-found-accept-quest");
+            public static string CanNotAcceptQuest = Format("can-not-accept-quest");
+        }
+
         public static class IdentityHandlerCode
         {
             private static string Format(string problem) => Code("identity-handler", problem);
