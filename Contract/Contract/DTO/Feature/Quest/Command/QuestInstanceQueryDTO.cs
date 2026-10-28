@@ -1,5 +1,4 @@
-﻿using Contract.Enum.MetaDomain.Effect;
-using Contract.Enum.MetaDomain.Quest;
+﻿using Contract.Enum.MetaDomain.Quest;
 #if NET9_0
 using TypeGen.Core.TypeAnnotations;
 #endif

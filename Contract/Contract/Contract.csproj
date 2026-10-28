@@ -30,6 +30,7 @@
 	</ItemGroup>
 	<ItemGroup>
 	  <Folder Include="DTO\Feature\Admin\Command\" />
+	  <Folder Include="DTO\Feature\Quest\Response\" />
 	</ItemGroup>
 	<ItemGroup>
 	  <PackageReference Include="Google.Protobuf" Version="3.36.0" />
