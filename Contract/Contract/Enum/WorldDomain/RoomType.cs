@@ -11,6 +11,5 @@ namespace Contract.Enum.WorldDomain
     {
         PersonalSpace,
         PublicSpace,
-        CombatSpace
     }
 }
