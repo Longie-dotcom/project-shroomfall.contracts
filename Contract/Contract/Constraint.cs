@@ -12,13 +12,13 @@ namespace Contract
         public const string GLOBAL_DEFINITION_VERSION = "global_definition";
 
         // Design rules
-        public static int MAX_ITEM_AMOUNT_PER_SLOT = 33;
         public const string DEFAULT_ENTITY_ITEM_DEFINITION_ID = "entity.default_item";
         public const int DEFAULT_CHARACTERISTIC_LEVEL = 1;
         public const int CHUNK_SIZE = 16;
         public const int ITEM_DEGRADED_VALUE = 1;
         public const int ITEM_DEDUCTED_VALUE = 1;
         public const int ITEM_COOLDOWN_VALUE = 5;
+        public const int ITEM_ENERGY_USAGE_CONSUME = 5;
         public const float CRITICAL_DAMAGE_VALUE = 1.95f; // Add 95% current damage
         public const float LOCK_ACTION_DURATION = 0.2f;
         public const int DEFAULT_ECONOMY = 0;
