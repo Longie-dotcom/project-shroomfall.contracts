@@ -1,0 +1,17 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "Contract.Grpc.Version";
+
+package version;
+
+service VersionService {
+    rpc RequestVersionCache (VersionCacheRequest)
+        returns (VersionCacheResponse);
+}
+
+message VersionCacheRequest {
+}
+
+message VersionCacheResponse {
+    int64 version = 1;
+}
