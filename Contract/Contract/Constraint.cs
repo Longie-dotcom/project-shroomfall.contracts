@@ -39,6 +39,7 @@ namespace Contract
             new HashSet<(string DefinitionKey, string SpatialId)>
             {
                 ("village", "village"),
+                ("forest", "forest"),
             };
 
         // Supported locales
