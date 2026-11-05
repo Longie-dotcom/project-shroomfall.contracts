@@ -187,6 +187,7 @@
             public static string SpawnEntityCreationFailed = Format("spawn-entity-creation-failed");
             public static string ActivateTransformMissing = Format("activate-transform-missing");
             public static string TransitionTransformMissing = Format("transition-transform-missing");
+            public static string NoSpawnCellFound = Format("no-spawn-cell-found");
         }
 
         public static class InitializationServiceCode
@@ -196,7 +197,6 @@
             public static string RoomDefinitionNotFound = Format("room-definition-not-found");
             public static string TransformComponentMissing = Format("transform-component-missing");
             public static string CollisionComponentMissing = Format("collision-component-missing");
-            public static string NoSpawnCellFound = Format("no-spawn-cell-found");
         }
 
         public static class DefinitionRuntimeFactoryCode

@@ -12,6 +12,7 @@ namespace Contract
         public const string GLOBAL_DEFINITION_VERSION = "global_definition";
 
         // Design rules
+        public const float POPULATION_TICK_PER_SECOND = 3f; 
         public const string DEFAULT_ENTITY_ITEM_DEFINITION_ID = "entity.default_item";
         public const int DEFAULT_CHARACTERISTIC_LEVEL = 1;
         public const int CHUNK_SIZE = 16;
