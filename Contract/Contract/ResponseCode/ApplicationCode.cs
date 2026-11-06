@@ -77,6 +77,10 @@
             public static string UseItemSessionNotFound = Format("use-item-session-not-found");
             public static string UseItemPlayerInstanceNotFound = Format("use-item-player-instance-not-found");
             public static string UseItemActionComponentMissing = Format("use-item-action-component-missing");
+
+            // Craft Item Handler
+            public static string CraftItemSessionNotFound = Format("craft-item-session-not-found");
+            public static string CraftItemPlayerInstanceNotFound = Format("craft-item-player-instance-not-found");
         }
 
         public static class QuestHandlerCode
@@ -177,6 +181,11 @@
             public static string PlaceableMissingTransform = Format("placeable-missing-transform");
             public static string RangedMissingTransform = Format("ranged-missing-transform");
             public static string MeleeMissingTransform = Format("melee-missing-transform");
+            public static string CraftItemDefinitionNotFound = Format("craft-item-definition-not-found");
+            public static string CraftItemNotCraftable = Format("craft-item-not-craftable");
+            public static string CraftMissingTransform = Format("craft-missing-transform");
+            public static string CraftMissingInventory = Format("craft-missing-inventory");
+            public static string CraftNotEnoughMaterials = Format("craft-not-enough-materials");
         }
 
         // World Service
