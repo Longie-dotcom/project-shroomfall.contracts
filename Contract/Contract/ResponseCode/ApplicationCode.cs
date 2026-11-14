@@ -81,6 +81,14 @@
             // Craft Item Handler
             public static string CraftItemSessionNotFound = Format("craft-item-session-not-found");
             public static string CraftItemPlayerInstanceNotFound = Format("craft-item-player-instance-not-found");
+
+            // Buy Item Handler
+            public static string BuyItemSessionNotFound = Format("buy-item-session-not-found");
+            public static string BuyItemPlayerInstanceNotFound = Format("buy-item-player-instance-not-found");
+
+            // Sell Item Handler
+            public static string SellItemSessionNotFound = Format("sell-item-session-not-found");
+            public static string SellItemPlayerInstanceNotFound = Format("sell-item-player-instance-not-found");
         }
 
         public static class QuestHandlerCode
@@ -186,6 +194,14 @@
             public static string CraftMissingTransform = Format("craft-missing-transform");
             public static string CraftMissingInventory = Format("craft-missing-inventory");
             public static string CraftNotEnoughMaterials = Format("craft-not-enough-materials");
+            public static string TradeItemDefinitionNotFound = Format("trade-item-definition-not-found");
+            public static string TradeItemNotTradable = Format("trade-item-not-tradable");
+            public static string TradeMissingEconomic = Format("trade-missing-economic");
+            public static string BuyMissingTransform = Format("buy-missing-transform");
+            public static string BuyNotEnoughMoney = Format("buy-not-enough-money");
+            public static string SellMissingInventory = Format("sell-missing-inventory");
+            public static string SellItemNotFound = Format("sell-item-not-found");
+            public static string SellItemEquipped = Format("sell-item-equipped");
         }
 
         // World Service

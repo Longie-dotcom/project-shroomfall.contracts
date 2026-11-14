@@ -23,6 +23,7 @@ namespace Contract
         public const float CRITICAL_DAMAGE_VALUE = 1.95f; // Add 95% current damage
         public const float LOCK_ACTION_DURATION = 0.2f;
         public const int DEFAULT_ECONOMY = 0;
+        public const float SELL_PRICE_REDUCTION = 0.05f; // player gets 5% less than the buy price when selling
         public const int MAX_ACTIVE_QUESTS = 3;
 
         // Ticking constraints
