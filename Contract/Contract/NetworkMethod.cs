@@ -8,6 +8,7 @@
         public const string OnPlayerCharacteristicSync = "OnPlayerCharacteristicSync";
         public const string OnInventoryItemChanged = "OnInventoryItemChanged";
         public const string OnInventoryCleared = "OnInventoryCleared";
+        public const string OnEconomicUpdated = "OnEconomicUpdated";
         public const string OnEntitySpawned = "OnEntitySpawned";
         public const string OnEntityDespawned = "OnEntityDespawned";
         public const string OnEntityAppearanceChanged = "OnEntityAppearanceChanged";
