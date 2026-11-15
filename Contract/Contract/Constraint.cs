@@ -26,6 +26,11 @@ namespace Contract
         public const float SELL_PRICE_REDUCTION = 0.05f; // player gets 5% less than the buy price when selling
         public const int MAX_ACTIVE_QUESTS = 3;
 
+        // Player death rules
+        public const float PLAYER_DEATH_MONEY_LOSS_RATE = 0.4f; // player loses 40% of current money on death
+        public const int PLAYER_DEATH_DROP_ITEM_COUNT = 5; // random unequipped stacks dropped on death
+        public const float PLAYER_RESPAWN_HEALTH_RATE = 0.6f; // health restored to 60% of max on respawn
+
         // Ticking constraints
         public const float RESIDENCY_TICK_PER_SECOND = 1f;
         public const float RESIDENCY_REPORT_PER_SECOND = 10f;
