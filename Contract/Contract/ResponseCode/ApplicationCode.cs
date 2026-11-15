@@ -46,6 +46,11 @@
             public static string RoomFilePayloadEmpty = Format("room-file-payload-empty");
             public static string RoomFileInvalidJson = Format("room-file-invalid-json");
             public static string RoomFileSchemaParseFailed = Format("room-file-schema-parse-failed");
+
+            // Import Localization Entry Handler
+            public static string LocalizationFilePayloadEmpty = Format("localization-file-payload-empty");
+            public static string LocalizationFileInvalidJson = Format("localization-file-invalid-json");
+            public static string LocalizationFileSchemaParseFailed = Format("localization-file-schema-parse-failed");
         }
 
         public static class GameHandlerCode
