@@ -94,6 +94,11 @@
             // Sell Item Handler
             public static string SellItemSessionNotFound = Format("sell-item-session-not-found");
             public static string SellItemPlayerInstanceNotFound = Format("sell-item-player-instance-not-found");
+
+            // Drop Item Handler
+            public static string DropItemSessionNotFound = Format("drop-item-session-not-found");
+            public static string DropItemPlayerInstanceNotFound = Format("drop-item-player-instance-not-found");
+            public static string DropItemTransformMissing = Format("drop-item-transform-missing");
         }
 
         public static class QuestHandlerCode
@@ -184,6 +189,8 @@
 
             public static string DropSourceInventoryMissing = Format("drop-source-inventory-missing");
             public static string RemoveTargetInventoryMissing = Format("remove-target-inventory-missing");
+            public static string DropItemNotFound = Format("drop-item-not-found");
+            public static string DropItemEquipped = Format("drop-item-equipped");
         }
 
         // Meta Service
