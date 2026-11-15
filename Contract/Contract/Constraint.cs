@@ -26,6 +26,8 @@ namespace Contract
         public const float SELL_PRICE_REDUCTION = 0.05f; // player gets 5% less than the buy price when selling
         public const int MAX_ACTIVE_QUESTS = 3;
 
+        public const float DROP_ITEM_OFFSET = 1.5f; // distance from the player a dropped item lands, so it isn't re-picked instantly
+
         // Player death rules
         public const float PLAYER_DEATH_MONEY_LOSS_RATE = 0.4f; // player loses 40% of current money on death
         public const int PLAYER_DEATH_DROP_ITEM_COUNT = 5; // random unequipped stacks dropped on death
