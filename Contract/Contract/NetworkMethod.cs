@@ -13,6 +13,7 @@
         public const string OnEntityDespawned = "OnEntityDespawned";
         public const string OnEntityAppearanceChanged = "OnEntityAppearanceChanged";
         public const string OnPlayerRespawned = "OnPlayerRespawned";
+        public const string OnQuestProgressUpdated = "OnQuestProgressUpdated";
 
         public const string OnDefinitionUpdated = "OnDefinitionUpdated";
 
