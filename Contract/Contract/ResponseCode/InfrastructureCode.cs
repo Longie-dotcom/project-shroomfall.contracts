@@ -38,6 +38,7 @@
             private static string Format(string problem) => Code("grpc-configuration", problem);
 
             public static string ManagementGrpcUrlMissing = Format("management-grpc-url-missing");
+            public static string GameGrpcUrlMissing = Format("game-grpc-url-missing");
         }
         #endregion
 
@@ -168,6 +169,13 @@
         #endregion
 
         #region Utility
+        public static class CurrencyGrpcClientCode
+        {
+            private static string Format(string problem) => Code("currency-grpc-client", problem);
+
+            public static string CreditFailed = Format("credit-failed");
+        }
+
         public static class GoogleTokenValidatorCode
         {
             private static string Format(string problem) => Code("google-token-validator", problem);

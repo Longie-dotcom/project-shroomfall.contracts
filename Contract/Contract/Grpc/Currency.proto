@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option csharp_namespace = "Contract.Grpc.Currency";
+
+package currency;
+
+// Hosted by the game service, called by the management service after a payment is verified.
+service CurrencyService {
+    rpc CreditCurrency (CreditCurrencyRequest)
+        returns (CreditCurrencyResponse);
+}
+
+message CreditCurrencyRequest {
+    int64 transaction_id = 1; // UserTransaction.ID, used to ignore repeated calls
+    string user_id = 2;
+    int32 amount = 3;
+}
+
+message CreditCurrencyResponse {
+    bool already_credited = 1; // true when this transaction was credited by an earlier call
+}

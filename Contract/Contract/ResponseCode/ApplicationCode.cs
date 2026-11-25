@@ -53,6 +53,21 @@
             public static string LocalizationFileSchemaParseFailed = Format("localization-file-schema-parse-failed");
         }
 
+        public static class PaymentHandlerCode
+        {
+            private static string Format(string problem) => Code("payment-handler", problem);
+
+            // Buy Currency Bundle Handler
+            public static string CurrencyBundleNotFound = Format("currency-bundle-not-found");
+            public static string CurrencyBundleExpired = Format("currency-bundle-expired");
+
+            // Credit Currency Handler (game service)
+            public static string CreditCurrencyAmountInvalid = Format("credit-currency-amount-invalid");
+            public static string CreditCurrencySessionNotFound = Format("credit-currency-session-not-found");
+            public static string CreditCurrencyPlayerInstanceNotFound = Format("credit-currency-player-instance-not-found");
+            public static string CreditCurrencyEconomicMissing = Format("credit-currency-economic-missing");
+        }
+
         public static class GameHandlerCode
         {
             private static string Format(string problem) => Code("game-handler", problem);

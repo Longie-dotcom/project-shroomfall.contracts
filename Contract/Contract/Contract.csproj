@@ -43,6 +43,7 @@
 	<ItemGroup>
 	  <Protobuf Include="Grpc\Version.proto" />
 	  <Protobuf Include="Grpc\Definition.proto" />
+	  <Protobuf Include="Grpc\Currency.proto" />
 	</ItemGroup>
 
 </Project>
