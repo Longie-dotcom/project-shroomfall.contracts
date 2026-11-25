@@ -57,6 +57,26 @@
             public static string CoreDomainIntervalNotSupported = Format("core-domain-interval-not-supported");
             public static string InstantEffectIntervalNotSupported = Format("instant-effect-interval-not-supported");
         }
+
+        public static class CurrencyBundleDefinitionCode
+        {
+            private static string Format(string problem) => Code("currency-bundle-definition", problem);
+
+            public static string InvalidName = Format("invalid-name");
+            public static string AmountInvalid = Format("amount-invalid");
+            public static string PriceNegative = Format("price-negative");
+            public static string ExpiryInvalid = Format("expiry-invalid");
+        }
+
+        public static class UserTransactionCode
+        {
+            private static string Format(string problem) => Code("user-transaction", problem);
+
+            public static string InvalidUserId = Format("invalid-user-id");
+            public static string InvalidBundleId = Format("invalid-bundle-id");
+            public static string InvalidStatusTransition = Format("invalid-status-transition");
+            public static string PaidAmountMismatch = Format("paid-amount-mismatch");
+        }
         #endregion
 
         #region Runtime

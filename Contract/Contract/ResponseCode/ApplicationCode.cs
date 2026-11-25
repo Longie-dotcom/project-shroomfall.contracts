@@ -27,6 +27,9 @@
             // Update Localization Entry Handler
             public static string LocalizationEntryNotFound = Format("localization-entry-not-found");
 
+            // Currency Bundle Definition Handlers
+            public static string CurrencyBundleDefinitionNotFound = Format("currency-bundle-definition-not-found");
+
             // Import Effect Definitions Handler
             public static string EffectFilePayloadEmpty = Format("effect-file-payload-empty");
             public static string EffectFileInvalidJson = Format("effect-file-invalid-json");

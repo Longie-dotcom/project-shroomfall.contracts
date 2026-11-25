@@ -22,6 +22,11 @@
             public static string JwtIssuerMissing = Format("jwt-issuer-missing");
             public static string JwtAudienceMissing = Format("jwt-audience-missing");
             public static string GoogleClientIdMissing = Format("google-client-id-missing");
+            public static string PayOSClientIdMissing = Format("payos-client-id-missing");
+            public static string PayOSApiKeyMissing = Format("payos-api-key-missing");
+            public static string PayOSChecksumKeyMissing = Format("payos-checksum-key-missing");
+            public static string PayOSReturnUrlMissing = Format("payos-return-url-missing");
+            public static string PayOSCancelUrlMissing = Format("payos-cancel-url-missing");
         }
 
         public static class MessagingConfigurationCode
@@ -181,6 +186,15 @@
             private static string Format(string problem) => Code("google-token-validator", problem);
 
             public static string GoogleValidatationFailed = Format("google-validation-failed");
+        }
+
+        public static class PaymentServiceCode
+        {
+            private static string Format(string problem) => Code("payment-service", problem);
+
+            public static string AmountNotWholeNumber = Format("amount-not-whole-number");
+            public static string CreatePaymentLinkFailed = Format("create-payment-link-failed");
+            public static string WebhookVerificationFailed = Format("webhook-verification-failed");
         }
         #endregion
     }
