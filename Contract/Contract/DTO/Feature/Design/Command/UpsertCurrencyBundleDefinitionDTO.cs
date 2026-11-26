@@ -11,7 +11,6 @@ namespace Contract.DTO.Feature.Design.Command
 #endif
     public class UpsertCurrencyBundleDefinitionDTO
     {
-        public string Name { get; set; } = string.Empty;
         public int Amount { get; set; }
         public decimal Price { get; set; }
         public CurrencyBundleType Type { get; set; }

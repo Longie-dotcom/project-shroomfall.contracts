@@ -12,7 +12,6 @@ namespace Contract.DTO.Definition.MetaDomain
     public class CurrencyBundleDefinitionDTO
     {
         public string Id { get; set; } = string.Empty;
-        public string Name { get; set; } = string.Empty;
         public int Amount { get; set; }
         public decimal Price { get; set; }
         public CurrencyBundleType Type { get; set; }

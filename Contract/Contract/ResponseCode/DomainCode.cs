@@ -62,7 +62,6 @@
         {
             private static string Format(string problem) => Code("currency-bundle-definition", problem);
 
-            public static string InvalidName = Format("invalid-name");
             public static string AmountInvalid = Format("amount-invalid");
             public static string PriceNegative = Format("price-negative");
             public static string ExpiryInvalid = Format("expiry-invalid");
