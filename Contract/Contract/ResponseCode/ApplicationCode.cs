@@ -96,6 +96,11 @@
             public static string UpdateAppearanceComponentMissing = Format("update-appearance-component-missing");
             public static string UpdateAppearanceTransformMissing = Format("update-appearance-transform-missing");
 
+            // Update Ownership Handler
+            public static string UpdateOwnershipSessionNotFound = Format("update-ownership-session-not-found");
+            public static string UpdateOwnershipPlayerInstanceNotFound = Format("update-ownership-player-instance-not-found");
+            public static string UpdateOwnershipComponentMissing = Format("update-ownership-component-missing");
+
             // Use Item Handler
             public static string UseItemSessionNotFound = Format("use-item-session-not-found");
             public static string UseItemPlayerInstanceNotFound = Format("use-item-player-instance-not-found");

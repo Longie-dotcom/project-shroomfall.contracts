@@ -87,6 +87,15 @@
             public static string NotACoreAttribute = Format("not-a-core-attribute");
         }
 
+        public static class OwnershipInstanceCode
+        {
+            private static string Format(string problem) => Code("ownership-instance", problem);
+
+            public static string NameInvalid = Format("name-invalid");
+            public static string BirthDateInvalid = Format("birth-date-invalid");
+            public static string GenderInvalid = Format("gender-invalid");
+        }
+
         public static class WorldCode
         {
             private static string Format(string problem) => Code("world", problem);
