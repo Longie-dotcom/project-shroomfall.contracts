@@ -100,6 +100,7 @@
             public static string UpdateOwnershipSessionNotFound = Format("update-ownership-session-not-found");
             public static string UpdateOwnershipPlayerInstanceNotFound = Format("update-ownership-player-instance-not-found");
             public static string UpdateOwnershipComponentMissing = Format("update-ownership-component-missing");
+            public static string UpdateOwnershipTransformMissing = Format("update-ownership-transform-missing");
 
             // Use Item Handler
             public static string UseItemSessionNotFound = Format("use-item-session-not-found");
