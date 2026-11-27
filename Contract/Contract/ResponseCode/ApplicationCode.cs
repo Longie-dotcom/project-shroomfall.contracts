@@ -5,6 +5,15 @@
         private static string Code(string className, string problem) => CodeFormatter.Create("application", className, problem);
 
         #region Features
+        public static class AdminHandlerCode
+        {
+            private static string Format(string problem) => Code("admin-handler", problem);
+
+            // Push Notification Handler
+            public static string PushNotificationMessageInvalid = Format("push-notification-message-invalid");
+            public static string PushNotificationObjectiveInvalid = Format("push-notification-objective-invalid");
+        }
+
         public static class ConnectionHandlerCode
         {
             private static string Format(string problem) => Code("connection-handler", problem);

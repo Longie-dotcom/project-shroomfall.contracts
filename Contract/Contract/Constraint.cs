@@ -44,6 +44,11 @@ namespace Contract
         public const int CHAT_MESSAGE_MAX_LENGTH = 200;
         public const float CHAT_COOLDOWN_SECONDS = 1f; // per player, against spam
 
+        // Notification constraints
+        public const int NOTIFICATION_HISTORY_LIMIT = 20; // oldest notification is dropped past this
+        public const int NOTIFICATION_MESSAGE_MAX_LENGTH = 500;
+        public const int NOTIFICATION_OBJECTIVE_MAX_LENGTH = 200;
+
         // Admin constraints
         public const string ADMIN_REALTIME_GROUP = "Admin";
 

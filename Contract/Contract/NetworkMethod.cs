@@ -14,6 +14,7 @@
         public const string OnEntityAppearanceChanged = "OnEntityAppearanceChanged";
         public const string OnEntityOwnershipChanged = "OnEntityOwnershipChanged";
         public const string OnMessageChatted = "OnMessageChatted";
+        public const string OnNotificationPushed = "OnNotificationPushed";
         public const string OnPlayerRespawned = "OnPlayerRespawned";
         public const string OnQuestProgressUpdated = "OnQuestProgressUpdated";
 
