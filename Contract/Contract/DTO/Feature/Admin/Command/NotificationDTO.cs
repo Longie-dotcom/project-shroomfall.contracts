@@ -1,3 +1,4 @@
+using Contract.Enum.NotificationDomain;
 using System;
 #if NET9_0
 using TypeGen.Core.TypeAnnotations;
@@ -11,6 +12,7 @@ namespace Contract.DTO.Feature.Admin.Command
     public class NotificationDTO
     {
         public string Id { get; set; } = string.Empty;
+        public NotificationType Type { get; set; } = NotificationType.Announcement;
         public string Objective { get; set; } = string.Empty;
         public string Message { get; set; } = string.Empty;
         public DateTime CreatedAt { get; set; }
