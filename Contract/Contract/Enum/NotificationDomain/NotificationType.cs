@@ -26,8 +26,7 @@ namespace Contract.Enum.NotificationDomain
         Seasonal,               // holiday or season themed
         Community,              // contests, community highlights
 
-        // --- Social / security ---
-        Security,               // account safety, phishing warnings
+        // --- Social ---
         Celebration,            // anniversary, thank-you messages
     }
 }
