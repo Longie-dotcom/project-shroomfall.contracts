@@ -13,6 +13,7 @@
         public const string OnEntityDespawned = "OnEntityDespawned";
         public const string OnEntityAppearanceChanged = "OnEntityAppearanceChanged";
         public const string OnEntityOwnershipChanged = "OnEntityOwnershipChanged";
+        public const string OnMessageChatted = "OnMessageChatted";
         public const string OnPlayerRespawned = "OnPlayerRespawned";
         public const string OnQuestProgressUpdated = "OnQuestProgressUpdated";
 
@@ -27,6 +28,7 @@
 
         #region Request
         public const string Move = "Move";
+        public const string Chat = "Chat";
         #endregion
     }
 }

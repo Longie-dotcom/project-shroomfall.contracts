@@ -102,6 +102,13 @@
             public static string UpdateOwnershipComponentMissing = Format("update-ownership-component-missing");
             public static string UpdateOwnershipTransformMissing = Format("update-ownership-transform-missing");
 
+            // Chat Handler
+            public static string ChatSessionNotFound = Format("chat-session-not-found");
+            public static string ChatPlayerInstanceNotFound = Format("chat-player-instance-not-found");
+            public static string ChatOwnershipMissing = Format("chat-ownership-missing");
+            public static string ChatMessageInvalid = Format("chat-message-invalid");
+            public static string ChatTooFrequent = Format("chat-too-frequent");
+
             // Use Item Handler
             public static string UseItemSessionNotFound = Format("use-item-session-not-found");
             public static string UseItemPlayerInstanceNotFound = Format("use-item-player-instance-not-found");

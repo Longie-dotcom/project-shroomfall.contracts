@@ -39,6 +39,11 @@ namespace Contract
         public const int TICK_RATE = 60;
         public const float DELTA_TIME = 1f / TICK_RATE;
 
+        // Chat constraints
+        public const int CHAT_HISTORY_LIMIT = 50; // oldest message is dropped past this
+        public const int CHAT_MESSAGE_MAX_LENGTH = 200;
+        public const float CHAT_COOLDOWN_SECONDS = 1f; // per player, against spam
+
         // Admin constraints
         public const string ADMIN_REALTIME_GROUP = "Admin";
 
